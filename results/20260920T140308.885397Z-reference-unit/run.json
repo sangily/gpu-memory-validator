@@ -1,0 +1,18 @@
+{
+  "started_utc": "20260920T140308.885397Z",
+  "command": [
+    "ctest",
+    "--test-dir",
+    "build/cpu",
+    "--output-on-failure"
+  ],
+  "exit_code": 0,
+  "source_sha256": {
+    "CMakeLists.txt": "e6cd3a8cc427665e6ceee93cf036e0e11ea005669a293f6c046a9279ff81fdb2",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/types.hpp": "dec5e2211dcbf98db8cb555bfa766bd2ebfff5e1d12d20192ed31d23d71d2a84",
+    "tests/unit/test_reference.cpp": "a8787d52a4e4618d834f2b7cd8ca182340e082318975d19cdc4042bd69fff788"
+  },
+  "status": "PASS"
+}

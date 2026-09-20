@@ -1,0 +1,36 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+      Start  1: reference.clean_patterns
+ 1/15 Test  #1: reference.clean_patterns ...........   Passed    0.00 sec
+      Start  2: reference.unordered_errors
+ 2/15 Test  #2: reference.unordered_errors .........   Passed    0.00 sec
+      Start  3: reference.truncated_subset
+ 3/15 Test  #3: reference.truncated_subset .........   Passed    0.00 sec
+      Start  4: reference.count_only
+ 4/15 Test  #4: reference.count_only ...............   Passed    0.00 sec
+      Start  5: reference.single_element
+ 5/15 Test  #5: reference.single_element ...........   Passed    0.00 sec
+      Start  6: reference.wrong_count
+ 6/15 Test  #6: reference.wrong_count ..............   Passed    0.00 sec
+      Start  7: reference.wrong_actual
+ 7/15 Test  #7: reference.wrong_actual .............   Passed    0.00 sec
+      Start  8: reference.wrong_expected
+ 8/15 Test  #8: reference.wrong_expected ...........   Passed    0.00 sec
+      Start  9: reference.duplicate_index
+ 9/15 Test  #9: reference.duplicate_index ..........   Passed    0.00 sec
+      Start 10: reference.out_of_range
+10/15 Test #10: reference.out_of_range .............   Passed    0.00 sec
+      Start 11: reference.not_an_error
+11/15 Test #11: reference.not_an_error .............   Passed    0.00 sec
+      Start 12: reference.missing_record
+12/15 Test #12: reference.missing_record ...........   Passed    0.00 sec
+      Start 13: reference.excess_records
+13/15 Test #13: reference.excess_records ...........   Passed    0.00 sec
+      Start 14: reference.count_only_with_record
+14/15 Test #14: reference.count_only_with_record ...   Passed    0.00 sec
+      Start 15: reference.reset_between_calls
+15/15 Test #15: reference.reset_between_calls ......   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 15
+
+Total Test time (real) =   0.05 sec

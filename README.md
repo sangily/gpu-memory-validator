@@ -5,9 +5,44 @@ CUDA 기반 GPU 메모리 검증 학습 프로젝트. 네 가지 고정 패턴�
 작은 배열의 CPU 전체 검사 결과로 GPU 오류 개수와 기록을 대조한다.
 
 최종 범위와 책임별 분리안은 [프로젝트 정의와 구조 설계](docs/PROJECT.md)에 정리했다.
-현재는 단일 파일의 학습 예제이며, 문서의 모듈 구조로 이전하는 작업은 아직 수행하지 않았다.
+현재 CPU 대조 로직을 CUDA에 의존하지 않는 `src/reference.cpp`로 분리했다.
+새 실행 파일은 `src/validator.cu`에서 이를 호출한다. CLI·GPU 자원·출력 분리는 후속 작업이다.
+기존 `examples/first_kernel.cu`는 학습 기준 버전으로 보존한다.
 
-## 현재 학습 진행
+## 새 실행 파일 빌드와 테스트
+
+CPU 단위 테스트는 CUDA Toolkit이나 GPU 없이 실행할 수 있다.
+
+```bash
+cmake -S . -B build/cpu -DGMV_ENABLE_CUDA=OFF -DCMAKE_BUILD_TYPE=Release
+cmake --build build/cpu
+ctest --test-dir build/cpu --output-on-failure
+```
+
+현재 15개 테스트가 정상 패턴, 순서가 다른 기록, 잘림·기록 생략, 한 원소,
+잘못된 개수·값·위치, 중복·누락·초과 기록, 호출 간 상태 독립성을 확인한다.
+사례별 코드는 [CPU 대조 테스트](tests/unit/test_reference.cpp)에 있다.
+
+실제 GPU 실행 파일과 CLI 회귀 검사는 다음과 같이 실행한다.
+
+```bash
+source cuda-env.sh
+cmake -S . -B build/cuda -DGMV_ENABLE_CUDA=ON -DCMAKE_BUILD_TYPE=Release
+cmake --build build/cuda
+python3 tests/cli/test_validator.py
+./build/cuda/gpu_memory_validator --inject
+```
+
+CLI 회귀 검사 세 경우는 기존 예제의 검사 함수를 그대로 사용하며 정상 0, 주입 1,
+잘못된 옵션 2를 기대한다. 마지막 직접 주입 실행의 종료 코드 1은 의도한 데이터 FAIL이다.
+CUDA 아키텍처 기본값은 실측 장비인 RTX 3060의 86이며 다른 장비는 CMake 설정으로 변경한다.
+
+`check_reference()`는 GPU 오류 개수와 원본 데이터를 독립 대조하고, 기록 수가
+`min(실제 오류 수, 기록 한도)`인지도 확인한다. 기록이 잘리면 어떤 오류 부분집합이든
+유효하지만 중복·잘못된 값은 허용하지 않는다. CPU 상세 기록도 한도로 제한하고
+전체 CPU 오류 수는 모든 원소를 검사해 계산한다.
+
+## 보존한 학습 예제
 
 사용자가 직접 커널과 CPU 대조 코드를 단계적으로 구현했다. 현재 배열은 1,025개 원소이며
 5 blocks × 256 threads 중 255 threads는 쓰기·검사를 건너뛴다.
@@ -35,10 +70,10 @@ nvcc -std=c++17 -arch=sm_86 -lineinfo examples/first_kernel.cu -o build/first_ke
   종료 코드 2를 확인한 뒤 임시 변조 코드를 제거했다.
 - Compute Sanitizer의 환경 실패는 아래 기록과 같이 미해결이며 검증 통과로 취급하지 않는다.
 
-## 자동 회귀 테스트
+## 학습 예제의 자동 회귀 테스트
 
 테스트를 통해 재현한 문제와 수정 근거를 남긴다. 현재 자동 검사는 세 가지 CLI 경우이며,
-후속 단위·GPU 통합 검사와 성능 비교 계획은 [테스트 전략](docs/TESTING.md)에 정리했다.
+새 모듈의 단위 검사와 후속 GPU 통합·성능 비교 계획은 [테스트 전략](docs/TESTING.md)에 정리했다.
 현재 프로젝트의 성능 개선 수치는 아직 측정하지 않았다.
 
 ```bash
@@ -122,7 +157,7 @@ Windows 설정은 변경하지 않았다. 프로그램 자체 PASS와 Sanitizer 
 
 ## 다음 학습
 
-1. 현재 동작을 유지하며 CLI·GPU 실행·CPU 대조·출력의 책임 분리.
+1. 분리한 CPU 대조 함수와 테스트를 설명하고, CLI·GPU 실행·출력의 책임 분리 계속 진행.
 2. GPU 자원 수명과 오류 전달 정리.
 3. 배열 크기와 기록 한도를 인자로 받아 경계 조건 테스트 확장.
 4. 반복 실행·실험 기록과 큰 배열의 선택적 CPU 대조 구성.

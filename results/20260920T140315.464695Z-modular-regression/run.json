@@ -1,0 +1,46 @@
+{
+  "started_utc": "20260920T140315.464695Z",
+  "runs": [
+    {
+      "name": "normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "invalid_option",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--invalid-option"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "e6cd3a8cc427665e6ceee93cf036e0e11ea005669a293f6c046a9279ff81fdb2",
+    "tests/cli/test_validator.py": "36d5be4092b4f782230721324bf6e4eeb7e054e2bfec5a64d34b8ff84dbc2bae",
+    "scripts/test_first_kernel.py": "e88673d55084be85a32e475cec42d2ee1888ba445d0ef05e6146576f24903fca",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "src/validator.cu": "18f8c41dc2a4447c2c04ca4eb7174d8049385b1e4c9d53444b2567d5b6d24bea",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/types.hpp": "dec5e2211dcbf98db8cb555bfa766bd2ebfff5e1d12d20192ed31d23d71d2a84"
+  },
+  "binary_built_by_runner": false,
+  "binary_sha256": "48144e45ce7f3d4fda912ac10b625303de2cd1bf3c93bc3defe24a7451cd816f",
+  "status": "PASS"
+}
