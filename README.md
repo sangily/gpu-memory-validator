@@ -37,6 +37,10 @@ nvcc -std=c++17 -arch=sm_86 -lineinfo examples/first_kernel.cu -o build/first_ke
 
 ## 자동 회귀 테스트
 
+테스트를 통해 재현한 문제와 수정 근거를 남긴다. 현재 자동 검사는 세 가지 CLI 경우이며,
+후속 단위·GPU 통합 검사와 성능 비교 계획은 [테스트 전략](docs/TESTING.md)에 정리했다.
+현재 프로젝트의 성능 개선 수치는 아직 측정하지 않았다.
+
 ```bash
 source cuda-env.sh
 python3 scripts/test_first_kernel.py
