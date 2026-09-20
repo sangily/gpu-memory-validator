@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-09-20T07:07:53.834643+00:00",
+  "cwd": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+  "source_sha256": "746e5ee7f0a29f4ca5653d83baf512a14ae53987abba89e35b6329e5ae130a7e",
+  "steps": [
+    {
+      "label": "compiler",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/bin/nvcc",
+        "--version"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "build",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/bin/nvcc",
+        "-std=c++17",
+        "-arch=sm_86",
+        "-lineinfo",
+        "examples/first_kernel.cu",
+        "-o",
+        "build/first_kernel"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "run",
+      "command": [
+        "./build/first_kernel"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "memcheck",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/compute-sanitizer/compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "2",
+        "./build/first_kernel"
+      ],
+      "exit_code": 2
+    }
+  ]
+}

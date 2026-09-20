@@ -1,0 +1,51 @@
+{
+  "started_utc": "20260920T132441.254349Z",
+  "source_sha256": "332e238f68c78adb1c794be025a4b725d8cbf70d8eb4c211bb23c431734677fb",
+  "scope": "count=1025, max_records=3, four fixed patterns",
+  "runs": [
+    {
+      "name": "build",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/bin/nvcc",
+        "-std=c++17",
+        "-lineinfo",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/examples/first_kernel.cu",
+        "-o",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/first_kernel"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "name": "normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/first_kernel"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/first_kernel",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "invalid_option",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/first_kernel",
+        "--invalid-option"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    }
+  ],
+  "binary_sha256": "2a6a9631884cfe5095df04b78d8ac8bcc6fb5216700719b5ab94388404e343e7",
+  "status": "PASS"
+}

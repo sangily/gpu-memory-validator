@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-09-20T10:01:11.783911+00:00",
+  "source_sha256": "2821febce243215d5d94019c3fe59440d3932e1acc94fe0a722dccb84276fc9f",
+  "steps": [
+    {
+      "label": "build",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/bin/nvcc",
+        "-std=c++17",
+        "-arch=sm_86",
+        "-lineinfo",
+        "examples/first_kernel.cu",
+        "-o",
+        "build/first_kernel"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "label": "normal",
+      "command": [
+        "./build/first_kernel"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "label": "injected",
+      "command": [
+        "./build/first_kernel",
+        "--inject"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1
+    },
+    {
+      "label": "invalid_option",
+      "command": [
+        "./build/first_kernel",
+        "--unknown"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2
+    }
+  ]
+}
