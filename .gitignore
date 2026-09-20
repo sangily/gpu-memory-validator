@@ -1,0 +1,6 @@
+/build/
+__pycache__/
+
+# Keep routine runs local; explicitly add selected evidence for milestones.
+/results/*
+!/results/README.md
