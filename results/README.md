@@ -13,6 +13,8 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 | [모듈 분리 후 CLI 검사](20260920T140315.464695Z-modular-regression/run.json) | 새 실행 파일을 기존 CLI 검사 기준으로 확인한 세 경우 PASS |
 | [CLI·상태 단위 검사](20260921T060557.827757Z-application-unit/run.json) | 기존 대조 15개와 인자·상태 우선순위 5개, 총 20개 PASS |
 | [CLI·출력 분리 후 GPU 검사](20260921T060557.980593Z-modular-regression/run.json) | 기존 판정 기준으로 새 main의 실제 GPU 실행 세 경우 PASS |
+| [자원·런타임 오류 처리](20260921T135033.744131Z-runtime-cleanup/run.json) | CPU 20개와 제어된 반환값 오류 주입·실제 자원 추적 등의 런타임 8개 PASS |
+| [GPU 비가시 상태 포함 CLI 검사](20260921T135040.526430Z-modular-regression/run.json) | 기존 세 경우와 cudaErrorNoDevice 경로, 총 네 경우 PASS |
 
 이전 기록의 프로그램은 당시 기능 범위에 해당한다. 소스 사본이 있는 경우 그 파일과
 로그를 함께 읽는다. 현재 프로그램의 사용법과 제한은 상위 README에 정리했다.

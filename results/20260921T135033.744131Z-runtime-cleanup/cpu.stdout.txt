@@ -1,0 +1,46 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+      Start  1: reference.clean_patterns
+ 1/20 Test  #1: reference.clean_patterns ...........   Passed    0.00 sec
+      Start  2: reference.unordered_errors
+ 2/20 Test  #2: reference.unordered_errors .........   Passed    0.00 sec
+      Start  3: reference.truncated_subset
+ 3/20 Test  #3: reference.truncated_subset .........   Passed    0.00 sec
+      Start  4: reference.count_only
+ 4/20 Test  #4: reference.count_only ...............   Passed    0.00 sec
+      Start  5: reference.single_element
+ 5/20 Test  #5: reference.single_element ...........   Passed    0.00 sec
+      Start  6: reference.wrong_count
+ 6/20 Test  #6: reference.wrong_count ..............   Passed    0.00 sec
+      Start  7: reference.wrong_actual
+ 7/20 Test  #7: reference.wrong_actual .............   Passed    0.00 sec
+      Start  8: reference.wrong_expected
+ 8/20 Test  #8: reference.wrong_expected ...........   Passed    0.00 sec
+      Start  9: reference.duplicate_index
+ 9/20 Test  #9: reference.duplicate_index ..........   Passed    0.00 sec
+      Start 10: reference.out_of_range
+10/20 Test #10: reference.out_of_range .............   Passed    0.00 sec
+      Start 11: reference.not_an_error
+11/20 Test #11: reference.not_an_error .............   Passed    0.00 sec
+      Start 12: reference.missing_record
+12/20 Test #12: reference.missing_record ...........   Passed    0.00 sec
+      Start 13: reference.excess_records
+13/20 Test #13: reference.excess_records ...........   Passed    0.00 sec
+      Start 14: reference.count_only_with_record
+14/20 Test #14: reference.count_only_with_record ...   Passed    0.00 sec
+      Start 15: reference.reset_between_calls
+15/20 Test #15: reference.reset_between_calls ......   Passed    0.00 sec
+      Start 16: application.defaults
+16/20 Test #16: application.defaults ...............   Passed    0.00 sec
+      Start 17: application.inject
+17/20 Test #17: application.inject .................   Passed    0.00 sec
+      Start 18: application.unknown_option
+18/20 Test #18: application.unknown_option .........   Passed    0.00 sec
+      Start 19: application.extra_arguments
+19/20 Test #19: application.extra_arguments ........   Passed    0.00 sec
+      Start 20: application.status_priority
+20/20 Test #20: application.status_priority ........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 20
+
+Total Test time (real) =   0.06 sec

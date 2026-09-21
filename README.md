@@ -7,7 +7,7 @@ CUDA 기반 GPU 메모리 검증 학습 프로젝트. 네 가지 고정 패턴�
 최종 범위와 책임별 분리안은 [프로젝트 정의와 구조 설계](docs/PROJECT.md)에 정리했다.
 현재 CLI(`src/cli.cpp`), GPU 실행(`src/validator.cu`), CPU 대조(`src/reference.cpp`),
 출력(`src/report.cpp`)을 분리했다. `src/main.cpp`는 설정 읽기 → 실행 → 출력 → 종료를 연결한다.
-GPU 자원 자동 해제와 CUDA 오류 전달 방식 개선은 다음 단계다.
+GPU 버퍼는 RAII로 소유하고, CUDA 오류 시 완료된 패턴과 실패 원인을 반환한다.
 기존 `examples/first_kernel.cu`는 학습 기준 버전으로 보존한다.
 
 ## 새 실행 파일 빌드와 테스트
@@ -31,12 +31,15 @@ ctest --test-dir build/cpu --output-on-failure
 source cuda-env.sh
 cmake -S . -B build/cuda -DGMV_ENABLE_CUDA=ON -DCMAKE_BUILD_TYPE=Release
 cmake --build build/cuda
+ctest --test-dir build/cuda -L gpu --output-on-failure
 python3 tests/cli/test_validator.py
 ./build/cuda/gpu_memory_validator --inject
 ```
 
-CLI 회귀 검사 세 경우는 기존 예제의 검사 함수를 그대로 사용하며 정상 0, 주입 1,
-잘못된 옵션 2를 기대한다. 마지막 직접 주입 실행의 종료 코드 1은 의도한 데이터 FAIL이다.
+런타임·버퍼 검사 8개와 CLI 검사 4개가 있다. 기존 세 CLI 경우는 검사 함수를 그대로
+사용하며 정상 0, 주입 1, 잘못된 옵션 2를 기대한다. 추가한 GPU 비가시 상태 검사는
+해당 자식 프로세스에만 `CUDA_VISIBLE_DEVICES`를 빈 값으로 지정하고 실제 CUDA 오류와
+종료 코드 2를 확인한다. 마지막 직접 주입 실행의 종료 코드 1은 의도한 데이터 FAIL이다.
 CUDA 아키텍처 기본값은 실측 장비인 RTX 3060의 86이며 다른 장비는 CMake 설정으로 변경한다.
 
 `check_reference()`는 GPU 오류 개수와 원본 데이터를 독립 대조하고, 기록 수가
@@ -45,8 +48,36 @@ CUDA 아키텍처 기본값은 실측 장비인 RTX 3060의 86이며 다른 장�
 전체 CPU 오류 수는 모든 원소를 검사해 계산한다.
 
 검사 결과는 GPU 포인터가 없는 `RunResult`/`PatternResult`로 전달한다. 출력 모듈은
-이미 판정한 결과를 표현하며 상태를 다시 계산하지 않는다. 현재는 네 패턴의 작은 결과를
-모아 검사 완료 후 출력한다. 장시간 반복 검사와 중단 시 부분 결과 저장은 후속 작업이다.
+이미 판정한 결과를 표현하며 상태를 다시 계산하지 않는다. 정상 종료 또는 처리 가능한
+실행 오류 이후 결과를 출력한다. 완료된 패턴만 결과 목록에 추가하며, 중간 오류는
+`run_status=ERROR completed_patterns=N`과 호출명·CUDA 코드·패턴을 함께 기록한다.
+장시간 실행 중 점진적 저장과 사용자 중단 신호 처리는 후속 작업이다.
+
+## GPU 자원과 중간 실패
+
+`DeviceBuffer<T>`는 생성 시 할당하고 소멸 시 해제를 시도한다. 복사·이동을 금지해
+하나의 GPU 포인터를 여러 객체가 해제하는 일을 방지한다. CUDA_CHECK는 즉시 종료 대신
+예외를 전달하며, 검사 경계에서 결과의 ERROR로 변환한다.
+
+소멸자는 예외를 던지지 않는다. 해제 호출의 오류는 별도 상태에 남기고 모든 버퍼의
+해제를 시도한 뒤 결과에 반영한다. 최초 실행 오류와 해제 중 오류가 함께 발생하면
+둘 다 보존한다. cudaFree가 이전 비동기 실행의 오류를 반환할 수도 있으므로 이를
+특정 메모리 해제 결함으로 단정하지 않는다.
+
+중간 실패를 직접 관찰하는 테스트:
+
+```bash
+./build/cuda/runtime_tests sync_failure
+```
+
+첫 패턴은 실제 GPU에서 완료하고, 두 번째 동기화 호출은 실제 완료 대기 이후 테스트가
+실패 반환값으로 바꾼다. 결과에 첫 패턴과 `completed_patterns=1`이 남으며 마지막
+`sync_failure: PASS`는 예상한 실패 처리와 자원 해제를 확인했다는 뜻이다.
+테스트 프로세스의 종료 코드는 0이며 검증 결과 상태는 ERROR다.
+
+이 테스트의 호출 실패는 제어된 반환값 주입이다. 실제 GPU 장애·OOM 재현이 아니며,
+해제 실패를 모사할 때도 실제 메모리는 먼저 해제해 테스트 자체의 누수를 막는다.
+정상 해제·부분 할당 실패·동기화 실패·해제 오류·후속 실행·크기 경계를 검사한다.
 
 ## 보존한 학습 예제
 
@@ -163,12 +194,12 @@ Windows 설정은 변경하지 않았다. 프로그램 자체 PASS와 Sanitizer 
 
 ## 다음 학습
 
-1. GPU 자원 수명과 오류 전달 정리.
-2. 배열 크기와 기록 한도를 인자로 받아 경계 조건 테스트 확장.
-3. 반복 실행·실험 기록과 큰 배열의 선택적 CPU 대조 구성.
+1. 배열 크기와 기록 한도를 인자로 받아 경계 조건 테스트 확장.
+2. 반복 실행·실험 기록과 큰 배열의 선택적 CPU 대조 구성.
 
 ## 공식 자료
 
 - [CUDA on WSL](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)
 - [CUDA 12.8.1 구성요소 배포 안내](https://docs.nvidia.com/cuda/archive/12.8.1/cuda-installation-guide-linux/index.html#tarball-and-zip-archive-deliverables)
 - [공식 배포 manifest](https://developer.download.nvidia.com/compute/cuda/redist/redistrib_12.8.1.json)
+- [CUDA Runtime API: cudaFree](https://docs.nvidia.com/cuda/archive/12.8.0/cuda-runtime-api/group__CUDART__MEMORY.html)

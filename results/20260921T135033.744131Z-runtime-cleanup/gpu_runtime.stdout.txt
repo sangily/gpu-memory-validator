@@ -1,0 +1,107 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 21
+    Start 21: runtime.success
+
+21: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "success"
+21: Test timeout computed to be: 30
+21: test_case=success fault_model=controlled_return_codes
+21: success: PASS
+1/8 Test #21: runtime.success .......................   Passed    0.39 sec
+test 22
+    Start 22: runtime.allocation_failure
+
+22: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "allocation_failure"
+22: Test timeout computed to be: 30
+22: test_case=allocation_failure fault_model=controlled_return_codes
+22: allocation_failure: PASS
+2/8 Test #22: runtime.allocation_failure ............   Passed    0.38 sec
+test 23
+    Start 23: runtime.sync_failure
+
+23: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "sync_failure"
+23: Test timeout computed to be: 30
+23: test_case=sync_failure fault_model=controlled_return_codes
+23: gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+23: 
+23: pattern=00000000
+23: gpu_summary error_count=0 recorded_count=0 truncated=false
+23: reference_check=PASS
+23: first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+23: 
+23: run_status=ERROR completed_patterns=1
+23: execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+23: sync_failure: PASS
+3/8 Test #23: runtime.sync_failure ..................   Passed    0.37 sec
+test 24
+    Start 24: runtime.prior_fail_then_error
+
+24: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "prior_fail_then_error"
+24: Test timeout computed to be: 30
+24: test_case=prior_fail_then_error fault_model=controlled_return_codes
+24: gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+24: 
+24: pattern=00000000
+24: gpu_record index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+24: gpu_record index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+24: gpu_record index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+24: gpu_summary error_count=3 recorded_count=3 truncated=false
+24: index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+24: index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+24: index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+24: reference_check=PASS
+24: first=00000001 last=00000001 cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+24: 
+24: run_status=ERROR completed_patterns=1
+24: execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+24: prior_fail_then_error: PASS
+4/8 Test #24: runtime.prior_fail_then_error .........   Passed    0.38 sec
+test 25
+    Start 25: runtime.cleanup_failure
+
+25: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "cleanup_failure"
+25: Test timeout computed to be: 30
+25: test_case=cleanup_failure fault_model=controlled_return_codes
+25: cleanup_failure: PASS
+5/8 Test #25: runtime.cleanup_failure ...............   Passed    0.38 sec
+test 26
+    Start 26: runtime.primary_and_cleanup_failure
+
+26: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "primary_and_cleanup_failure"
+26: Test timeout computed to be: 30
+26: test_case=primary_and_cleanup_failure fault_model=controlled_return_codes
+26: primary_and_cleanup_failure: PASS
+6/8 Test #26: runtime.primary_and_cleanup_failure ...   Passed    0.38 sec
+test 27
+    Start 27: runtime.recovery
+
+27: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "recovery"
+27: Test timeout computed to be: 30
+27: test_case=recovery fault_model=controlled_return_codes
+27: recovery: PASS
+7/8 Test #27: runtime.recovery ......................   Passed    0.35 sec
+test 28
+    Start 28: runtime.buffer_boundaries
+
+28: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "buffer_boundaries"
+28: Test timeout computed to be: 30
+28: test_case=buffer_boundaries fault_model=controlled_return_codes
+28: buffer_boundaries: PASS
+8/8 Test #28: runtime.buffer_boundaries .............   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Label Time Summary:
+gpu    =   2.63 sec*proc (8 tests)
+
+Total Test time (real) =   2.63 sec

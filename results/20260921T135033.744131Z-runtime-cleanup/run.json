@@ -1,0 +1,46 @@
+{
+  "started_utc": "20260921T135033.744131Z",
+  "source_sha256": {
+    "CMakeLists.txt": "113f7299924e1a646a675c97311fea2f3ca0e89682edf16b2e3fda93ab7440cc",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "8588e707ee49bb01eeaaab9ee2664d8f5b6fda3784e21581fc9132452ec47a93",
+    "include/gmv/validator.hpp": "d2d4eb6899fef5bc787f4651a36f9734b1c49ab28c39c27a25a33ba5343498af",
+    "src/cli.cpp": "9f006d2624c9331eee4c5e48b600eeee1b072224ed60437536054a8cf3e61b58",
+    "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+    "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "src/report.cpp": "3cf516bef3e2db9cfea71c81f547dd399299e64b1966d63df4bada627b6feaed",
+    "src/validator.cu": "1fb822bb60e63d193263020cd15bd693fc816f3ec9b28dc182d47655afdd2077",
+    "tests/unit/test_application.cpp": "b5e64e68fb6179ace1db0859abd1f4b4f7c5a57116541ce3eadfce0bc6fdd19b",
+    "tests/unit/test_reference.cpp": "a8787d52a4e4618d834f2b7cd8ca182340e082318975d19cdc4042bd69fff788",
+    "tests/gpu/test_runtime.cpp": "822579b60dcb4ccac8547fdf2f181242c4b26d80d4fb538ffe1994698b2c1627"
+  },
+  "fault_model": "controlled CUDA return codes; real allocations/kernels/free calls",
+  "runs": [
+    {
+      "name": "cpu",
+      "command": [
+        "ctest",
+        "--test-dir",
+        "build/cpu",
+        "--output-on-failure"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "gpu_runtime",
+      "command": [
+        "ctest",
+        "--test-dir",
+        "build/cuda",
+        "-L",
+        "gpu",
+        "-V"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "status": "PASS"
+}

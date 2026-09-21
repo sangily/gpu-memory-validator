@@ -21,13 +21,14 @@
 | CLI-01 | 기본 실행, 1,025개 원소·네 패턴 | 오류 0, 대조 PASS, 종료 0 | 자동 통과 |
 | CLI-02 | 첫 패턴의 0·512·1024 위치 주입 | 오류 3, 세 기록, 다음 패턴 정상, 전체 종료 1 | 자동 통과 |
 | CLI-03 | 알 수 없는 옵션 | 사용법과 종료 2 | 자동 통과 |
+| CLI-04 | 자식 프로세스의 GPU 가시성 제거 | 실제 cudaErrorNoDevice, 완료 0, ERROR·종료 2 | 자동 통과 |
 | REC-01 | 오류 3건, 기록 한도 2 | count=3, recorded=2, truncated=true | GPU 경로는 수동 확인; 부분집합 대조는 CPU 단위 자동화 |
 | REF-01 | CPU로 가져온 GPU 기록의 actual 변조 | 오류 개수가 같아도 대조 ERROR, 종료 2 | CPU 함수의 거부 판정 자동화; 종료 2 연결은 앞선 수동 확인 |
 | TOOL-01 | Compute Sanitizer memcheck | 메모리 접근 오류 검사 | WDDM 환경 오류로 미검증 |
 
 자동 사례는 [기존 실행기](../scripts/test_first_kernel.py)와
 [저장된 실행 결과](../results/20260920T132441.254349Z-regression/run.json)로 확인한다.
-현재 출력의 `tests=3`은 세 가지 프로세스 실행을 뜻한다. 내부 assertion 수나
+기존 예제의 `tests=3`과 현재 CLI 검사의 `tests=4`는 각각 프로세스 실행 수를 뜻한다. 내부 assertion 수나
 별도 수동 검사를 합쳐 자동 테스트 개수를 부풀리지 않는다.
 
 ## CPU 대조 분리 단계의 자동 검사
@@ -58,7 +59,7 @@ GPU 실행, 출력 모듈을 연결한 실제 실행 파일에서 이를 통과�
 
 ## 책임 분리와 함께 만들 테스트
 
-아래 계층 중 CPU 대조와 기본 CLI 검사는 구현했고 나머지는 후속 목표다. 테스트를 위해 CUDA 커널을
+아래 계층 중 CPU 대조·기본 CLI·자원/런타임 오류 경로는 구현했고 나머지는 후속 목표다. 테스트를 위해 CUDA 커널을
 CPU 모의 구현으로 대체하지 않는다. CPU만으로 판단할 수 있는 로직과 실제 GPU 실행을 분리한다.
 
 | 계층 / 경로 | 검사할 계약 | 잡으려는 문제 |
@@ -71,7 +72,7 @@ CPU 모의 구현으로 대체하지 않는다. CPU만으로 판단할 수 있�
 
 함수 호출 여부나 단순 전달 함수마다 테스트를 추가하기보다 위 실패 조건을 검사한다.
 CPU 단위 검사는 GPU 없이 실행할 수 있도록 reference와 CLI를 CUDA API로부터 분리한다.
-GPU가 없는 환경은 GPU 검사를 SKIP/미실행으로 표시한다. 일반 CI의 CPU 검사 통과를
+GPU가 없는 환경은 CPU 대상만 실행하고 GPU 검사는 미실행으로 표시한다. 일반 CI의 CPU 검사 통과를
 GPU 검사 통과로 표현하지 않는다. CI와 GPU 자동 실행 환경은 아직 구성하지 않았다.
 
 우선 자동화할 사례:
@@ -91,6 +92,42 @@ GPU 검사 통과로 표현하지 않는다. CI와 GPU 자동 실행 환경은 �
 CPU 기대값은 GPU 계산 결과를 그대로 정답으로 사용하지 않는다. 알려진 입력·주입 mask와
 독립적인 CPU 계산으로 확인한다. 기능 검사의 tail 결과가 맞아도 불법 메모리 접근이
 전혀 없음을 증명한 것은 아니므로 Sanitizer의 미검증 상태는 별도로 유지한다.
+
+## 자원·런타임 오류 처리 검사 — 2026-09-21
+
+[런타임·버퍼 테스트](../tests/gpu/test_runtime.cpp) 8개를 추가했다.
+
+| 사례 | 확인 내용 |
+| --- | --- |
+| success | 실제 할당한 세 버퍼를 정상 종료에서 각각 한 번 해제 |
+| allocation_failure | 두 번째 또는 세 번째 할당이 실패하면 앞서 소유한 버퍼만 정리 |
+| sync_failure | 두 번째 패턴에서 실패하면 첫 완료 결과와 실패 위치 보존 |
+| prior_fail_then_error | 앞선 데이터 FAIL을 보존하면서 전체 상태는 ERROR로 상향 |
+| cleanup_failure | 해제 호출 오류를 무시하지 않고 ERROR 및 별도 원인 기록 |
+| primary_and_cleanup_failure | 최초 실행 오류를 해제 오류로 덮어쓰지 않음 |
+| recovery | 제어된 오류 후 자원을 정리하고 같은 프로세스의 다음 실행 정상 통과 |
+| buffer_boundaries | 원소 0은 할당하지 않음, 바이트 수 overflow는 CUDA 호출 전에 거부 |
+
+할당·동기화·해제 중 지정된 호출에 실패 반환값을 주입한다. 커널·데이터 복사 및
+나머지 CUDA 호출은 실제 GPU를 사용한다. 동기화 실패는 실제 동기화가 성공한 뒤
+반환값을 바꾸고, 해제 실패도 실제 해제 후 반환값을 바꾼다. 메모리를 실제로 고갈시키거나
+불법 접근으로 CUDA context를 손상시키는 테스트가 아니다. recovery는 이 제어된 오류의
+상태 잔존 여부를 확인하며 실제 치명적 GPU 오류로부터의 복구를 보장하지 않는다.
+
+버퍼의 성공한 할당과 실제 해제 주소를 추적하여 누락·중복 해제 시 테스트를 실패시킨다.
+이는 시험한 경로의 소유권 정리를 확인하는 근거이며 Compute Sanitizer를 대체하지 않는다.
+cudaFree 반환 오류에는 이전 비동기 실행의 오류가 포함될 수 있으므로 결과에는
+호출 실패 자체를 기록하고 특정 원인의 메모리 누수로 단정하지 않는다.
+
+CLI에는 자식 프로세스의 `CUDA_VISIBLE_DEVICES`를 빈 값으로 설정하는 네 번째 경우도
+추가했다. 실제 cudaErrorNoDevice와 완료 패턴 0, 전체 ERROR, 종료 코드 2를 확인한다.
+환경 변경은 해당 프로세스에 한정되며 정상/주입의 기존 판정 기준은 유지했다.
+
+```bash
+ctest --test-dir build/cuda -L gpu --output-on-failure
+./build/cuda/runtime_tests sync_failure
+python3 tests/cli/test_validator.py
+```
 
 ## 첫 성능 실험 후보: CPU 검사 버퍼 재사용
 
@@ -146,3 +183,4 @@ README에 다음 순서로 연결한다.
 ## 참고
 
 - [NVIDIA CUDA Best Practices 12.8 — Performance Metrics](https://docs.nvidia.com/cuda/archive/12.8.0/cuda-c-best-practices-guide/index.html#performance-metrics)
+- [CUDA Runtime API — cudaFree](https://docs.nvidia.com/cuda/archive/12.8.0/cuda-runtime-api/group__CUDART__MEMORY.html)
