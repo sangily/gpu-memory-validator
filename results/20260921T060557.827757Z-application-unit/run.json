@@ -1,0 +1,25 @@
+{
+  "started_utc": "20260921T060557.827757Z",
+  "command": [
+    "ctest",
+    "--test-dir",
+    "build/cpu",
+    "--output-on-failure"
+  ],
+  "exit_code": 0,
+  "source_sha256": {
+    "CMakeLists.txt": "02d94f2928ba34f05a1ad31c4fbea53dfde60b6c715ae95299447d3e304cc5d5",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "8588e707ee49bb01eeaaab9ee2664d8f5b6fda3784e21581fc9132452ec47a93",
+    "include/gmv/validator.hpp": "df90db065b7dfe72a92c0c53e304989c4070ddcc26c45a9e116e1644ebd3eca6",
+    "src/cli.cpp": "9f006d2624c9331eee4c5e48b600eeee1b072224ed60437536054a8cf3e61b58",
+    "src/main.cpp": "f8b8a65b6da4ee2de52dcaaca974681064692baa70ca1ef1a5cfa0341b7b201e",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "src/report.cpp": "fcb209033e29c5c9a581c65a8e7a01ff161093a50d9ab47ffeab5b7a5cbcec28",
+    "tests/unit/test_application.cpp": "b5e64e68fb6179ace1db0859abd1f4b4f7c5a57116541ce3eadfce0bc6fdd19b",
+    "tests/unit/test_reference.cpp": "a8787d52a4e4618d834f2b7cd8ca182340e082318975d19cdc4042bd69fff788"
+  },
+  "status": "PASS"
+}

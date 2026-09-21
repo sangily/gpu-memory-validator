@@ -1,0 +1,52 @@
+{
+  "started_utc": "20260921T060557.980593Z",
+  "runs": [
+    {
+      "name": "normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "invalid_option",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--invalid-option"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "02d94f2928ba34f05a1ad31c4fbea53dfde60b6c715ae95299447d3e304cc5d5",
+    "tests/cli/test_validator.py": "36d5be4092b4f782230721324bf6e4eeb7e054e2bfec5a64d34b8ff84dbc2bae",
+    "scripts/test_first_kernel.py": "e88673d55084be85a32e475cec42d2ee1888ba445d0ef05e6146576f24903fca",
+    "src/cli.cpp": "9f006d2624c9331eee4c5e48b600eeee1b072224ed60437536054a8cf3e61b58",
+    "src/main.cpp": "f8b8a65b6da4ee2de52dcaaca974681064692baa70ca1ef1a5cfa0341b7b201e",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "src/report.cpp": "fcb209033e29c5c9a581c65a8e7a01ff161093a50d9ab47ffeab5b7a5cbcec28",
+    "src/validator.cu": "e4e538d89856aec96ee1ce9982b3055930fa02aff4e35eabeef908ed3607db75",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "8588e707ee49bb01eeaaab9ee2664d8f5b6fda3784e21581fc9132452ec47a93",
+    "include/gmv/validator.hpp": "df90db065b7dfe72a92c0c53e304989c4070ddcc26c45a9e116e1644ebd3eca6"
+  },
+  "binary_built_by_runner": false,
+  "binary_sha256": "a1b69077ce58addd2993e13ff86b30062f15c54c90405af20f163c1ca8573459",
+  "status": "PASS"
+}
