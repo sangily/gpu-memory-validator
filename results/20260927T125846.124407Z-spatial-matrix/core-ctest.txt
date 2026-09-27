@@ -1,0 +1,704 @@
+Start testing: Sep 27 21:53 KST
+----------------------------------------------------------
+1/41 Testing: reference.clean_patterns
+1/41 Test: reference.clean_patterns
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "clean_patterns"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.clean_patterns" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+clean_patterns: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.clean_patterns" end time: Sep 27 21:53 KST
+"reference.clean_patterns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/41 Testing: reference.unordered_errors
+2/41 Test: reference.unordered_errors
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "unordered_errors"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.unordered_errors" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+unordered_errors: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.unordered_errors" end time: Sep 27 21:53 KST
+"reference.unordered_errors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/41 Testing: reference.truncated_subset
+3/41 Test: reference.truncated_subset
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "truncated_subset"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.truncated_subset" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+truncated_subset: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.truncated_subset" end time: Sep 27 21:53 KST
+"reference.truncated_subset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/41 Testing: reference.count_only
+4/41 Test: reference.count_only
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "count_only"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.count_only" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+count_only: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.count_only" end time: Sep 27 21:53 KST
+"reference.count_only" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/41 Testing: reference.single_element
+5/41 Test: reference.single_element
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "single_element"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.single_element" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+single_element: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.single_element" end time: Sep 27 21:53 KST
+"reference.single_element" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/41 Testing: reference.wrong_count
+6/41 Test: reference.wrong_count
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "wrong_count"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.wrong_count" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+wrong_count: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.wrong_count" end time: Sep 27 21:53 KST
+"reference.wrong_count" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/41 Testing: reference.wrong_actual
+7/41 Test: reference.wrong_actual
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "wrong_actual"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.wrong_actual" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+wrong_actual: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.wrong_actual" end time: Sep 27 21:53 KST
+"reference.wrong_actual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/41 Testing: reference.wrong_expected
+8/41 Test: reference.wrong_expected
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "wrong_expected"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.wrong_expected" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+wrong_expected: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.wrong_expected" end time: Sep 27 21:53 KST
+"reference.wrong_expected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/41 Testing: reference.duplicate_index
+9/41 Test: reference.duplicate_index
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "duplicate_index"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.duplicate_index" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+duplicate_index: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.duplicate_index" end time: Sep 27 21:53 KST
+"reference.duplicate_index" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/41 Testing: reference.out_of_range
+10/41 Test: reference.out_of_range
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "out_of_range"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.out_of_range" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+out_of_range: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.out_of_range" end time: Sep 27 21:53 KST
+"reference.out_of_range" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/41 Testing: reference.not_an_error
+11/41 Test: reference.not_an_error
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "not_an_error"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.not_an_error" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+not_an_error: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.not_an_error" end time: Sep 27 21:53 KST
+"reference.not_an_error" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/41 Testing: reference.missing_record
+12/41 Test: reference.missing_record
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "missing_record"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.missing_record" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+missing_record: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.missing_record" end time: Sep 27 21:53 KST
+"reference.missing_record" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/41 Testing: reference.excess_records
+13/41 Test: reference.excess_records
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "excess_records"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.excess_records" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+excess_records: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.excess_records" end time: Sep 27 21:53 KST
+"reference.excess_records" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/41 Testing: reference.count_only_with_record
+14/41 Test: reference.count_only_with_record
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "count_only_with_record"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.count_only_with_record" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+count_only_with_record: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.count_only_with_record" end time: Sep 27 21:53 KST
+"reference.count_only_with_record" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/41 Testing: reference.reset_between_calls
+15/41 Test: reference.reset_between_calls
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "reset_between_calls"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.reset_between_calls" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+reset_between_calls: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.reset_between_calls" end time: Sep 27 21:53 KST
+"reference.reset_between_calls" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/41 Testing: reference.spatial_golden_values
+16/41 Test: reference.spatial_golden_values
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "spatial_golden_values"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.spatial_golden_values" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+spatial_golden_values: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.spatial_golden_values" end time: Sep 27 21:53 KST
+"reference.spatial_golden_values" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/41 Testing: reference.spatial_wrong_fill
+17/41 Test: reference.spatial_wrong_fill
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "spatial_wrong_fill"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.spatial_wrong_fill" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+spatial_wrong_fill: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.spatial_wrong_fill" end time: Sep 27 21:53 KST
+"reference.spatial_wrong_fill" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/41 Testing: reference.spatial_swapped_words
+18/41 Test: reference.spatial_swapped_words
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests" "spatial_swapped_words"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"reference.spatial_swapped_words" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+spatial_swapped_words: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reference.spatial_swapped_words" end time: Sep 27 21:53 KST
+"reference.spatial_swapped_words" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/41 Testing: application.defaults
+19/41 Test: application.defaults
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "defaults"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.defaults" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+defaults: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.defaults" end time: Sep 27 21:53 KST
+"application.defaults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/41 Testing: application.inject
+20/41 Test: application.inject
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "inject"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.inject" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+inject: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.inject" end time: Sep 27 21:53 KST
+"application.inject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/41 Testing: application.unknown_option
+21/41 Test: application.unknown_option
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "unknown_option"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.unknown_option" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+unknown_option: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.unknown_option" end time: Sep 27 21:53 KST
+"application.unknown_option" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/41 Testing: application.extra_arguments
+22/41 Test: application.extra_arguments
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "extra_arguments"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.extra_arguments" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+extra_arguments: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.extra_arguments" end time: Sep 27 21:53 KST
+"application.extra_arguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/41 Testing: application.status_priority
+23/41 Test: application.status_priority
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "status_priority"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.status_priority" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+status_priority: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.status_priority" end time: Sep 27 21:53 KST
+"application.status_priority" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/41 Testing: application.configuration
+24/41 Test: application.configuration
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "configuration"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.configuration" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+configuration: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.configuration" end time: Sep 27 21:53 KST
+"application.configuration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/41 Testing: application.invalid_numbers
+25/41 Test: application.invalid_numbers
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "invalid_numbers"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.invalid_numbers" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+invalid_numbers: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.invalid_numbers" end time: Sep 27 21:53 KST
+"application.invalid_numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/41 Testing: application.limits
+26/41 Test: application.limits
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "limits"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.limits" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+limits: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.limits" end time: Sep 27 21:53 KST
+"application.limits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/41 Testing: application.duplicate_options
+27/41 Test: application.duplicate_options
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "duplicate_options"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.duplicate_options" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+duplicate_options: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.duplicate_options" end time: Sep 27 21:53 KST
+"application.duplicate_options" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/41 Testing: application.missing_values
+28/41 Test: application.missing_values
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "missing_values"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.missing_values" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+missing_values: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.missing_values" end time: Sep 27 21:53 KST
+"application.missing_values" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/41 Testing: application.patterns_valid
+29/41 Test: application.patterns_valid
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "patterns_valid"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.patterns_valid" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+patterns_valid: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.patterns_valid" end time: Sep 27 21:53 KST
+"application.patterns_valid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/41 Testing: application.patterns_invalid
+30/41 Test: application.patterns_invalid
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "patterns_invalid"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.patterns_invalid" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+patterns_invalid: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.patterns_invalid" end time: Sep 27 21:53 KST
+"application.patterns_invalid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/41 Testing: application.patterns_limit
+31/41 Test: application.patterns_limit
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests" "patterns_limit"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"application.patterns_limit" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+patterns_limit: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"application.patterns_limit" end time: Sep 27 21:53 KST
+"application.patterns_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/41 Testing: runtime.success
+32/41 Test: runtime.success
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "success"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.success" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=success fault_model=controlled_return_codes
+success: PASS
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.success" end time: Sep 27 21:53 KST
+"runtime.success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/41 Testing: runtime.allocation_failure
+33/41 Test: runtime.allocation_failure
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "allocation_failure"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.allocation_failure" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=allocation_failure fault_model=controlled_return_codes
+allocation_failure: PASS
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.allocation_failure" end time: Sep 27 21:53 KST
+"runtime.allocation_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/41 Testing: runtime.sync_failure
+34/41 Test: runtime.sync_failure
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "sync_failure"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.sync_failure" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=sync_failure fault_model=controlled_return_codes
+gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+
+config max_records=3 iterations=1 injection=disabled
+patterns=00000000,ffffffff,aaaaaaaa,55555555
+pattern_mode=constant
+iteration=1
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=ERROR completed_patterns=1
+execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_iteration=1 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+sync_failure: PASS
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.sync_failure" end time: Sep 27 21:53 KST
+"runtime.sync_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/41 Testing: runtime.prior_fail_then_error
+35/41 Test: runtime.prior_fail_then_error
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "prior_fail_then_error"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.prior_fail_then_error" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=prior_fail_then_error fault_model=controlled_return_codes
+gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+
+config max_records=3 iterations=1 injection=first_iteration_first_pattern
+patterns=00000000,ffffffff,aaaaaaaa,55555555
+pattern_mode=constant
+iteration=1
+pattern=00000000
+gpu_record index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+gpu_record index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+gpu_record index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+gpu_summary error_count=3 recorded_count=3 truncated=false
+index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+reference_check=PASS
+first=00000001 last=00000001 cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+run_status=ERROR completed_patterns=1
+execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_iteration=1 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+prior_fail_then_error: PASS
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.prior_fail_then_error" end time: Sep 27 21:53 KST
+"runtime.prior_fail_then_error" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/41 Testing: runtime.cleanup_failure
+36/41 Test: runtime.cleanup_failure
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "cleanup_failure"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.cleanup_failure" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=cleanup_failure fault_model=controlled_return_codes
+cleanup_failure: PASS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.cleanup_failure" end time: Sep 27 21:53 KST
+"runtime.cleanup_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/41 Testing: runtime.primary_and_cleanup_failure
+37/41 Test: runtime.primary_and_cleanup_failure
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "primary_and_cleanup_failure"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.primary_and_cleanup_failure" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=primary_and_cleanup_failure fault_model=controlled_return_codes
+primary_and_cleanup_failure: PASS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.primary_and_cleanup_failure" end time: Sep 27 21:53 KST
+"runtime.primary_and_cleanup_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/41 Testing: runtime.recovery
+38/41 Test: runtime.recovery
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "recovery"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.recovery" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=recovery fault_model=controlled_return_codes
+recovery: PASS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.recovery" end time: Sep 27 21:53 KST
+"runtime.recovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/41 Testing: runtime.buffer_boundaries
+39/41 Test: runtime.buffer_boundaries
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "buffer_boundaries"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.buffer_boundaries" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=buffer_boundaries fault_model=controlled_return_codes
+buffer_boundaries: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.buffer_boundaries" end time: Sep 27 21:53 KST
+"runtime.buffer_boundaries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/41 Testing: runtime.invalid_config
+40/41 Test: runtime.invalid_config
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "invalid_config"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.invalid_config" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=invalid_config fault_model=controlled_return_codes
+invalid_config: PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.invalid_config" end time: Sep 27 21:53 KST
+"runtime.invalid_config" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/41 Testing: runtime.repeat_failure
+41/41 Test: runtime.repeat_failure
+Command: "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests" "repeat_failure"
+Directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+"runtime.repeat_failure" start time: Sep 27 21:53 KST
+Output:
+----------------------------------------------------------
+test_case=repeat_failure fault_model=controlled_return_codes
+repeat_failure: PASS
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"runtime.repeat_failure" end time: Sep 27 21:53 KST
+"runtime.repeat_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 27 21:53 KST
+
+gpu =   2.66 sec*proc
+

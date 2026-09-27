@@ -1,0 +1,54 @@
+gpu=NVIDIA GeForce RTX 3060 count=33554432 bytes=134217728 blocks=131072 threads_per_block=256
+
+config max_records=3 iterations=4 injection=disabled
+patterns=12345678,deadbeef
+pattern_mode=seeded
+iteration=1
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=f11429e6 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=c35daad1 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=f11429e6 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=c35daad1 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=f11429e6 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=c35daad1 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=f11429e6 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=c35daad1 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=8

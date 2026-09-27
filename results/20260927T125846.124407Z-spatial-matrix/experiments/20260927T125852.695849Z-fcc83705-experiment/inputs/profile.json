@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "index 128 MiB repeat",
+  "pattern_file": "../patterns/index.json",
+  "count": 33554432,
+  "max_records": 3,
+  "iterations": 4,
+  "injection_enabled": false,
+  "timeout_seconds": 120,
+  "sample_interval": 1,
+  "telemetry_enabled": true
+}

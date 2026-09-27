@@ -14,6 +14,7 @@ CPU에서 판단할 수 있는 로직, 실제 GPU 동작, 실행기·화면 흐�
 | 실제 GPU CLI | 109 | 작은 배열·tail 경계, K 제한, 반복 초기화, 세 패턴 모드, 주입·잘못된 입력 |
 | Python 실행기/설정 | 18 | 종료 계약·중단·timeout·지표 가용성, 스키마·경로·덮어쓰기·입력 사본 |
 | 프리셋→GPU 통합 | 9 | 상대 경로, 설정 덮어쓰기, 단일/중복 패턴, 잘못된 입력 |
+| 큰 배열 위치·seed | 8 | 128/256 MiB, 정상/주입, 2패턴×4회 전체 대조 |
 | GUI 서버 / 브라우저 | 6 / 9 | 저장·충돌·조회, 실제 화면 조작·초기 로딩·반응형 배치 |
 | PyTorch CPU / 실행 경로 | 4 / 4 | 수치 비교 함수, 장치 오류·수정·GPU 비가시 상태 |
 
@@ -35,6 +36,8 @@ source cuda-env.sh
 ctest --test-dir build/cuda -L gpu --output-on-failure
 python3 tests/cli/test_validator.py
 python3 tests/cli/test_profiles.py
+# 큰 배열 반복 정확성 검사; 성능 임계값이나 GPU 포화 부하 시험은 아님
+python3 tests/cli/test_spatial_matrix.py
 ```
 
 프리셋 통합 검사는 저장소 기본 프리셋의 크기·값·반복 조건을 전제로 한다. 주입 여부는 테스트가

@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "case": "index-128mib-normal",
+      "experiment": "experiments/20260927T125846.190653Z-cd7dbde6-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 1.7442824089666829,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-128mib-injected",
+      "experiment": "experiments/20260927T125848.053998Z-bf4c3c60-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 1.5895878110313788,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-256mib-normal",
+      "experiment": "experiments/20260927T125849.760712Z-402c0b1f-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 2.757827749941498,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-256mib-injected",
+      "experiment": "experiments/20260927T125852.695849Z-fcc83705-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 2.6581422190647572,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-128mib-normal",
+      "experiment": "experiments/20260927T125855.480382Z-22a89f66-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 1.7772003069985658,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-128mib-injected",
+      "experiment": "experiments/20260927T125857.363128Z-9f952289-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 1.6935865130508319,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-256mib-normal",
+      "experiment": "experiments/20260927T125859.168602Z-4240ac5a-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 2.9450295210117474,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-256mib-injected",
+      "experiment": "experiments/20260927T125902.219592Z-e440cfe5-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 3.159709895029664,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    }
+  ],
+  "scope": "full CPU reference; repeated correctness, not GPU saturation"
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "name": "index spatial patterns",
+  "mode": "index",
+  "values": [
+    "00000000",
+    "ffffffff"
+  ]
+}

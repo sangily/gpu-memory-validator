@@ -122,7 +122,13 @@ def main():
             (folder / f'{name}.stderr.txt').write_text(p.stderr)
             if p.returncode != 0 or p.stderr.strip():
                 raise RuntimeError(f'{name}: unexpected exit/stderr')
-            oracle.check_configured(p.stdout, count, 3, args.iterations, {})
+            # Archived constant-only binaries predate the explicit mode header.
+            # Preserve raw output and normalize only the checker input. An
+            # explicit non-constant header must still fail this benchmark.
+            checked_output = p.stdout
+            if not any(line.startswith('pattern_mode=') for line in p.stdout.splitlines()):
+                checked_output = 'pattern_mode=constant\n' + p.stdout
+            oracle.check_configured(checked_output, count, 3, args.iterations, {})
             entry['status'] = 'PASS'
             save(folder / 'run.json', report)
             print(f'{name}: {elapsed:.4f}s faults={entry["minor_page_faults"]} PASS', flush=True)
