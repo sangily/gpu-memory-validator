@@ -106,6 +106,9 @@ RunResult run_validation_with_runtime(const ValidationConfig& config, CudaRuntim
         // More records than words cannot be produced; avoid allocating unused slots.
         const auto max_records = static_cast<unsigned int>(std::min<std::size_t>(config.max_records, count));
         DeviceBuffer<ErrorRecord> device_records(runtime, cleanup, max_records);
+        // Every successful copy below overwrites the full snapshot before CPU
+        // validation. Reuse storage instead of allocating/zeroing it per pattern.
+        std::vector<std::uint32_t> host_data(count);
 
         for (unsigned int iteration = 1; iteration <= config.iterations; ++iteration) {
             active_iteration = iteration;
@@ -156,7 +159,6 @@ RunResult run_validation_with_runtime(const ValidationConfig& config, CudaRuntim
                     ));
                 }
 
-                std::vector<std::uint32_t> host_data(count);
                 CUDA_CHECK(cudaMemcpy(host_data.data(), device_data.get(), bytes, cudaMemcpyDeviceToHost));
 
                 auto reference = check_reference(
