@@ -5,6 +5,9 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [사용자 패턴·프리셋 전체 검사](20260927T091428.416294Z-custom-input-validation/run.json) | CPU 28·런타임/버퍼 10·Python 17·CLI 34·프리셋 통합 5개 PASS; 전체 코드/입력 사본 및 해시 |
+| [사용자 패턴 CLI 검사](20260927T091434.915971Z-modular-regression/run.json) | 단일/중복/비영 상수 목록의 정상·주입 및 기존 경계 검사 등 34개 PASS |
+| [프리셋→실제 GPU 통합](20260927T091441.670707Z-profile-regression/run.json) | 다른 cwd, 설정 덮어쓰기, 중복/단일 패턴, 잘못된 파일 거부 등 5개 PASS |
 | [CPU 버퍼 재사용 성능 비교](20260927T085149.505158Z-host-buffer-comparison/run.json) | 128/256 MiB, 각 버전 10회 + 준비 1회; 전체 시간 중앙값 40.9%/43.1% 감소. 모든 실행 정확성 확인 |
 | [재사용 후 코어 검사](20260927T085114.800218Z-buffer-reuse-regression/run.json) | CPU 25개·런타임/버퍼 10개 및 CLI 26개 PASS |
 | [재사용 후 CLI 검사](20260927T085118.116762Z-modular-regression/run.json) | 재사용으로 이전 패턴/반복 값이 남지 않는지 포함한 기존 26개 PASS |

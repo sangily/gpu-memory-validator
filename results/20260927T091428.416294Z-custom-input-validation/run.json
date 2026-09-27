@@ -1,0 +1,85 @@
+{
+  "runs": [
+    {
+      "name": "cpu",
+      "command": [
+        "ctest",
+        "--test-dir",
+        "build/cpu",
+        "--verbose"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "gpu",
+      "command": [
+        "ctest",
+        "--test-dir",
+        "build/cuda",
+        "-L",
+        "gpu",
+        "--verbose"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "runner",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/runner",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "cli",
+      "command": [
+        "python3",
+        "tests/cli/test_validator.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "profiles",
+      "command": [
+        "python3",
+        "tests/cli/test_profiles.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "37396957e9cad1fdb5c6f3a82ecabc48be4c34d5d55fea578d0c5059a44bf8c0",
+    "src/cli.cpp": "5f30da885a5ea27066d11568eea8aac71fc5e9cd7277ff476240ec84f0ff0928",
+    "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+    "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+    "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+    "src/report.cpp": "f9a527a66e167b3fcbcd97a93ba210ee9d9a62fbeadda8e30304d3543110b1b3",
+    "src/validator.cu": "90c6008a804ec106208516b608766724b52dc5b3c3d0b2b758590a2e8aff7aa7",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "284c5d48937f5fe1ad657f5a1e36ba38bd37f78f13270d89396d22655d72815c",
+    "include/gmv/validator.hpp": "377a4cca2e0341905cda2c30908e702dd290466e398155a52eac3b290d539788",
+    "scripts/experiment_config.py": "c006ff045815fddb0ed68f5c5da063e114476762620875d9ce7d5a796bfec032",
+    "scripts/run_experiment.py": "2ffe4a6200495d71f7ae00e5800c44b3d1e79f932eb15aacc1c3411c56c519e1",
+    "scripts/setup_cuda.py": "2424d2cbba289f26042c1af82e49ea7b6473c88f48165fffe1ca4ea6a63e40c3",
+    "scripts/test_first_kernel.py": "e88673d55084be85a32e475cec42d2ee1888ba445d0ef05e6146576f24903fca",
+    "tests/gpu/test_runtime.cpp": "6374b0ccc1ace40263887878735379c3b9e0facf447572a2ee4c58747577bf12",
+    "tests/unit/test_application.cpp": "3fc224e0d26b2d662ab429c1da489080e729d0ba6d63e5fef7018cdd075fe824",
+    "tests/unit/test_reference.cpp": "a8787d52a4e4618d834f2b7cd8ca182340e082318975d19cdc4042bd69fff788",
+    "tests/cli/test_profiles.py": "694817f32aec924ffeff689745df1e6a69e85272515581999e3d044fdc9a68f0",
+    "tests/cli/test_validator.py": "0b227619848960874ab4dbd4d3025cd232ef666c246d17f36190ead4394767b1",
+    "tests/runner/test_config.py": "2847ba2fece1d8aa147c6ecf487063405745e8671dee8fb81091a27c2a66fca0",
+    "tests/runner/test_run_experiment.py": "7f965afd30fda115f42cac957e5b8759749db55a9cc709e20dec8f6b484d1ed0",
+    "patterns/custom-constants.json": "c1c6d17222dce1ddcf5d078b806bff09a00516247fa1eaff3e0fa7fa60438c15",
+    "patterns/default.json": "23cfc22962b2d9457500e88864af4d2d355b45581fdc25e3bb52db8a5a77ae9f",
+    "profiles/128mib-normal.json": "4f58f81a5e15280eeb4a7c0a563c806ca54a6fd9e1f576f4300870b5f9cc724d",
+    "profiles/custom-smoke.json": "29a28f882145379fcb4efdab3644f99a0233dbfc326c41cddcabaac07b5bd7dd"
+  },
+  "status": "PASS"
+}

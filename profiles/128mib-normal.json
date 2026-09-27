@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "128 MiB full-reference validation",
+  "pattern_file": "../patterns/default.json",
+  "count": 33554432,
+  "max_records": 3,
+  "iterations": 4,
+  "injection_enabled": false,
+  "timeout_seconds": 60,
+  "sample_interval": 1,
+  "telemetry_enabled": true
+}

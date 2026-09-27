@@ -1,6 +1,6 @@
 # gpu-memory-validator
 
-CUDA 기반 GPU 메모리 검증 학습 프로젝트. 네 가지 고정 패턴의 쓰기·검증 커널,
+CUDA 기반 GPU 메모리 검증 학습 프로젝트. 기본 네 패턴과 사용자 지정 상수의 쓰기·검증 커널,
 별도 XOR 오류 주입, GPU 오류 카운터와 최대 K건의 상세 기록을 구현했다.
 CPU 전체 검사 결과로 GPU 오류 개수와 기록을 대조한다.
 원소 수·기록 한도·반복 횟수를 설정할 수 있으며, 경계 회귀 검사와 별도로 128/256 MiB의 정상·주입 실행 및 조건을 통제한 성능 비교를 수행했다.
@@ -21,9 +21,9 @@ cmake --build build/cpu
 ctest --test-dir build/cpu --output-on-failure
 ```
 
-현재 CPU 단위 테스트는 25개다. [CPU 대조 15개](tests/unit/test_reference.cpp)는
+현재 CPU 단위 테스트는 28개다. [CPU 대조 15개](tests/unit/test_reference.cpp)는
 정상 패턴, 기록 순서·잘림, 잘못된 값·위치·개수, 중복·누락, 상태 독립성을 확인한다.
-[CLI·상태 판정 10개](tests/unit/test_application.cpp)는 기본 설정, 주입 옵션,
+[CLI·상태 판정 13개](tests/unit/test_application.cpp)는 기본 설정, 주입 옵션,
 입력 형식·상한·중복·누락 거부와 ERROR > FAIL > PASS 우선순위를 확인한다.
 
 실제 GPU 실행 파일과 CLI 회귀 검사는 다음과 같이 실행한다.
@@ -37,7 +37,7 @@ python3 tests/cli/test_validator.py
 ./build/cuda/gpu_memory_validator --inject
 ```
 
-런타임·버퍼 검사 10개와 CLI 검사 26개가 있다. CPU만 수행하는 입력·버퍼 경계 검사도
+런타임·버퍼 검사 10개와 직접 CLI 검사 34개가 있다. CPU만 수행하는 입력·버퍼 경계 검사도
 런타임 대상에 포함되어 있으므로 10개 모두 커널 실행 검사라는 뜻은 아니다.
 CLI 검사는 정상 0, 주입 1, 잘못된 옵션 2를 기대한다. GPU 비가시 상태 검사는
 해당 자식 프로세스에만 `CUDA_VISIBLE_DEVICES`를 빈 값으로 지정하고 실제 CUDA 오류와
@@ -66,7 +66,7 @@ echo "exit_code=$?"
 |---|---|---|
 | `--count N` | 32-bit 원소 개수; 바이트 수는 N × 4 | 1025 / 1~UINT_MAX, 바이트 수 표현 가능 범위 |
 | `--max-records K` | 패턴별 GPU·CPU 상세 기록 한도; 전체 오류 수는 제한하지 않음 | 3 / 0~UINT_MAX, 기록 바이트 수 표현 가능 범위 |
-| `--iterations N` | 네 패턴 전체를 검사하는 횟수 | 1 / 1~10000 |
+| `--iterations N` | 선택한 패턴 목록 전체를 검사하는 횟수 | 1 / 1~10000 |
 | `--inject` | 첫 반복의 첫 패턴에만 XOR 주입 | 기본 비활성 |
 
 십진 정수만 받으며 음수·부호·소수·남는 문자·범위 초과·중복 옵션은 GPU 실행 전에
@@ -111,6 +111,27 @@ python3 -m unittest discover -s tests/runner -v
 실행기의 10개 검사는 합성 자식/조회 응답을 사용한다. 실제 GPU에서는 정상·주입·시간 초과·
 GPU 비가시 상태의 네 경로도 확인했다. 4 MiB의 64회 반복은 실행기 동작 확인이며
 대용량·장시간 안정성이나 성능 개선을 입증하는 실험은 아니다.
+
+## 사용자 지정 패턴과 실험 프리셋 — 2026-09-27
+
+패턴 정의는 `patterns/`, 크기·반복·주입 등의 실험 조건은 `profiles/`에 저장한다.
+각 사용자 지정 상수로 전체 영역을 채우고 GPU 검사와 CPU 전체 대조를 수행한다.
+
+```bash
+python3 scripts/run_experiment.py --profile profiles/custom-smoke.json
+python3 scripts/run_experiment.py --profile profiles/custom-smoke.json --no-inject
+```
+
+첫 명령은 의도한 주입 FAIL/종료 1, 두 번째는 정상 PASS/종료 0이다. CLI 값이 프리셋보다
+우선하며 원본 파일을 수정하지 않는다. 결과에는 원본 사본과 최종 설정/패턴 목록을 함께 저장한다.
+[JSON 형식·경로·우선순위·재현 방법](docs/INPUTS.md)에 정리했다. GUI는 아직 미구현이다.
+
+기존 실행기 10개에 설정 검사 7개를 더한 Python 17개와 실제 프리셋→GPU 통합 검사 5개가 있다.
+
+```bash
+python3 -m unittest discover -s tests/runner -v
+python3 tests/cli/test_profiles.py
+```
 
 ## 동일 검사 조건의 성능 비교 — 2026-09-27
 
@@ -268,8 +289,8 @@ Windows 설정은 변경하지 않았다. 프로그램 자체 PASS와 Sanitizer 
 
 ## 다음 학습
 
-1. 사용자 지정 상수 패턴과 실험 프리셋 파일 연결.
-2. 최소 GUI와 제출 자료 정리. PyTorch 실습은 선택 과제로 유지.
+1. 패턴·프리셋 편집과 결과 조회를 위한 최소 GUI.
+2. 선택 과제 PyTorch 실습 및 제출 자료 정리.
 
 ## 공식 자료
 

@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "name": "Custom constants",
+  "description": "User-editable 32-bit constants. Each value fills the entire allocation in its own pass.",
+  "values": ["12345678", "87654321", "00ff00ff", "ff00ff00"]
+}

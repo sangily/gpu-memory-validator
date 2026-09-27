@@ -1,0 +1,2 @@
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T091441.670707Z-profile-regression/experiments/20260927T091442.262973Z-63ced62e-experiment
+status=PASS reason=COMPLETED child_exit_code=0

@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "name": "Default four constants",
+  "description": "All-zero, all-one and alternating bits; original regression patterns.",
+  "values": ["00000000", "ffffffff", "aaaaaaaa", "55555555"]
+}

@@ -1,0 +1,22 @@
+test_default_configuration_without_files (test_config.ConfigTests.test_default_configuration_without_files) ... ok
+test_patterns_normalize_and_preserve_order (test_config.ConfigTests.test_patterns_normalize_and_preserve_order) ... ok
+test_profile_types_and_ranges (test_config.ConfigTests.test_profile_types_and_ranges) ... ok
+test_reject_duplicate_keys_and_oversize_file (test_config.ConfigTests.test_reject_duplicate_keys_and_oversize_file) ... ok
+test_reject_invalid_pattern_values (test_config.ConfigTests.test_reject_invalid_pattern_values) ... ok
+test_resolution_precedence_relative_paths_and_snapshots (test_config.ConfigTests.test_resolution_precedence_relative_paths_and_snapshots) ... ok
+test_schema_and_unknown_fields (test_config.ConfigTests.test_schema_and_unknown_fields) ... ok
+test_exit_summary_contract (test_run_experiment.RunnerTests.test_exit_summary_contract) ... ok
+test_interrupt_terminates_child_and_records_reason (test_run_experiment.RunnerTests.test_interrupt_terminates_child_and_records_reason) ... ok
+test_metric_availability (test_run_experiment.RunnerTests.test_metric_availability) ... ok
+test_missing_binary_is_recorded (test_run_experiment.RunnerTests.test_missing_binary_is_recorded) ... ok
+test_success_and_fail_are_preserved (test_run_experiment.RunnerTests.test_success_and_fail_are_preserved) ... ok
+test_telemetry_missing_command (test_run_experiment.RunnerTests.test_telemetry_missing_command) ... ok
+test_telemetry_query_failure (test_run_experiment.RunnerTests.test_telemetry_query_failure) ... ok
+test_telemetry_stopped_before_sampling (test_run_experiment.RunnerTests.test_telemetry_stopped_before_sampling) ... ok
+test_timeout_preserves_partial_output (test_run_experiment.RunnerTests.test_timeout_preserves_partial_output) ... ok
+test_zero_exit_without_result_is_error (test_run_experiment.RunnerTests.test_zero_exit_without_result_is_error) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 3.126s
+
+OK

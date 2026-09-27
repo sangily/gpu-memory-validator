@@ -1,0 +1,12 @@
+{
+  "count": 1,
+  "max_records": 0,
+  "iterations": 2,
+  "injection_enabled": true,
+  "timeout_seconds": 60.0,
+  "sample_interval": 1.0,
+  "telemetry_enabled": false,
+  "patterns": [
+    "ffffffff"
+  ]
+}

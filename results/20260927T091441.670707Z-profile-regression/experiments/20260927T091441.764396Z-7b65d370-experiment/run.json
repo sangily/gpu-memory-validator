@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "run_id": "20260927T091441.764396Z-7b65d370",
+  "started_utc": "2026-09-27T09:14:41.766798+00:00",
+  "status": "FAIL",
+  "command": [
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+    "--count",
+    "257",
+    "--max-records",
+    "2",
+    "--iterations",
+    "2",
+    "--patterns",
+    "12345678,87654321,00ff00ff,ff00ff00",
+    "--inject"
+  ],
+  "config": {
+    "count": 257,
+    "allocation_bytes": 1028,
+    "max_records": 2,
+    "iterations": 2,
+    "injection_enabled": true,
+    "reference_mode": "full",
+    "timeout_seconds": 60,
+    "patterns": [
+      "12345678",
+      "87654321",
+      "00ff00ff",
+      "ff00ff00"
+    ],
+    "sample_interval": 1,
+    "telemetry_enabled": true
+  },
+  "environment": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.14.7",
+    "cuda_environment": {
+      "CUDA_VISIBLE_DEVICES": null,
+      "CUDA_DEVICE_ORDER": null,
+      "CUDAToolkit_ROOT": "/home/meoru/.local/opt/cuda-12.8.1-minimal"
+    },
+    "nvcc": {
+      "status": "AVAILABLE",
+      "command": [
+        "/home/meoru/.local/opt/cuda-12.8.1-minimal/bin/nvcc",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:23:50_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+      "stderr": ""
+    }
+  },
+  "timing_scope": "child execution window including launch, polling, CUDA initialization, CPU checks and output; not GPU kernel timing",
+  "raw_logs": {
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "telemetry": "telemetry.jsonl"
+  },
+  "input_files": {
+    "profile": {
+      "source_path": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/custom-smoke.json",
+      "sha256": "29a28f882145379fcb4efdab3644f99a0233dbfc326c41cddcabaac07b5bd7dd",
+      "snapshot": "inputs/profile.json"
+    },
+    "patterns": {
+      "source_path": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/patterns/custom-constants.json",
+      "sha256": "c1c6d17222dce1ddcf5d078b806bff09a00516247fa1eaff3e0fa7fa60438c15",
+      "snapshot": "inputs/patterns.json"
+    }
+  },
+  "resolved_config": "resolved_config.json",
+  "provenance": {
+    "git_head": {
+      "status": "AVAILABLE",
+      "command": [
+        "git",
+        "-C",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "f12a2e2fe507a82f91a167ae4c1cc8bcb40e0912\n",
+      "stderr": ""
+    },
+    "git_status": {
+      "status": "AVAILABLE",
+      "command": [
+        "git",
+        "-C",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+        "status",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "stdout": " M CMakeLists.txt\n M include/gmv/types.hpp\n M include/gmv/validator.hpp\n M scripts/run_experiment.py\n M src/cli.cpp\n M src/report.cpp\n M src/validator.cu\n M tests/cli/test_validator.py\n M tests/gpu/test_runtime.cpp\n M tests/runner/test_run_experiment.py\n M tests/unit/test_application.cpp\n?? patterns/\n?? profiles/\n?? scripts/experiment_config.py\n?? tests/cli/test_profiles.py\n?? tests/runner/test_config.py\n",
+      "stderr": ""
+    },
+    "source_sha256": {
+      "CMakeLists.txt": "37396957e9cad1fdb5c6f3a82ecabc48be4c34d5d55fea578d0c5059a44bf8c0",
+      "cuda-env.sh": "20d7744afe97afe70ed3391bf4f2475a8a574faf952f05ef4b35cb180c3f52d6",
+      "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+      "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+      "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+      "include/gmv/types.hpp": "284c5d48937f5fe1ad657f5a1e36ba38bd37f78f13270d89396d22655d72815c",
+      "include/gmv/validator.hpp": "377a4cca2e0341905cda2c30908e702dd290466e398155a52eac3b290d539788",
+      "scripts/experiment_config.py": "c006ff045815fddb0ed68f5c5da063e114476762620875d9ce7d5a796bfec032",
+      "scripts/run_experiment.py": "2ffe4a6200495d71f7ae00e5800c44b3d1e79f932eb15aacc1c3411c56c519e1",
+      "scripts/setup_cuda.py": "2424d2cbba289f26042c1af82e49ea7b6473c88f48165fffe1ca4ea6a63e40c3",
+      "scripts/test_first_kernel.py": "e88673d55084be85a32e475cec42d2ee1888ba445d0ef05e6146576f24903fca",
+      "src/cli.cpp": "5f30da885a5ea27066d11568eea8aac71fc5e9cd7277ff476240ec84f0ff0928",
+      "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+      "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+      "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+      "src/report.cpp": "f9a527a66e167b3fcbcd97a93ba210ee9d9a62fbeadda8e30304d3543110b1b3",
+      "src/validator.cu": "90c6008a804ec106208516b608766724b52dc5b3c3d0b2b758590a2e8aff7aa7",
+      "tests/cli/test_profiles.py": "694817f32aec924ffeff689745df1e6a69e85272515581999e3d044fdc9a68f0",
+      "tests/cli/test_validator.py": "0b227619848960874ab4dbd4d3025cd232ef666c246d17f36190ead4394767b1",
+      "tests/gpu/test_runtime.cpp": "6374b0ccc1ace40263887878735379c3b9e0facf447572a2ee4c58747577bf12",
+      "tests/runner/test_config.py": "2847ba2fece1d8aa147c6ecf487063405745e8671dee8fb81091a27c2a66fca0",
+      "tests/runner/test_run_experiment.py": "7f965afd30fda115f42cac957e5b8759749db55a9cc709e20dec8f6b484d1ed0",
+      "tests/unit/test_application.cpp": "3fc224e0d26b2d662ab429c1da489080e729d0ba6d63e5fef7018cdd075fe824",
+      "tests/unit/test_reference.cpp": "a8787d52a4e4618d834f2b7cd8ca182340e082318975d19cdc4042bd69fff788"
+    },
+    "binary_sha256": "85a9e5f5d2d16786e9383cf057ab060502dc27373feec156df4fe69f9feeb7a7",
+    "binary_built_by_runner": false,
+    "note": "Source snapshot and binary captured independently; rebuild before experiments."
+  },
+  "telemetry_origin_utc": "2026-09-27T09:14:41.801268+00:00",
+  "process_started_utc": "2026-09-27T09:14:41.805922+00:00",
+  "reason": "COMPLETED",
+  "reported_status": "FAIL",
+  "reported_completed_patterns": 8,
+  "telemetry": {
+    "status": "AVAILABLE",
+    "samples": 1,
+    "query_errors": 0,
+    "metric_unavailable": 0,
+    "metric_errors": 0,
+    "scope": "all GPUs reported by nvidia-smi; identify by UUID",
+    "interval_seconds": 1,
+    "query_timeout_seconds": 3
+  },
+  "child_exit_code": 1,
+  "finished_utc": "2026-09-27T09:14:42.174273+00:00",
+  "process_elapsed_seconds": 0.36731293296907097
+}

@@ -1,0 +1,33 @@
+gpu=NVIDIA GeForce RTX 3060 count=2 bytes=8 blocks=1 threads_per_block=256
+
+config max_records=2 iterations=2 injection=first_iteration_first_pattern
+patterns=deadbeef,deadbeef
+iteration=1
+pattern=deadbeef
+gpu_record index=0 offset_bytes=0 expected=deadbeef actual=deadbeee xor_mask=00000001
+gpu_record index=1 offset_bytes=4 expected=deadbeef actual=deadbeec xor_mask=00000003
+gpu_summary error_count=2 recorded_count=2 truncated=false
+index=0 offset_bytes=0 expected=deadbeef actual=deadbeee xor_mask=00000001
+index=1 offset_bytes=4 expected=deadbeef actual=deadbeec xor_mask=00000003
+reference_check=PASS
+first=deadbeee last=deadbeec cpu_mismatches=2 gpu_mismatches=2 status=FAIL
+
+iteration=1
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=deadbeef last=deadbeef cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=deadbeef last=deadbeef cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=deadbeef last=deadbeef cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=4

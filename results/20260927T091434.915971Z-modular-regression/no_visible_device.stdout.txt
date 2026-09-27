@@ -1,0 +1,6 @@
+gpu=unavailable count=1025 bytes=4100 blocks=5 threads_per_block=256
+
+config max_records=3 iterations=1 injection=disabled
+patterns=00000000,ffffffff,aaaaaaaa,55555555
+run_status=ERROR completed_patterns=0
+execution_error operation=cudaGetDeviceProperties(&properties, 0) cuda_code=100 message=cudaErrorNoDevice: no CUDA-capable device is detected
