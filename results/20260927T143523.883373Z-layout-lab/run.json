@@ -1,0 +1,117 @@
+{
+  "status": "FAIL",
+  "started_utc": "20260927T143523.883373Z",
+  "command": [
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+    "experiments/pytorch/layout_lab.py",
+    "--layout",
+    "transpose",
+    "--strategy",
+    "flat-bug"
+  ],
+  "environment": {
+    "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "torch_cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "capability": [
+      8,
+      6
+    ]
+  },
+  "source_sha256": {
+    "experiments/pytorch/device_lab.py": "e2a42ee8fdaa1e5c041817324af83357701bde3b8244041efcf68d0e5e26d247",
+    "experiments/pytorch/layout_lab.py": "3007a0ddac35718f9669fd5d353de3edc9ab0c94689dedcae5552ce833feecf2",
+    "experiments/pytorch/layout_ops.py": "e546793cfc78e350c82822b5a2cad0bbc9ef99c17250390d9366234e09662c62",
+    "experiments/pytorch/relu_layout.cu": "bb4bf5826a4b12b26739213179ccf1524875c1e45aaa37dd1f0eadcb0c8a6277",
+    "experiments/pytorch/requirements-layout.txt": "dae6c68fca9284a6d79643574f1dd9e326f4d7d41266ccf6739de9a278677fe3",
+    "experiments/pytorch/requirements.txt": "81092ab688e6c191a271074c0422fd17421f9910cf9379f830480e54cea453ce",
+    "tests/pytorch/check_device_lab.py": "5daefef555e732008fd08e174a19ed5d11e193a81aa3794d7209e7a4754367e8",
+    "tests/pytorch/test_layout.py": "5b7cb948f2251032933abc6552dd5e8408e030e4f90e26df60b04f796bca9f9a",
+    "tests/pytorch/test_reference.py": "32672a4826753895105ea43c6e6b6e27492c85e6009c06db46a2fb0fe8534dba"
+  },
+  "git_head": {
+    "exit_code": 0,
+    "stdout": "790dc87f61fe29c14670d2a5c390ddc555131c42\n",
+    "stderr": ""
+  },
+  "git_status": {
+    "exit_code": 0,
+    "stdout": "?? experiments/pytorch/layout_lab.py\n?? experiments/pytorch/layout_ops.py\n?? experiments/pytorch/relu_layout.cu\n?? experiments/pytorch/requirements-layout.txt\n?? tests/pytorch/test_layout.py\n",
+    "stderr": ""
+  },
+  "extension_sha256": "5b47a7c0ce56320166cf0025d1d845a8cc276cad7251262c03a91aabee930f34",
+  "build_requirements": "# Additional build tools for the pinned PyTorch environment.\nsetuptools==80.9.0\nninja==1.11.1.4\n",
+  "case": {
+    "layout": "transpose",
+    "strategy": "flat-bug",
+    "input": {
+      "shape": [
+        17,
+        19
+      ],
+      "stride": [
+        1,
+        17
+      ],
+      "storage_offset": 0,
+      "contiguous": false,
+      "dtype": "torch.float32",
+      "device": "cuda:0"
+    },
+    "output": {
+      "shape": [
+        17,
+        19
+      ],
+      "stride": [
+        19,
+        1
+      ],
+      "storage_offset": 0,
+      "contiguous": true,
+      "dtype": "torch.float32",
+      "device": "cuda:0"
+    },
+    "comparison": {
+      "status": "FAIL",
+      "mismatches": 279,
+      "elements": 323,
+      "records": [
+        {
+          "row": 0,
+          "column": 7,
+          "expected": 12.0,
+          "actual": 0.0
+        },
+        {
+          "row": 0,
+          "column": 8,
+          "expected": 29.0,
+          "actual": 0.0
+        },
+        {
+          "row": 0,
+          "column": 9,
+          "expected": 46.0,
+          "actual": 0.0
+        },
+        {
+          "row": 0,
+          "column": 10,
+          "expected": 63.0,
+          "actual": 0.0
+        },
+        {
+          "row": 0,
+          "column": 11,
+          "expected": 80.0,
+          "actual": 0.0
+        }
+      ],
+      "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+    },
+    "status": "FAIL"
+  }
+}

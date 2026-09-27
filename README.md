@@ -13,6 +13,7 @@ Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고
 - 패턴/프리셋 JSON, 실행 당시 입력 사본·소스/실행 파일 SHA256·로그·GPU 지표 저장.
 - 패턴/프리셋 편집과 개별 실험 결과 조회 GUI.
 - 계층별 자동 테스트, 호스트 버퍼 재사용 성능 비교, 별도 PyTorch 장치 오류 실습.
+- PyTorch 사용자 CUDA 연산의 stride 결함 재현·수정, stream·추론 통합 검사와 비용 비교.
 
 ## 빌드와 첫 실행
 
@@ -72,4 +73,5 @@ python3 scripts/workbench.py
 | [지속 읽기 부하](docs/LOAD.md) | GPU 반복 검사, 중간 오류 보존, 부하 측정과 해석 |
 | [DCGM 실습과 검증 범위](docs/DCGM.md) | 실제 진단 결과, 보완한 범위와 남은 한계 |
 | [PyTorch 실습](docs/PYTORCH.md) | 장치 오류 재현·수정과 수치 대조 |
+| [PyTorch–CUDA 배치 디버깅](docs/LAYOUT.md) | 전치·슬라이스 오류, 두 수정 방식, stream·추론 검사와 측정 |
 | [검증 기록](results/README.md) | 대표 결과와 원시 증거 |

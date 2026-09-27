@@ -5,6 +5,9 @@ CPU에서 판단할 수 있는 로직, 실제 GPU 동작, 실행기·화면 흐�
 
 ## 검사 계층
 
+PyTorch 사용자 CUDA 연산의 배치·경계·stream·추론·입력 계약 74개는
+`build/torch-env/bin/python tests/pytorch/test_layout.py`로 실행한다. [조건과 근거](LAYOUT.md).
+
 아래 개수는 [보존한 실행 증거](../results/README.md)의 통과 결과다. 각 기록의 소스 사본과 해시로 대상 버전을 확인한다.
 
 | 계층 | 개수 | 주요 검사 |
