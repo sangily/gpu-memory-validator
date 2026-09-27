@@ -10,7 +10,9 @@ C++ 실행 파일은 직접 인자를 받고, Python 실행기는 JSON 설정을
 | `--count N` | 1025 | 1~4,294,967,295; 실제 할당 가능 여부는 장비에 따름 |
 | `--max-records K` | 3 | 0~4,294,967,295; 패턴별 상세 한도, 0은 개수만 기록 |
 | `--iterations N` | 1 | 1~10000; 전체 패턴 목록의 반복 횟수 |
-| `--inject` | 비활성 | 첫 반복의 첫 패턴에 오류 주입 |
+| `--gpu-passes N` | 1 | 1~4096; 한 번 채운 데이터를 GPU에서 N회 검사 후 CPU 전체 대조 |
+| `--inject-pass N` | 1 | 1~gpu-passes; 첫 반복·첫 패턴에서 오류를 넣을 GPU 검사 회차 |
+| `--inject` | 비활성 | 지정 회차에 오류 주입 |
 | C++ `--patterns HEX,...` | 00000000,ffffffff,aaaaaaaa,55555555 | 1~64개 값; 모드별 상수·XOR 값·seed |
 | C++ `--pattern-mode MODE` | constant | constant / index / seeded |
 | Python `--pattern-file PATH` | 없음 | 패턴 JSON |
@@ -100,3 +102,17 @@ python3 scripts/run_experiment.py --profile profiles/128mib-normal.json
 완료 패턴 8개와 FAIL·종료 1을 낸다. 두 번째는 PASS·종료 0이다.
 주입 여부는 예제 명령에서 명시하므로 프리셋의 해당 값을 편집해도 결과 의도가 유지된다.
 실행 당시 원본과 최종 설정은 [결과 폴더](EXPERIMENTS.md#저장-파일)에 보존한다.
+
+## GPU 반복 검사
+
+`gpu_passes=1`은 매 검사마다 CPU 전체 대조하는 기존 방식이다. 2 이상이면 GPU에서 읽기 검사를
+묶어서 실행한 뒤 CPU가 전체 스냅샷을 대조한다(`reference_mode=checkpoint_full`).
+프리셋 JSON에도 `gpu_passes`, `inject_pass`를 저장할 수 있다. 기존 파일은 둘 다 1이다.
+
+```bash
+python3 scripts/run_experiment.py --profile profiles/load-smoke.json --inject
+```
+
+위 프리셋은 7회 중 4회차에 주입한다. 첫 실패 회차와 오류 3건을 보존하고 CPU가 대조한다.
+남은 GPU 검사 회차는 건너뛰며 다음 패턴·반복이 정상이어도 최종 FAIL을 유지한다.
+상세 구조와 부하 실험 해석은 [지속 읽기 부하](LOAD.md)를 참고한다.

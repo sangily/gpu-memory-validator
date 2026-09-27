@@ -1,0 +1,11 @@
+test_same_origin_token_required_for_writes (test_workbench.HttpTests.test_same_origin_token_required_for_writes) ... ok
+test_create_edit_conflict_and_validation (test_workbench.StoreTests.test_create_edit_conflict_and_validation) ... ok
+test_invalid_document_remains_editable (test_workbench.StoreTests.test_invalid_document_remains_editable) ... ok
+test_paths_and_symlinks_cannot_escape (test_workbench.StoreTests.test_paths_and_symlinks_cannot_escape) ... ok
+test_profile_reference_and_command (test_workbench.StoreTests.test_profile_reference_and_command) ... ok
+test_results_keep_error_missing_metrics_and_truncation (test_workbench.StoreTests.test_results_keep_error_missing_metrics_and_truncation) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.550s
+
+OK

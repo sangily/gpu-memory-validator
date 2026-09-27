@@ -5,6 +5,8 @@
 
 | 기록 | 확인 내용 |
 |---|---|
+| [GPU 반복 검사](20260927T132823.238763Z-load-regression/run.json) | 51개; CPU/런타임 44·CLI 109·Python 18·GUI 서버 6개 로그 포함 |
+| [GPU 반복 설정 GUI](20260927T132749.931160Z-workbench-browser/run.json) | GPU 검사·주입 회차 저장과 기존 결과 조회 등 9개 |
 | [128/256 MiB 위치·seed 실험](20260927T125846.124407Z-spatial-matrix/matrix.json) | 2가지 모드×2크기×정상/주입 8개, 각 2패턴×4회 CPU 전체 대조; CTest 41개 로그 포함 |
 | [DCGM 실행](20260927T125551.327375Z-dcgm/dcgm_lab.json) | 장치 검색·지표 수집 성공, Level 1 배포 환경 검사 실패(error 20) |
 | [위치·seed 패턴 CLI](20260927T125306.432779Z-modular-regression/run.json) | 실제 GPU 경계·주입·기록 한도 포함 109개 |

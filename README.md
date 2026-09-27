@@ -7,6 +7,7 @@ Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고
 ## 주요 기능
 
 - 사용자 지정 상수·index·seeded 패턴, 검사 크기·반복 횟수·상세 기록 한도 설정.
+- GPU 반복 읽기 검사와 CPU 전체 대조 체크포인트, 최초 실패 회차·진행 기록 보존.
 - XOR 오류 주입, 전체 오류 수와 최대 K건 기록, 기록 잘림 표시.
 - CPU 전체 대조와 PASS/FAIL/ERROR 구분, GPU 자원 정리 및 완료된 부분 결과 보존.
 - 패턴/프리셋 JSON, 실행 당시 입력 사본·소스/실행 파일 SHA256·로그·GPU 지표 저장.
@@ -68,6 +69,7 @@ python3 scripts/workbench.py
 | [구조와 검증 동작](docs/PROJECT.md) | 모듈 책임, CPU 대조, 오류·자원 관리 |
 | [테스트](docs/TESTING.md) | 실행 명령, 검사 범위, 검증 한계 |
 | [성능 비교](docs/PERFORMANCE.md) | 동일 조건의 측정 결과와 재현 방법 |
+| [지속 읽기 부하](docs/LOAD.md) | GPU 반복 검사, 중간 오류 보존, 부하 측정과 해석 |
 | [DCGM 실습과 검증 범위](docs/DCGM.md) | 실제 진단 결과, 보완한 범위와 남은 한계 |
 | [PyTorch 실습](docs/PYTORCH.md) | 장치 오류 재현·수정과 수치 대조 |
 | [검증 기록](results/README.md) | 대표 결과와 원시 증거 |

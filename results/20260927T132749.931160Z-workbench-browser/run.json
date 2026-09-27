@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "initial_load_blocks_premature_editing",
+    "real_result_status_chart_raw_log",
+    "create_seeded_pattern_ordered_duplicates",
+    "invalid_pattern_rejected_without_mutation",
+    "edit_pattern_and_copy_command",
+    "create_profile_with_selected_pattern",
+    "concurrent_edit_conflict_visible",
+    "mobile_layout_without_horizontal_overflow",
+    "no_unexpected_browser_errors"
+  ],
+  "source_sha256": {
+    "scripts/workbench.py": "ce508099621f9fc2850732b7a54bd173d8489cb478cf9284d19836d69e0d2b34",
+    "scripts/experiment_config.py": "168c39fb114634b0e0905d97fd82b132ef8b771ae4222cdb81a2a92f95762e25",
+    "web/app.js": "74e0d3ac3ba3457ad68fb88f3e5e279d82d8dbbcf2934879145d12e1860c43d2",
+    "web/index.html": "b15043c27a2d8aea9116dee0f84c0348a9b229d5151631cab8ed093f524a1313",
+    "web/style.css": "523554bfb83b9efeebf92d3422c23fdfeb2c1b25a6d56d82b25ebe9cb3c834be",
+    "tests/gui/browser_smoke.py": "56fee5d3ed5e821b027162ba11bff8aa795240436ab130b74e8fa6022404a54c",
+    "tests/gui/test_workbench.py": "b723360d9d17a172a727f07711a73508eedf01f4991921be689fb352247fe128"
+  },
+  "fixture": "isolated editable workspace; copied genuine 128 MiB baseline run"
+}

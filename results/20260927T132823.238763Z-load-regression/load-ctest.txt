@@ -1,0 +1,97 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+      Start  1: reference.clean_patterns
+ 1/44 Test  #1: reference.clean_patterns ..............   Passed    0.00 sec
+      Start  2: reference.unordered_errors
+ 2/44 Test  #2: reference.unordered_errors ............   Passed    0.00 sec
+      Start  3: reference.truncated_subset
+ 3/44 Test  #3: reference.truncated_subset ............   Passed    0.00 sec
+      Start  4: reference.count_only
+ 4/44 Test  #4: reference.count_only ..................   Passed    0.00 sec
+      Start  5: reference.single_element
+ 5/44 Test  #5: reference.single_element ..............   Passed    0.00 sec
+      Start  6: reference.wrong_count
+ 6/44 Test  #6: reference.wrong_count .................   Passed    0.00 sec
+      Start  7: reference.wrong_actual
+ 7/44 Test  #7: reference.wrong_actual ................   Passed    0.00 sec
+      Start  8: reference.wrong_expected
+ 8/44 Test  #8: reference.wrong_expected ..............   Passed    0.00 sec
+      Start  9: reference.duplicate_index
+ 9/44 Test  #9: reference.duplicate_index .............   Passed    0.00 sec
+      Start 10: reference.out_of_range
+10/44 Test #10: reference.out_of_range ................   Passed    0.00 sec
+      Start 11: reference.not_an_error
+11/44 Test #11: reference.not_an_error ................   Passed    0.00 sec
+      Start 12: reference.missing_record
+12/44 Test #12: reference.missing_record ..............   Passed    0.00 sec
+      Start 13: reference.excess_records
+13/44 Test #13: reference.excess_records ..............   Passed    0.00 sec
+      Start 14: reference.count_only_with_record
+14/44 Test #14: reference.count_only_with_record ......   Passed    0.00 sec
+      Start 15: reference.reset_between_calls
+15/44 Test #15: reference.reset_between_calls .........   Passed    0.00 sec
+      Start 16: reference.spatial_golden_values
+16/44 Test #16: reference.spatial_golden_values .......   Passed    0.00 sec
+      Start 17: reference.spatial_wrong_fill
+17/44 Test #17: reference.spatial_wrong_fill ..........   Passed    0.00 sec
+      Start 18: reference.spatial_swapped_words
+18/44 Test #18: reference.spatial_swapped_words .......   Passed    0.00 sec
+      Start 19: application.defaults
+19/44 Test #19: application.defaults ..................   Passed    0.00 sec
+      Start 20: application.inject
+20/44 Test #20: application.inject ....................   Passed    0.00 sec
+      Start 21: application.unknown_option
+21/44 Test #21: application.unknown_option ............   Passed    0.00 sec
+      Start 22: application.extra_arguments
+22/44 Test #22: application.extra_arguments ...........   Passed    0.00 sec
+      Start 23: application.status_priority
+23/44 Test #23: application.status_priority ...........   Passed    0.00 sec
+      Start 24: application.configuration
+24/44 Test #24: application.configuration .............   Passed    0.00 sec
+      Start 25: application.invalid_numbers
+25/44 Test #25: application.invalid_numbers ...........   Passed    0.00 sec
+      Start 26: application.limits
+26/44 Test #26: application.limits ....................   Passed    0.00 sec
+      Start 27: application.duplicate_options
+27/44 Test #27: application.duplicate_options .........   Passed    0.00 sec
+      Start 28: application.missing_values
+28/44 Test #28: application.missing_values ............   Passed    0.00 sec
+      Start 29: application.patterns_valid
+29/44 Test #29: application.patterns_valid ............   Passed    0.00 sec
+      Start 30: application.patterns_invalid
+30/44 Test #30: application.patterns_invalid ..........   Passed    0.00 sec
+      Start 31: application.patterns_limit
+31/44 Test #31: application.patterns_limit ............   Passed    0.00 sec
+      Start 32: application.load_config
+32/44 Test #32: application.load_config ...............   Passed    0.00 sec
+      Start 33: runtime.success
+33/44 Test #33: runtime.success .......................   Passed    0.55 sec
+      Start 34: runtime.allocation_failure
+34/44 Test #34: runtime.allocation_failure ............   Passed    0.40 sec
+      Start 35: runtime.sync_failure
+35/44 Test #35: runtime.sync_failure ..................   Passed    0.38 sec
+      Start 36: runtime.prior_fail_then_error
+36/44 Test #36: runtime.prior_fail_then_error .........   Passed    0.43 sec
+      Start 37: runtime.cleanup_failure
+37/44 Test #37: runtime.cleanup_failure ...............   Passed    0.31 sec
+      Start 38: runtime.primary_and_cleanup_failure
+38/44 Test #38: runtime.primary_and_cleanup_failure ...   Passed    0.31 sec
+      Start 39: runtime.recovery
+39/44 Test #39: runtime.recovery ......................   Passed    0.32 sec
+      Start 40: runtime.buffer_boundaries
+40/44 Test #40: runtime.buffer_boundaries .............   Passed    0.00 sec
+      Start 41: runtime.invalid_config
+41/44 Test #41: runtime.invalid_config ................   Passed    0.00 sec
+      Start 42: runtime.repeat_failure
+42/44 Test #42: runtime.repeat_failure ................   Passed    0.32 sec
+      Start 43: runtime.batch_failure_cleanup
+43/44 Test #43: runtime.batch_failure_cleanup .........   Passed    0.31 sec
+      Start 44: runtime.batch_allocation_failure
+44/44 Test #44: runtime.batch_allocation_failure ......   Passed    0.32 sec
+
+100% tests passed, 0 tests failed out of 44
+
+Label Time Summary:
+gpu    =   3.66 sec*proc (12 tests)
+
+Total Test time (real) =   3.75 sec

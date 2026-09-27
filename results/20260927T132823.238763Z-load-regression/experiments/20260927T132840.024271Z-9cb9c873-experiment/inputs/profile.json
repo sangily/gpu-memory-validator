@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "GPU batch checkpoint smoke",
+  "pattern_file": "../patterns/seeded.json",
+  "count": 257,
+  "max_records": 2,
+  "iterations": 2,
+  "gpu_passes": 7,
+  "inject_pass": 4,
+  "injection_enabled": false,
+  "timeout_seconds": 60,
+  "sample_interval": 1,
+  "telemetry_enabled": true
+}
