@@ -1,0 +1,1861 @@
+{
+  "status": "PASS",
+  "started_utc": "20260927T085149.505158Z",
+  "environment": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "scope": "fresh child process launch through exit; includes CUDA initialization, allocations, full CPU reference, output and cleanup; not kernel timing or bandwidth",
+  "method": "one excluded warm-up per variant/size; paired AB/BA order; telemetry outside measured regions; all samples retained",
+  "config": {
+    "mib": [
+      128,
+      256
+    ],
+    "iterations": 4,
+    "patterns": [
+      "00000000",
+      "ffffffff",
+      "aaaaaaaa",
+      "55555555"
+    ],
+    "max_records": 3,
+    "reference": "full",
+    "injection": false,
+    "samples_per_variant_size": 10
+  },
+  "runs": [
+    {
+      "name": "128MiB-baseline-warmup",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 0,
+      "warmup": true,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7450515039963648,
+      "exit_code": 0,
+      "user_seconds": 1.804714,
+      "system_seconds": 1.4263059999999999,
+      "minor_page_faults": 549651,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-warmup",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 0,
+      "warmup": true,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.259308409062214,
+      "exit_code": 0,
+      "user_seconds": 1.5740070000000002,
+      "system_seconds": 0.3162550000000002,
+      "minor_page_faults": 58118,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-00",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 0,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7592919619055465,
+      "exit_code": 0,
+      "user_seconds": 1.777012,
+      "system_seconds": 1.4838589999999998,
+      "minor_page_faults": 549652,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-00",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 0,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.2097872650483623,
+      "exit_code": 0,
+      "user_seconds": 1.564877,
+      "system_seconds": 0.2782810000000002,
+      "minor_page_faults": 58116,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-01",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 1,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.1255551929352805,
+      "exit_code": 0,
+      "user_seconds": 1.573434999999999,
+      "system_seconds": 0.20443699999999998,
+      "minor_page_faults": 58115,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-01",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 1,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.698376020998694,
+      "exit_code": 0,
+      "user_seconds": 1.7875010000000007,
+      "system_seconds": 1.4088859999999999,
+      "minor_page_faults": 549651,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-02",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 2,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.847915671998635,
+      "exit_code": 0,
+      "user_seconds": 1.8666929999999997,
+      "system_seconds": 1.4713919999999998,
+      "minor_page_faults": 549653,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-02",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 2,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.1922561849933118,
+      "exit_code": 0,
+      "user_seconds": 1.571242999999999,
+      "system_seconds": 0.2509629999999996,
+      "minor_page_faults": 58115,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-03",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 3,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.2063759570010006,
+      "exit_code": 0,
+      "user_seconds": 1.593541,
+      "system_seconds": 0.22505600000000037,
+      "minor_page_faults": 58117,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-03",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 3,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7914994519669563,
+      "exit_code": 0,
+      "user_seconds": 1.8011079999999993,
+      "system_seconds": 1.4706629999999992,
+      "minor_page_faults": 549653,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-04",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 4,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.809414344956167,
+      "exit_code": 0,
+      "user_seconds": 1.8516349999999981,
+      "system_seconds": 1.4579810000000002,
+      "minor_page_faults": 549648,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-04",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 4,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.1856491420185193,
+      "exit_code": 0,
+      "user_seconds": 1.5865550000000006,
+      "system_seconds": 0.22351000000000099,
+      "minor_page_faults": 58116,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-05",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 5,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.1745210719527677,
+      "exit_code": 0,
+      "user_seconds": 1.5815380000000019,
+      "system_seconds": 0.22957800000000006,
+      "minor_page_faults": 58116,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-05",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 5,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7128759269835427,
+      "exit_code": 0,
+      "user_seconds": 1.7745919999999984,
+      "system_seconds": 1.4131,
+      "minor_page_faults": 549652,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-06",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 6,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.577583653968759,
+      "exit_code": 0,
+      "user_seconds": 1.717537,
+      "system_seconds": 1.3791239999999991,
+      "minor_page_faults": 549651,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-06",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 6,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.25366732198745,
+      "exit_code": 0,
+      "user_seconds": 1.579346000000001,
+      "system_seconds": 0.2705370000000009,
+      "minor_page_faults": 58117,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-07",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 7,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.224190872046165,
+      "exit_code": 0,
+      "user_seconds": 1.5337880000000013,
+      "system_seconds": 0.24960199999999944,
+      "minor_page_faults": 58116,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-07",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 7,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.6952057549497113,
+      "exit_code": 0,
+      "user_seconds": 1.7928420000000003,
+      "system_seconds": 1.3867080000000005,
+      "minor_page_faults": 549653,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-08",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 8,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7241022469243035,
+      "exit_code": 0,
+      "user_seconds": 1.8256729999999983,
+      "system_seconds": 1.3828650000000007,
+      "minor_page_faults": 549652,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-08",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 8,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.229097237926908,
+      "exit_code": 0,
+      "user_seconds": 1.5642160000000018,
+      "system_seconds": 0.28993499999999983,
+      "minor_page_faults": 58117,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-candidate-09",
+      "variant": "candidate",
+      "mib": 128,
+      "sample": 9,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 2.218333301017992,
+      "exit_code": 0,
+      "user_seconds": 1.6125900000000044,
+      "system_seconds": 0.23509300000000266,
+      "minor_page_faults": 58114,
+      "status": "PASS"
+    },
+    {
+      "name": "128MiB-baseline-09",
+      "variant": "baseline",
+      "mib": 128,
+      "sample": 9,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "33554432",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 3.7470021080225706,
+      "exit_code": 0,
+      "user_seconds": 1.7861229999999964,
+      "system_seconds": 1.4455639999999974,
+      "minor_page_faults": 549653,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-warmup",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 0,
+      "warmup": true,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.2019305190769956,
+      "exit_code": 0,
+      "user_seconds": 3.5604349999999982,
+      "system_seconds": 2.8047509999999996,
+      "minor_page_faults": 1075989,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-warmup",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 0,
+      "warmup": true,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.316880846978165,
+      "exit_code": 0,
+      "user_seconds": 3.2661250000000024,
+      "system_seconds": 0.4852109999999996,
+      "minor_page_faults": 92932,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-00",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 0,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.207193991984241,
+      "exit_code": 0,
+      "user_seconds": 3.497098000000001,
+      "system_seconds": 2.868202,
+      "minor_page_faults": 1075989,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-00",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 0,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.120848512975499,
+      "exit_code": 0,
+      "user_seconds": 3.1859109999999973,
+      "system_seconds": 0.39778300000000044,
+      "minor_page_faults": 92931,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-01",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 1,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.117662118980661,
+      "exit_code": 0,
+      "user_seconds": 3.0863670000000027,
+      "system_seconds": 0.48122800000000154,
+      "minor_page_faults": 92931,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-01",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 1,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.5342714480357245,
+      "exit_code": 0,
+      "user_seconds": 3.657772999999999,
+      "system_seconds": 2.9947099999999978,
+      "minor_page_faults": 1075985,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-02",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 2,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.263734206091613,
+      "exit_code": 0,
+      "user_seconds": 3.493164,
+      "system_seconds": 2.927395999999998,
+      "minor_page_faults": 1075988,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-02",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 2,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.250909358030185,
+      "exit_code": 0,
+      "user_seconds": 3.228817999999997,
+      "system_seconds": 0.46958000000000055,
+      "minor_page_faults": 92933,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-03",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 3,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.217432972975075,
+      "exit_code": 0,
+      "user_seconds": 3.11641800000001,
+      "system_seconds": 0.5593569999999985,
+      "minor_page_faults": 92933,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-03",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 3,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.191741919028573,
+      "exit_code": 0,
+      "user_seconds": 3.5640639999999877,
+      "system_seconds": 2.796699000000004,
+      "minor_page_faults": 1075984,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-04",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 4,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.280339544056915,
+      "exit_code": 0,
+      "user_seconds": 3.5848429999999922,
+      "system_seconds": 2.849677,
+      "minor_page_faults": 1075988,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-04",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 4,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.149175922968425,
+      "exit_code": 0,
+      "user_seconds": 3.159439000000006,
+      "system_seconds": 0.44874200000000286,
+      "minor_page_faults": 92931,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-05",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 5,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.189432026003487,
+      "exit_code": 0,
+      "user_seconds": 3.133168999999995,
+      "system_seconds": 0.5119079999999983,
+      "minor_page_faults": 92934,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-05",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 5,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.2520796010503545,
+      "exit_code": 0,
+      "user_seconds": 3.558464999999998,
+      "system_seconds": 2.8562810000000027,
+      "minor_page_faults": 1075990,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-06",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 6,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 8.529132705996744,
+      "exit_code": 0,
+      "user_seconds": 3.535501999999994,
+      "system_seconds": 3.203820999999998,
+      "minor_page_faults": 1075987,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-06",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 6,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.186344717047177,
+      "exit_code": 0,
+      "user_seconds": 3.199721999999994,
+      "system_seconds": 0.440964000000001,
+      "minor_page_faults": 92933,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-07",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 7,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.050077032065019,
+      "exit_code": 0,
+      "user_seconds": 3.106611000000001,
+      "system_seconds": 0.39837699999999643,
+      "minor_page_faults": 92932,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-07",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 7,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.208887787070125,
+      "exit_code": 0,
+      "user_seconds": 3.4492770000000093,
+      "system_seconds": 2.862864000000002,
+      "minor_page_faults": 1075987,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-08",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 8,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.445188910001889,
+      "exit_code": 0,
+      "user_seconds": 3.591945999999993,
+      "system_seconds": 3.007294999999999,
+      "minor_page_faults": 1075988,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-08",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 8,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.104935202980414,
+      "exit_code": 0,
+      "user_seconds": 3.150110000000012,
+      "system_seconds": 0.40105599999999697,
+      "minor_page_faults": 92932,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-candidate-09",
+      "variant": "candidate",
+      "mib": 256,
+      "sample": 9,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 4.024099585949443,
+      "exit_code": 0,
+      "user_seconds": 3.107432000000003,
+      "system_seconds": 0.36664799999999786,
+      "minor_page_faults": 92931,
+      "status": "PASS"
+    },
+    {
+      "name": "256MiB-baseline-09",
+      "variant": "baseline",
+      "mib": 256,
+      "sample": 9,
+      "warmup": false,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+        "--count",
+        "67108864",
+        "--iterations",
+        "4",
+        "--max-records",
+        "3"
+      ],
+      "elapsed_seconds": 7.2822781780269,
+      "exit_code": 0,
+      "user_seconds": 3.5019070000000028,
+      "system_seconds": 2.9474379999999982,
+      "minor_page_faults": 1075987,
+      "status": "PASS"
+    }
+  ],
+  "telemetry": [
+    {
+      "mib": 128,
+      "phase": "memory_guard",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "10392\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 0,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.73, 1927, 7500, 10402\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 0,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.98, 1927, 7500, 10411\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 1,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.85, 1927, 7500, 10411\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 1,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 44.95, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 2,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 44.91, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 2,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 46.10, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 3,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.99, 1927, 7500, 10409\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 3,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.09, 1927, 7500, 10405\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 4,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.16, 1927, 7500, 10406\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 4,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 46.11, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 5,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.98, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 5,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.26, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 6,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 50, 45.26, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 6,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.10, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 7,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.97, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 7,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.28, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 8,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.26, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 8,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.23, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 9,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.09, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 128,
+      "sample": 9,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.29, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "phase": "memory_guard",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 0,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.25, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 0,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.13, 1927, 7500, 10410\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 1,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.02, 1927, 7500, 10410\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 1,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.35, 1927, 7500, 10398\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 2,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.24, 1927, 7500, 10398\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 2,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.27, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 3,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.06, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 3,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.56, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 4,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.56, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 4,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.23, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 5,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.14, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 5,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.51, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 6,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.40, 1927, 7500, 10415\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 6,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.29, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 7,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 46.09, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 7,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.67, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 8,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 51, 45.62, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 8,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 52, 46.29, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 9,
+      "phase": "before_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 52, 46.19, 1927, 7500, 10416\n",
+        "stderr": ""
+      }
+    },
+    {
+      "mib": 256,
+      "sample": 9,
+      "phase": "after_pair",
+      "reading": {
+        "command": [
+          "/usr/lib/wsl/lib/nvidia-smi",
+          "--query-gpu=uuid,name,driver_version,temperature.gpu,power.draw,clocks.current.sm,clocks.current.memory,memory.free",
+          "--format=csv,noheader,nounits"
+        ],
+        "exit_code": 0,
+        "stdout": "GPU-2500608a-edd1-3c2d-ffad-73955203d323, NVIDIA GeForce RTX 3060, 591.86, 52, 45.86, 1927, 7500, 10405\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "summaries": {
+    "128": {
+      "baseline": {
+        "elapsed_seconds": {
+          "median": 3.735552177473437,
+          "min": 3.577583653968759,
+          "max": 3.847915671998635,
+          "q1": 3.702000997494906,
+          "q3": 3.783447579451604
+        },
+        "user_seconds": {
+          "median": 1.7901715000000005,
+          "min": 1.717537,
+          "max": 1.8666929999999997,
+          "q1": 1.7792897499999991,
+          "q3": 1.8195317499999986
+        },
+        "system_seconds": {
+          "median": 1.4293319999999987,
+          "min": 1.3791239999999991,
+          "max": 1.4838589999999998,
+          "q1": 1.3922525000000003,
+          "q3": 1.4674924999999994
+        },
+        "minor_page_faults": {
+          "median": 549652.0,
+          "min": 549648,
+          "max": 549653,
+          "q1": 549651.25,
+          "q3": 549653.0
+        }
+      },
+      "candidate": {
+        "elapsed_seconds": {
+          "median": 2.2080816110246815,
+          "min": 2.1255551929352805,
+          "max": 2.25366732198745,
+          "q1": 2.1873009027622174,
+          "q3": 2.222726479289122
+        },
+        "user_seconds": {
+          "median": 1.5763905,
+          "min": 1.5337880000000013,
+          "max": 1.6125900000000044,
+          "q1": 1.5664684999999998,
+          "q3": 1.585300750000001
+        },
+        "system_seconds": {
+          "median": 0.24234750000000105,
+          "min": 0.20443699999999998,
+          "max": 0.28993499999999983,
+          "q1": 0.2261865000000003,
+          "q3": 0.2656435000000006
+        },
+        "minor_page_faults": {
+          "median": 58116.0,
+          "min": 58114,
+          "max": 58117,
+          "q1": 58115.25,
+          "q3": 58116.75
+        }
+      },
+      "median_time_reduction_percent": 40.89008783386529
+    },
+    "256": {
+      "baseline": {
+        "elapsed_seconds": {
+          "median": 7.272036875074264,
+          "min": 7.191741919028573,
+          "max": 8.529132705996744,
+          "q1": 7.219685740565183,
+          "q3": 7.404461227008142
+        },
+        "user_seconds": {
+          "median": 3.546983499999996,
+          "min": 3.4492770000000093,
+          "max": 3.657772999999999,
+          "q1": 3.4983002500000016,
+          "q3": 3.579648249999991
+        },
+        "system_seconds": {
+          "median": 2.897798999999999,
+          "min": 2.796699000000004,
+          "max": 3.203820999999998,
+          "q1": 2.8579267500000025,
+          "q3": 2.982891999999998
+        },
+        "minor_page_faults": {
+          "median": 1075987.5,
+          "min": 1075984,
+          "max": 1075990,
+          "q1": 1075987.0,
+          "q3": 1075988.0
+        }
+      },
+      "candidate": {
+        "elapsed_seconds": {
+          "median": 4.135012217971962,
+          "min": 4.024099585949443,
+          "max": 4.250909358030185,
+          "q1": 4.108116931980476,
+          "q3": 4.18866019876441
+        },
+        "user_seconds": {
+          "median": 3.1416395000000037,
+          "min": 3.0863670000000027,
+          "max": 3.228817999999997,
+          "q1": 3.1096785000000047,
+          "q3": 3.1792929999999995
+        },
+        "system_seconds": {
+          "median": 0.44485300000000194,
+          "min": 0.36664799999999786,
+          "max": 0.5593569999999985,
+          "q1": 0.39904674999999656,
+          "q3": 0.4783160000000013
+        },
+        "minor_page_faults": {
+          "median": 92932.0,
+          "min": 92931,
+          "max": 92934,
+          "q1": 92931.0,
+          "q3": 92933.0
+        }
+      },
+      "median_time_reduction_percent": 43.13818412905484
+    }
+  },
+  "variants": {
+    "baseline": {
+      "source_dir": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline-source",
+      "binary": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline/gpu_memory_validator",
+      "binary_sha256": "d027251fe30993ed592f22ee556beccf7cd8e4a21a40432b25ad7bdfbc00c04f",
+      "source_sha256": {
+        "CMakeLists.txt": "c87f0057045fb5e6a8d43a3ef618749281088731e30382678a54fe5a2e78789c",
+        "src/cli.cpp": "b453e98dfdbbc5282fa5352dfd92a6bcae6853175084d690918240ef6f4cd8c6",
+        "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+        "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+        "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+        "src/report.cpp": "b5a842b0ff3b34e0d4408c2785e2f8f03af4192e49bc3084fea73895afda26cb",
+        "src/validator.cu": "cbd3337f659b0920dd717ef6fab22db21db9700540066db7c46f2d652185dc75",
+        "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+        "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+        "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+        "include/gmv/types.hpp": "07be152d318ce69cb96bed9499961ec263452f9485b67f97d196c6c32a356804",
+        "include/gmv/validator.hpp": "86a9b88bf3b73feef68510c04e2c3ec5575ff2b9cc19f32847fc907d4cc7bb06"
+      },
+      "git_head": {
+        "command": [
+          "git",
+          "-C",
+          "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline-source",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "dbca56bffe511607facee7286c6321b3408b1275\n",
+        "stderr": ""
+      },
+      "git_status": {
+        "command": [
+          "git",
+          "-C",
+          "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/perf-baseline-source",
+          "status",
+          "--porcelain"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "candidate": {
+      "source_dir": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+      "binary": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+      "binary_sha256": "a7ade39e0f90c0694d878542bb71aa645cf0e84af4698d298684872f4a73fc6f",
+      "source_sha256": {
+        "CMakeLists.txt": "c87f0057045fb5e6a8d43a3ef618749281088731e30382678a54fe5a2e78789c",
+        "src/cli.cpp": "b453e98dfdbbc5282fa5352dfd92a6bcae6853175084d690918240ef6f4cd8c6",
+        "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+        "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+        "src/reference.cpp": "04cf043f2d2e35751c72995325038de9643eae5af6453c0e53caac2b9f32f891",
+        "src/report.cpp": "b5a842b0ff3b34e0d4408c2785e2f8f03af4192e49bc3084fea73895afda26cb",
+        "src/validator.cu": "b47d9ec1df17eeb8db094b8b0b25a65cf2d313278e8c54e69b307ca2f6e810a6",
+        "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+        "include/gmv/reference.hpp": "8456fa39901881f08c810cd6f9d72974dbce6065282a64a6ef0f81dbb6157afa",
+        "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+        "include/gmv/types.hpp": "07be152d318ce69cb96bed9499961ec263452f9485b67f97d196c6c32a356804",
+        "include/gmv/validator.hpp": "86a9b88bf3b73feef68510c04e2c3ec5575ff2b9cc19f32847fc907d4cc7bb06"
+      },
+      "git_head": {
+        "command": [
+          "git",
+          "-C",
+          "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "5336495b2d435278aaebcaf35c2f55638182beba\n",
+        "stderr": ""
+      },
+      "git_status": {
+        "command": [
+          "git",
+          "-C",
+          "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator",
+          "status",
+          "--porcelain"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  },
+  "toolchain": {
+    "nvcc": {
+      "command": [
+        "nvcc",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:23:50_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+      "stderr": ""
+    },
+    "cxx": {
+      "command": [
+        "c++",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "c++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    }
+  },
+  "finished_utc": "2026-09-27T08:54:48.823757+00:00"
+}

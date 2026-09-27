@@ -1,0 +1,22 @@
+[
+  {
+    "variant": "baseline",
+    "run": "results/20260927T085023.620221Z-aa65cdce-experiment",
+    "count": 33554432,
+    "iterations": 2,
+    "max_records": 2,
+    "expected_exit": 1,
+    "status": "PASS",
+    "checks": "independent CLI oracle: exact error count, valid truncated records, full reference agreement, later clean patterns and final FAIL"
+  },
+  {
+    "variant": "candidate",
+    "run": "results/20260927T085529.806146Z-70ae317b-experiment",
+    "count": 67108864,
+    "iterations": 2,
+    "max_records": 2,
+    "expected_exit": 1,
+    "status": "PASS",
+    "checks": "independent CLI oracle: exact error count, valid truncated records, full reference agreement, later clean patterns and final FAIL"
+  }
+]

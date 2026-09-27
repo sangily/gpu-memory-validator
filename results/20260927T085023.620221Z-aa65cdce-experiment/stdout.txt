@@ -1,0 +1,56 @@
+gpu=NVIDIA GeForce RTX 3060 count=33554432 bytes=134217728 blocks=131072 threads_per_block=256
+
+config max_records=2 iterations=2 injection=first_iteration_first_pattern
+iteration=1
+pattern=00000000
+gpu_record index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+gpu_record index=16777216 offset_bytes=67108864 expected=00000000 actual=00000003 xor_mask=00000003
+gpu_summary error_count=3 recorded_count=2 truncated=true
+index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+index=16777216 offset_bytes=67108864 expected=00000000 actual=00000003 xor_mask=00000003
+reference_check=PASS
+first=00000001 last=00000001 cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+iteration=1
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=8

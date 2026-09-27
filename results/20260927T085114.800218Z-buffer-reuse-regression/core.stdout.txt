@@ -1,0 +1,302 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/DartConfiguration.tcl
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: reference.clean_patterns
+
+1: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "clean_patterns"
+1: Test timeout computed to be: 1500
+1: clean_patterns: PASS
+ 1/35 Test  #1: reference.clean_patterns ..............   Passed    0.00 sec
+test 2
+      Start  2: reference.unordered_errors
+
+2: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "unordered_errors"
+2: Test timeout computed to be: 1500
+2: unordered_errors: PASS
+ 2/35 Test  #2: reference.unordered_errors ............   Passed    0.00 sec
+test 3
+      Start  3: reference.truncated_subset
+
+3: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "truncated_subset"
+3: Test timeout computed to be: 1500
+3: truncated_subset: PASS
+ 3/35 Test  #3: reference.truncated_subset ............   Passed    0.00 sec
+test 4
+      Start  4: reference.count_only
+
+4: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "count_only"
+4: Test timeout computed to be: 1500
+4: count_only: PASS
+ 4/35 Test  #4: reference.count_only ..................   Passed    0.00 sec
+test 5
+      Start  5: reference.single_element
+
+5: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "single_element"
+5: Test timeout computed to be: 1500
+5: single_element: PASS
+ 5/35 Test  #5: reference.single_element ..............   Passed    0.00 sec
+test 6
+      Start  6: reference.wrong_count
+
+6: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "wrong_count"
+6: Test timeout computed to be: 1500
+6: wrong_count: PASS
+ 6/35 Test  #6: reference.wrong_count .................   Passed    0.00 sec
+test 7
+      Start  7: reference.wrong_actual
+
+7: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "wrong_actual"
+7: Test timeout computed to be: 1500
+7: wrong_actual: PASS
+ 7/35 Test  #7: reference.wrong_actual ................   Passed    0.00 sec
+test 8
+      Start  8: reference.wrong_expected
+
+8: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "wrong_expected"
+8: Test timeout computed to be: 1500
+8: wrong_expected: PASS
+ 8/35 Test  #8: reference.wrong_expected ..............   Passed    0.00 sec
+test 9
+      Start  9: reference.duplicate_index
+
+9: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "duplicate_index"
+9: Test timeout computed to be: 1500
+9: duplicate_index: PASS
+ 9/35 Test  #9: reference.duplicate_index .............   Passed    0.00 sec
+test 10
+      Start 10: reference.out_of_range
+
+10: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "out_of_range"
+10: Test timeout computed to be: 1500
+10: out_of_range: PASS
+10/35 Test #10: reference.out_of_range ................   Passed    0.00 sec
+test 11
+      Start 11: reference.not_an_error
+
+11: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "not_an_error"
+11: Test timeout computed to be: 1500
+11: not_an_error: PASS
+11/35 Test #11: reference.not_an_error ................   Passed    0.00 sec
+test 12
+      Start 12: reference.missing_record
+
+12: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "missing_record"
+12: Test timeout computed to be: 1500
+12: missing_record: PASS
+12/35 Test #12: reference.missing_record ..............   Passed    0.00 sec
+test 13
+      Start 13: reference.excess_records
+
+13: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "excess_records"
+13: Test timeout computed to be: 1500
+13: excess_records: PASS
+13/35 Test #13: reference.excess_records ..............   Passed    0.00 sec
+test 14
+      Start 14: reference.count_only_with_record
+
+14: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "count_only_with_record"
+14: Test timeout computed to be: 1500
+14: count_only_with_record: PASS
+14/35 Test #14: reference.count_only_with_record ......   Passed    0.00 sec
+test 15
+      Start 15: reference.reset_between_calls
+
+15: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/reference_tests "reset_between_calls"
+15: Test timeout computed to be: 1500
+15: reset_between_calls: PASS
+15/35 Test #15: reference.reset_between_calls .........   Passed    0.00 sec
+test 16
+      Start 16: application.defaults
+
+16: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "defaults"
+16: Test timeout computed to be: 1500
+16: defaults: PASS
+16/35 Test #16: application.defaults ..................   Passed    0.00 sec
+test 17
+      Start 17: application.inject
+
+17: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "inject"
+17: Test timeout computed to be: 1500
+17: inject: PASS
+17/35 Test #17: application.inject ....................   Passed    0.00 sec
+test 18
+      Start 18: application.unknown_option
+
+18: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "unknown_option"
+18: Test timeout computed to be: 1500
+18: unknown_option: PASS
+18/35 Test #18: application.unknown_option ............   Passed    0.00 sec
+test 19
+      Start 19: application.extra_arguments
+
+19: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "extra_arguments"
+19: Test timeout computed to be: 1500
+19: extra_arguments: PASS
+19/35 Test #19: application.extra_arguments ...........   Passed    0.00 sec
+test 20
+      Start 20: application.status_priority
+
+20: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "status_priority"
+20: Test timeout computed to be: 1500
+20: status_priority: PASS
+20/35 Test #20: application.status_priority ...........   Passed    0.00 sec
+test 21
+      Start 21: application.configuration
+
+21: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "configuration"
+21: Test timeout computed to be: 1500
+21: configuration: PASS
+21/35 Test #21: application.configuration .............   Passed    0.00 sec
+test 22
+      Start 22: application.invalid_numbers
+
+22: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "invalid_numbers"
+22: Test timeout computed to be: 1500
+22: invalid_numbers: PASS
+22/35 Test #22: application.invalid_numbers ...........   Passed    0.00 sec
+test 23
+      Start 23: application.limits
+
+23: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "limits"
+23: Test timeout computed to be: 1500
+23: limits: PASS
+23/35 Test #23: application.limits ....................   Passed    0.00 sec
+test 24
+      Start 24: application.duplicate_options
+
+24: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "duplicate_options"
+24: Test timeout computed to be: 1500
+24: duplicate_options: PASS
+24/35 Test #24: application.duplicate_options .........   Passed    0.00 sec
+test 25
+      Start 25: application.missing_values
+
+25: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/application_tests "missing_values"
+25: Test timeout computed to be: 1500
+25: missing_values: PASS
+25/35 Test #25: application.missing_values ............   Passed    0.00 sec
+test 26
+      Start 26: runtime.success
+
+26: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "success"
+26: Test timeout computed to be: 30
+26: test_case=success fault_model=controlled_return_codes
+26: success: PASS
+26/35 Test #26: runtime.success .......................   Passed    0.39 sec
+test 27
+      Start 27: runtime.allocation_failure
+
+27: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "allocation_failure"
+27: Test timeout computed to be: 30
+27: test_case=allocation_failure fault_model=controlled_return_codes
+27: allocation_failure: PASS
+27/35 Test #27: runtime.allocation_failure ............   Passed    0.33 sec
+test 28
+      Start 28: runtime.sync_failure
+
+28: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "sync_failure"
+28: Test timeout computed to be: 30
+28: test_case=sync_failure fault_model=controlled_return_codes
+28: gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+28: 
+28: config max_records=3 iterations=1 injection=disabled
+28: iteration=1
+28: pattern=00000000
+28: gpu_summary error_count=0 recorded_count=0 truncated=false
+28: reference_check=PASS
+28: first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+28: 
+28: run_status=ERROR completed_patterns=1
+28: execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_iteration=1 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+28: sync_failure: PASS
+28/35 Test #28: runtime.sync_failure ..................   Passed    0.33 sec
+test 29
+      Start 29: runtime.prior_fail_then_error
+
+29: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "prior_fail_then_error"
+29: Test timeout computed to be: 30
+29: test_case=prior_fail_then_error fault_model=controlled_return_codes
+29: gpu=NVIDIA GeForce RTX 3060 count=1025 bytes=4100 blocks=5 threads_per_block=256
+29: 
+29: config max_records=3 iterations=1 injection=first_iteration_first_pattern
+29: iteration=1
+29: pattern=00000000
+29: gpu_record index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+29: gpu_record index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+29: gpu_record index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+29: gpu_summary error_count=3 recorded_count=3 truncated=false
+29: index=0 offset_bytes=0 expected=00000000 actual=00000001 xor_mask=00000001
+29: index=512 offset_bytes=2048 expected=00000000 actual=00000003 xor_mask=00000003
+29: index=1024 offset_bytes=4096 expected=00000000 actual=00000001 xor_mask=00000001
+29: reference_check=PASS
+29: first=00000001 last=00000001 cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+29: 
+29: run_status=ERROR completed_patterns=1
+29: execution_error operation=cudaDeviceSynchronize cuda_code=999 failed_iteration=1 failed_pattern=ffffffff message=cudaErrorUnknown: unknown error
+29: prior_fail_then_error: PASS
+29/35 Test #29: runtime.prior_fail_then_error .........   Passed    0.62 sec
+test 30
+      Start 30: runtime.cleanup_failure
+
+30: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "cleanup_failure"
+30: Test timeout computed to be: 30
+30: test_case=cleanup_failure fault_model=controlled_return_codes
+30: cleanup_failure: PASS
+30/35 Test #30: runtime.cleanup_failure ...............   Passed    0.39 sec
+test 31
+      Start 31: runtime.primary_and_cleanup_failure
+
+31: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "primary_and_cleanup_failure"
+31: Test timeout computed to be: 30
+31: test_case=primary_and_cleanup_failure fault_model=controlled_return_codes
+31: primary_and_cleanup_failure: PASS
+31/35 Test #31: runtime.primary_and_cleanup_failure ...   Passed    0.36 sec
+test 32
+      Start 32: runtime.recovery
+
+32: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "recovery"
+32: Test timeout computed to be: 30
+32: test_case=recovery fault_model=controlled_return_codes
+32: recovery: PASS
+32/35 Test #32: runtime.recovery ......................   Passed    0.38 sec
+test 33
+      Start 33: runtime.buffer_boundaries
+
+33: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "buffer_boundaries"
+33: Test timeout computed to be: 30
+33: test_case=buffer_boundaries fault_model=controlled_return_codes
+33: buffer_boundaries: PASS
+33/35 Test #33: runtime.buffer_boundaries .............   Passed    0.00 sec
+test 34
+      Start 34: runtime.invalid_config
+
+34: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "invalid_config"
+34: Test timeout computed to be: 30
+34: test_case=invalid_config fault_model=controlled_return_codes
+34: invalid_config: PASS
+34/35 Test #34: runtime.invalid_config ................   Passed    0.00 sec
+test 35
+      Start 35: runtime.repeat_failure
+
+35: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/runtime_tests "repeat_failure"
+35: Test timeout computed to be: 30
+35: test_case=repeat_failure fault_model=controlled_return_codes
+35: repeat_failure: PASS
+35/35 Test #35: runtime.repeat_failure ................   Passed    0.32 sec
+
+100% tests passed, 0 tests failed out of 35
+
+Label Time Summary:
+gpu    =   3.12 sec*proc (10 tests)
+
+Total Test time (real) =   3.21 sec

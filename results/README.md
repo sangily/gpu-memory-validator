@@ -5,6 +5,12 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [CPU 버퍼 재사용 성능 비교](20260927T085149.505158Z-host-buffer-comparison/run.json) | 128/256 MiB, 각 버전 10회 + 준비 1회; 전체 시간 중앙값 40.9%/43.1% 감소. 모든 실행 정확성 확인 |
+| [재사용 후 코어 검사](20260927T085114.800218Z-buffer-reuse-regression/run.json) | CPU 25개·런타임/버퍼 10개 및 CLI 26개 PASS |
+| [재사용 후 CLI 검사](20260927T085118.116762Z-modular-regression/run.json) | 재사용으로 이전 패턴/반복 값이 남지 않는지 포함한 기존 26개 PASS |
+| [기준 128 MiB 정상](20260927T085019.212400Z-2db5cbad-experiment/run.json) | 네 패턴×4회, 전체 CPU 대조 PASS |
+| [기준 128 MiB 주입](20260927T085023.620221Z-aa65cdce-experiment/run.json) | 오류 3·기록 2·2회 반복, 종료 1 및 독립 CLI 대조 확인 |
+| [변경 256 MiB 주입](20260927T085529.806146Z-70ae317b-experiment/run.json) | 큰 배열의 주입 후 정상 패턴/반복, 종료 1 및 독립 CLI 대조 확인 |
 | [실험 실행기 검증](20260927T081626.772355Z-runner-validation/run.json) | 합성 프로세스/응답 테스트 10개 및 실제 validator 네 실행 경로 확인 |
 | [실험 실행기: normal](20260927T081630.255797Z-86f2b24a-experiment/run.json) | PASS / COMPLETED; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
 | [실험 실행기: injected](20260927T081632.002658Z-c4e643f7-experiment/run.json) | FAIL / COMPLETED; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
