@@ -5,6 +5,8 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [설정·반복 단위 및 런타임 검사](20260927T024926.964073Z-configuration-tests/run.json) | CPU 25개, 런타임·버퍼 10개 PASS. CLI 26개 실행 결과도 기록 |
+| [설정·반복 CLI 회귀 검사](20260927T024929.746503Z-modular-regression/run.json) | 원소 1/2/3/255/256/257/1024/1025, K=0/1/2/4, 2~3회 반복, 기존 오류 경로 등 26개 PASS |
 | [첫 빌드](20260920T070711Z-first-kernel/run.json) | CUDA 라이브러리 검색 경로 문제로 빌드 실패 |
 | [첫 커널 실행](20260920T070753Z-first-kernel/run.json) | 경로 보완 후 1,000개 원소 검사 PASS, Compute Sanitizer 환경 오류 |
 | [오류 주입 CLI](20260920T100111Z-injection-cli/run.json) | index 패턴의 정상 실행 0, 오류 주입 1, 잘못된 옵션 2 |

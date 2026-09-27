@@ -1,0 +1,191 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/DartConfiguration.tcl
+Parse Config file:/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/DartConfiguration.tcl
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: reference.clean_patterns
+
+1: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "clean_patterns"
+1: Test timeout computed to be: 1500
+1: clean_patterns: PASS
+ 1/25 Test  #1: reference.clean_patterns ...........   Passed    0.00 sec
+test 2
+      Start  2: reference.unordered_errors
+
+2: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "unordered_errors"
+2: Test timeout computed to be: 1500
+2: unordered_errors: PASS
+ 2/25 Test  #2: reference.unordered_errors .........   Passed    0.00 sec
+test 3
+      Start  3: reference.truncated_subset
+
+3: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "truncated_subset"
+3: Test timeout computed to be: 1500
+3: truncated_subset: PASS
+ 3/25 Test  #3: reference.truncated_subset .........   Passed    0.00 sec
+test 4
+      Start  4: reference.count_only
+
+4: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "count_only"
+4: Test timeout computed to be: 1500
+4: count_only: PASS
+ 4/25 Test  #4: reference.count_only ...............   Passed    0.00 sec
+test 5
+      Start  5: reference.single_element
+
+5: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "single_element"
+5: Test timeout computed to be: 1500
+5: single_element: PASS
+ 5/25 Test  #5: reference.single_element ...........   Passed    0.00 sec
+test 6
+      Start  6: reference.wrong_count
+
+6: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "wrong_count"
+6: Test timeout computed to be: 1500
+6: wrong_count: PASS
+ 6/25 Test  #6: reference.wrong_count ..............   Passed    0.00 sec
+test 7
+      Start  7: reference.wrong_actual
+
+7: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "wrong_actual"
+7: Test timeout computed to be: 1500
+7: wrong_actual: PASS
+ 7/25 Test  #7: reference.wrong_actual .............   Passed    0.00 sec
+test 8
+      Start  8: reference.wrong_expected
+
+8: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "wrong_expected"
+8: Test timeout computed to be: 1500
+8: wrong_expected: PASS
+ 8/25 Test  #8: reference.wrong_expected ...........   Passed    0.00 sec
+test 9
+      Start  9: reference.duplicate_index
+
+9: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "duplicate_index"
+9: Test timeout computed to be: 1500
+9: duplicate_index: PASS
+ 9/25 Test  #9: reference.duplicate_index ..........   Passed    0.00 sec
+test 10
+      Start 10: reference.out_of_range
+
+10: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "out_of_range"
+10: Test timeout computed to be: 1500
+10: out_of_range: PASS
+10/25 Test #10: reference.out_of_range .............   Passed    0.00 sec
+test 11
+      Start 11: reference.not_an_error
+
+11: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "not_an_error"
+11: Test timeout computed to be: 1500
+11: not_an_error: PASS
+11/25 Test #11: reference.not_an_error .............   Passed    0.00 sec
+test 12
+      Start 12: reference.missing_record
+
+12: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "missing_record"
+12: Test timeout computed to be: 1500
+12: missing_record: PASS
+12/25 Test #12: reference.missing_record ...........   Passed    0.00 sec
+test 13
+      Start 13: reference.excess_records
+
+13: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "excess_records"
+13: Test timeout computed to be: 1500
+13: excess_records: PASS
+13/25 Test #13: reference.excess_records ...........   Passed    0.00 sec
+test 14
+      Start 14: reference.count_only_with_record
+
+14: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "count_only_with_record"
+14: Test timeout computed to be: 1500
+14: count_only_with_record: PASS
+14/25 Test #14: reference.count_only_with_record ...   Passed    0.00 sec
+test 15
+      Start 15: reference.reset_between_calls
+
+15: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/reference_tests "reset_between_calls"
+15: Test timeout computed to be: 1500
+15: reset_between_calls: PASS
+15/25 Test #15: reference.reset_between_calls ......   Passed    0.00 sec
+test 16
+      Start 16: application.defaults
+
+16: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "defaults"
+16: Test timeout computed to be: 1500
+16: defaults: PASS
+16/25 Test #16: application.defaults ...............   Passed    0.00 sec
+test 17
+      Start 17: application.inject
+
+17: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "inject"
+17: Test timeout computed to be: 1500
+17: inject: PASS
+17/25 Test #17: application.inject .................   Passed    0.00 sec
+test 18
+      Start 18: application.unknown_option
+
+18: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "unknown_option"
+18: Test timeout computed to be: 1500
+18: unknown_option: PASS
+18/25 Test #18: application.unknown_option .........   Passed    0.00 sec
+test 19
+      Start 19: application.extra_arguments
+
+19: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "extra_arguments"
+19: Test timeout computed to be: 1500
+19: extra_arguments: PASS
+19/25 Test #19: application.extra_arguments ........   Passed    0.00 sec
+test 20
+      Start 20: application.status_priority
+
+20: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "status_priority"
+20: Test timeout computed to be: 1500
+20: status_priority: PASS
+20/25 Test #20: application.status_priority ........   Passed    0.00 sec
+test 21
+      Start 21: application.configuration
+
+21: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "configuration"
+21: Test timeout computed to be: 1500
+21: configuration: PASS
+21/25 Test #21: application.configuration ..........   Passed    0.00 sec
+test 22
+      Start 22: application.invalid_numbers
+
+22: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "invalid_numbers"
+22: Test timeout computed to be: 1500
+22: invalid_numbers: PASS
+22/25 Test #22: application.invalid_numbers ........   Passed    0.00 sec
+test 23
+      Start 23: application.limits
+
+23: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "limits"
+23: Test timeout computed to be: 1500
+23: limits: PASS
+23/25 Test #23: application.limits .................   Passed    0.00 sec
+test 24
+      Start 24: application.duplicate_options
+
+24: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "duplicate_options"
+24: Test timeout computed to be: 1500
+24: duplicate_options: PASS
+24/25 Test #24: application.duplicate_options ......   Passed    0.00 sec
+test 25
+      Start 25: application.missing_values
+
+25: Test command: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cpu/application_tests "missing_values"
+25: Test timeout computed to be: 1500
+25: missing_values: PASS
+25/25 Test #25: application.missing_values .........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 25
+
+Total Test time (real) =   0.06 sec
