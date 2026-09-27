@@ -16,6 +16,7 @@
 | `tests/` | CPU·GPU·CLI·실행기·GUI·PyTorch 검사 |
 | `benchmarks/` | 동일 작업량의 성능 비교와 그림 생성 |
 | `experiments/pytorch/` | PyTorch 장치 오류 재현·수치 대조 |
+| `experiments/pytorch/relu_layout.cu` | PyTorch 사용자 CUDA 연산·stride·device/stream 계약 |
 | `examples/first_kernel.cu` | 단일 파일의 기본 CUDA 예제 |
 
 ## 검사 흐름
@@ -87,3 +88,6 @@ verify 내부에서 살아 있는 오류 카운터를 보고 조기 종료하면
 실패 뒤 데이터를 다시 채우지 않고 CPU로 복사해 오류 수와 상세 기록을 대조한다. 패턴이 바뀔 때는
 새 묶음을 시작하되 누적 FAIL은 유지한다. 중간의 모든 GPU 읽기를 CPU가 독립 관측한 것은 아니다.
 검사 범위·진행 로그·시간 측정은 [지속 읽기 부하](LOAD.md)에 정리했다.
+
+`access_mode=invert`는 검사 사이에 값을 반전한다. 최초 실패 후 읽기와 쓰기를 모두 중단하고
+실패 회차의 기대값으로 CPU가 대조한다. [반전 검사](INVERT.md)를 참고한다.

@@ -116,3 +116,9 @@ python3 scripts/run_experiment.py --profile profiles/load-smoke.json --inject
 위 프리셋은 7회 중 4회차에 주입한다. 첫 실패 회차와 오류 3건을 보존하고 CPU가 대조한다.
 남은 GPU 검사 회차는 건너뛰며 다음 패턴·반복이 정상이어도 최종 FAIL을 유지한다.
 상세 구조와 부하 실험 해석은 [지속 읽기 부하](LOAD.md)를 참고한다.
+
+## 검사 동작
+
+`--access-mode read|invert`와 프리셋의 `access_mode`를 지원한다. 기본값과 기존 파일은 read다.
+invert는 GPU 검사 사이에 모든 비트를 반전하며 gpu_passes≥2가 필요하다. CPU 기대값도 해당
+회차에 맞춰 반전한다. 동작·실패 보존·예시는 [읽기·반전 검사](INVERT.md)를 참고한다.

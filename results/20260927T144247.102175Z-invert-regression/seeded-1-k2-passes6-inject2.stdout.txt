@@ -1,0 +1,46 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=FAIL
+checkpoint iteration=1 completed_patterns=2 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=3 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=4 cumulative_status=FAIL
+gpu=NVIDIA GeForce RTX 3060 count=1 bytes=4 blocks=1 threads_per_block=256
+
+config max_records=2 iterations=2 injection=first_iteration_first_pattern
+patterns=12345678,deadbeef
+pattern_mode=seeded
+access_mode=invert
+load_config gpu_passes=6 inject_pass=2 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=2 first_failed_pass=2 gpu_phase_host_ms=2.90232 cpu_phase_host_ms=1.00955
+snapshot_inverted=true
+gpu_record index=0 offset_bytes=0 expected=0a18e369 actual=0a18e368 xor_mask=00000001
+gpu_summary error_count=1 recorded_count=1 truncated=false
+index=0 offset_bytes=0 expected=0a18e369 actual=0a18e368 xor_mask=00000001
+reference_check=PASS
+first=0a18e368 last=0a18e368 cpu_mismatches=1 gpu_mismatches=1 status=FAIL
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.256901 cpu_phase_host_ms=0.245539
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=19d7397c cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.558603 cpu_phase_host_ms=0.192634
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=0a18e369 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.259588 cpu_phase_host_ms=0.191306
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=19d7397c cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=4

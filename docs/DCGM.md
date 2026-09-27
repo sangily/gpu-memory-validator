@@ -62,8 +62,8 @@ NVIDIA 문서는 GeForce의 기본 진단 지원을 Level 1로 안내한다. 상
 | 메모리 데이터·위치 | memtest의 주소·다양한 데이터 패턴 | 상수 + index + seeded 패턴, CPU 전체 대조 |
 | 검출 결과 신뢰성 | 진단 상태·오류 코드·경고 | XOR 주입, 전체 오류 수·K개 기록·잘림·독립 대조 |
 | 동작 중 지표 | 지원되는 온도·전력·사용률 등 | DCGM 지표 실습; 일반 실행기는 nvidia-smi 지표 저장 |
-| 이동·반전·유지 검사 | block move, moving inversions, bit fade 등 | 미구현; 현재 fill→verify 반복과 구분 |
-| 부하·연산·전송 | 메모리/GEMM/PCIe/NVLink/전력 시험 | 256 MiB 반복 읽기 약 10분 및 소규모 PyTorch; GEMM·전송·전력 스트레스 미구현 |
+| 이동·반전·유지 검사 | block move, moving inversions, bit fade 등 | 병렬 비트 반전·재검사 추가; 방향 순회·이동·유지 검사는 미구현 |
+| 부하·연산·전송 | 메모리/GEMM/PCIe/NVLink/전력 시험 | 256 MiB 반복 읽기 약 10분, PyTorch 사용자 CUDA 연산; GEMM·전송·전력 스트레스 미구현 |
 | ECC·XID·물리 원인 | 지원 HW/드라이버의 오류 지표 | 수집·판정 미구현, 물리 주소·HBM 결함 분석 미검증 |
 
 [DCGM Diagnostics](https://docs.nvidia.com/datacenter/dcgm/latest/learn/modules/dcgm-diagnostics.html),
@@ -71,6 +71,9 @@ NVIDIA 문서는 GeForce의 기본 진단 지원을 Level 1로 안내한다. 상
 범위 비교의 기준으로 삼았다. 자체 구현은 DCGM 알고리즘의 복제나 동등성 검증이 아니다.
 
 ## 추가한 위치·seed 패턴
+
+값 반전과 실패 시점의 데이터 보존은 [읽기·반전 검사](INVERT.md),
+AI 워크로드의 메모리 배치·stream 검사는 [PyTorch–CUDA 실습](LAYOUT.md)에 정리했다.
 
 같은 상수만 채운 배열에서는 두 위치의 값을 바꾸어도 변화가 없다. `index`는 위치에 따라
 기대값이 달라져 이 구분을 보완한다. `seeded`는 위치·seed를 32비트 정수로 섞어 서로 다른

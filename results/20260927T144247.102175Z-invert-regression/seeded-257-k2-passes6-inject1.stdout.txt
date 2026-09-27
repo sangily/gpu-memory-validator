@@ -1,0 +1,48 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=FAIL
+checkpoint iteration=1 completed_patterns=2 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=3 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=4 cumulative_status=FAIL
+gpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256
+
+config max_records=2 iterations=2 injection=first_iteration_first_pattern
+patterns=12345678,deadbeef
+pattern_mode=seeded
+access_mode=invert
+load_config gpu_passes=6 inject_pass=1 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=1 first_failed_pass=1 gpu_phase_host_ms=2.82662 cpu_phase_host_ms=1.11334
+snapshot_inverted=false
+gpu_record index=256 offset_bytes=1024 expected=c06aea9d actual=c06aea9c xor_mask=00000001
+gpu_record index=0 offset_bytes=0 expected=f5e71c96 actual=f5e71c97 xor_mask=00000001
+gpu_summary error_count=3 recorded_count=2 truncated=true
+index=0 offset_bytes=0 expected=f5e71c96 actual=f5e71c97 xor_mask=00000001
+index=128 offset_bytes=512 expected=11b8e850 actual=11b8e853 xor_mask=00000003
+reference_check=PASS
+first=f5e71c97 last=c06aea9c cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.417422 cpu_phase_host_ms=0.261952
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=0c8054f5 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.221583 cpu_phase_host_ms=0.17471
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=3f951562 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=6 first_failed_pass=0 gpu_phase_host_ms=0.211559 cpu_phase_host_ms=0.17083
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=0c8054f5 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=4
