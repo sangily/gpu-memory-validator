@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "name": "256 MiB repeated GPU reads",
+  "description": "200 iterations of two seeded patterns; 1024 GPU reads per CPU checkpoint. Fixed work, not a duration guarantee.",
+  "pattern_file": "../patterns/seeded.json",
+  "count": 67108864,
+  "max_records": 3,
+  "iterations": 200,
+  "gpu_passes": 1024,
+  "inject_pass": 1,
+  "injection_enabled": false,
+  "timeout_seconds": 900,
+  "sample_interval": 1,
+  "telemetry_enabled": true
+}

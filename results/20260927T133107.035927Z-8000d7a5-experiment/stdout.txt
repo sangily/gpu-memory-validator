@@ -1,0 +1,3207 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=2 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=3 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=4 cumulative_status=PASS
+checkpoint iteration=3 completed_patterns=5 cumulative_status=PASS
+checkpoint iteration=3 completed_patterns=6 cumulative_status=PASS
+checkpoint iteration=4 completed_patterns=7 cumulative_status=PASS
+checkpoint iteration=4 completed_patterns=8 cumulative_status=PASS
+checkpoint iteration=5 completed_patterns=9 cumulative_status=PASS
+checkpoint iteration=5 completed_patterns=10 cumulative_status=PASS
+checkpoint iteration=6 completed_patterns=11 cumulative_status=PASS
+checkpoint iteration=6 completed_patterns=12 cumulative_status=PASS
+checkpoint iteration=7 completed_patterns=13 cumulative_status=PASS
+checkpoint iteration=7 completed_patterns=14 cumulative_status=PASS
+checkpoint iteration=8 completed_patterns=15 cumulative_status=PASS
+checkpoint iteration=8 completed_patterns=16 cumulative_status=PASS
+checkpoint iteration=9 completed_patterns=17 cumulative_status=PASS
+checkpoint iteration=9 completed_patterns=18 cumulative_status=PASS
+checkpoint iteration=10 completed_patterns=19 cumulative_status=PASS
+checkpoint iteration=10 completed_patterns=20 cumulative_status=PASS
+checkpoint iteration=11 completed_patterns=21 cumulative_status=PASS
+checkpoint iteration=11 completed_patterns=22 cumulative_status=PASS
+checkpoint iteration=12 completed_patterns=23 cumulative_status=PASS
+checkpoint iteration=12 completed_patterns=24 cumulative_status=PASS
+checkpoint iteration=13 completed_patterns=25 cumulative_status=PASS
+checkpoint iteration=13 completed_patterns=26 cumulative_status=PASS
+checkpoint iteration=14 completed_patterns=27 cumulative_status=PASS
+checkpoint iteration=14 completed_patterns=28 cumulative_status=PASS
+checkpoint iteration=15 completed_patterns=29 cumulative_status=PASS
+checkpoint iteration=15 completed_patterns=30 cumulative_status=PASS
+checkpoint iteration=16 completed_patterns=31 cumulative_status=PASS
+checkpoint iteration=16 completed_patterns=32 cumulative_status=PASS
+checkpoint iteration=17 completed_patterns=33 cumulative_status=PASS
+checkpoint iteration=17 completed_patterns=34 cumulative_status=PASS
+checkpoint iteration=18 completed_patterns=35 cumulative_status=PASS
+checkpoint iteration=18 completed_patterns=36 cumulative_status=PASS
+checkpoint iteration=19 completed_patterns=37 cumulative_status=PASS
+checkpoint iteration=19 completed_patterns=38 cumulative_status=PASS
+checkpoint iteration=20 completed_patterns=39 cumulative_status=PASS
+checkpoint iteration=20 completed_patterns=40 cumulative_status=PASS
+checkpoint iteration=21 completed_patterns=41 cumulative_status=PASS
+checkpoint iteration=21 completed_patterns=42 cumulative_status=PASS
+checkpoint iteration=22 completed_patterns=43 cumulative_status=PASS
+checkpoint iteration=22 completed_patterns=44 cumulative_status=PASS
+checkpoint iteration=23 completed_patterns=45 cumulative_status=PASS
+checkpoint iteration=23 completed_patterns=46 cumulative_status=PASS
+checkpoint iteration=24 completed_patterns=47 cumulative_status=PASS
+checkpoint iteration=24 completed_patterns=48 cumulative_status=PASS
+checkpoint iteration=25 completed_patterns=49 cumulative_status=PASS
+checkpoint iteration=25 completed_patterns=50 cumulative_status=PASS
+checkpoint iteration=26 completed_patterns=51 cumulative_status=PASS
+checkpoint iteration=26 completed_patterns=52 cumulative_status=PASS
+checkpoint iteration=27 completed_patterns=53 cumulative_status=PASS
+checkpoint iteration=27 completed_patterns=54 cumulative_status=PASS
+checkpoint iteration=28 completed_patterns=55 cumulative_status=PASS
+checkpoint iteration=28 completed_patterns=56 cumulative_status=PASS
+checkpoint iteration=29 completed_patterns=57 cumulative_status=PASS
+checkpoint iteration=29 completed_patterns=58 cumulative_status=PASS
+checkpoint iteration=30 completed_patterns=59 cumulative_status=PASS
+checkpoint iteration=30 completed_patterns=60 cumulative_status=PASS
+checkpoint iteration=31 completed_patterns=61 cumulative_status=PASS
+checkpoint iteration=31 completed_patterns=62 cumulative_status=PASS
+checkpoint iteration=32 completed_patterns=63 cumulative_status=PASS
+checkpoint iteration=32 completed_patterns=64 cumulative_status=PASS
+checkpoint iteration=33 completed_patterns=65 cumulative_status=PASS
+checkpoint iteration=33 completed_patterns=66 cumulative_status=PASS
+checkpoint iteration=34 completed_patterns=67 cumulative_status=PASS
+checkpoint iteration=34 completed_patterns=68 cumulative_status=PASS
+checkpoint iteration=35 completed_patterns=69 cumulative_status=PASS
+checkpoint iteration=35 completed_patterns=70 cumulative_status=PASS
+checkpoint iteration=36 completed_patterns=71 cumulative_status=PASS
+checkpoint iteration=36 completed_patterns=72 cumulative_status=PASS
+checkpoint iteration=37 completed_patterns=73 cumulative_status=PASS
+checkpoint iteration=37 completed_patterns=74 cumulative_status=PASS
+checkpoint iteration=38 completed_patterns=75 cumulative_status=PASS
+checkpoint iteration=38 completed_patterns=76 cumulative_status=PASS
+checkpoint iteration=39 completed_patterns=77 cumulative_status=PASS
+checkpoint iteration=39 completed_patterns=78 cumulative_status=PASS
+checkpoint iteration=40 completed_patterns=79 cumulative_status=PASS
+checkpoint iteration=40 completed_patterns=80 cumulative_status=PASS
+checkpoint iteration=41 completed_patterns=81 cumulative_status=PASS
+checkpoint iteration=41 completed_patterns=82 cumulative_status=PASS
+checkpoint iteration=42 completed_patterns=83 cumulative_status=PASS
+checkpoint iteration=42 completed_patterns=84 cumulative_status=PASS
+checkpoint iteration=43 completed_patterns=85 cumulative_status=PASS
+checkpoint iteration=43 completed_patterns=86 cumulative_status=PASS
+checkpoint iteration=44 completed_patterns=87 cumulative_status=PASS
+checkpoint iteration=44 completed_patterns=88 cumulative_status=PASS
+checkpoint iteration=45 completed_patterns=89 cumulative_status=PASS
+checkpoint iteration=45 completed_patterns=90 cumulative_status=PASS
+checkpoint iteration=46 completed_patterns=91 cumulative_status=PASS
+checkpoint iteration=46 completed_patterns=92 cumulative_status=PASS
+checkpoint iteration=47 completed_patterns=93 cumulative_status=PASS
+checkpoint iteration=47 completed_patterns=94 cumulative_status=PASS
+checkpoint iteration=48 completed_patterns=95 cumulative_status=PASS
+checkpoint iteration=48 completed_patterns=96 cumulative_status=PASS
+checkpoint iteration=49 completed_patterns=97 cumulative_status=PASS
+checkpoint iteration=49 completed_patterns=98 cumulative_status=PASS
+checkpoint iteration=50 completed_patterns=99 cumulative_status=PASS
+checkpoint iteration=50 completed_patterns=100 cumulative_status=PASS
+checkpoint iteration=51 completed_patterns=101 cumulative_status=PASS
+checkpoint iteration=51 completed_patterns=102 cumulative_status=PASS
+checkpoint iteration=52 completed_patterns=103 cumulative_status=PASS
+checkpoint iteration=52 completed_patterns=104 cumulative_status=PASS
+checkpoint iteration=53 completed_patterns=105 cumulative_status=PASS
+checkpoint iteration=53 completed_patterns=106 cumulative_status=PASS
+checkpoint iteration=54 completed_patterns=107 cumulative_status=PASS
+checkpoint iteration=54 completed_patterns=108 cumulative_status=PASS
+checkpoint iteration=55 completed_patterns=109 cumulative_status=PASS
+checkpoint iteration=55 completed_patterns=110 cumulative_status=PASS
+checkpoint iteration=56 completed_patterns=111 cumulative_status=PASS
+checkpoint iteration=56 completed_patterns=112 cumulative_status=PASS
+checkpoint iteration=57 completed_patterns=113 cumulative_status=PASS
+checkpoint iteration=57 completed_patterns=114 cumulative_status=PASS
+checkpoint iteration=58 completed_patterns=115 cumulative_status=PASS
+checkpoint iteration=58 completed_patterns=116 cumulative_status=PASS
+checkpoint iteration=59 completed_patterns=117 cumulative_status=PASS
+checkpoint iteration=59 completed_patterns=118 cumulative_status=PASS
+checkpoint iteration=60 completed_patterns=119 cumulative_status=PASS
+checkpoint iteration=60 completed_patterns=120 cumulative_status=PASS
+checkpoint iteration=61 completed_patterns=121 cumulative_status=PASS
+checkpoint iteration=61 completed_patterns=122 cumulative_status=PASS
+checkpoint iteration=62 completed_patterns=123 cumulative_status=PASS
+checkpoint iteration=62 completed_patterns=124 cumulative_status=PASS
+checkpoint iteration=63 completed_patterns=125 cumulative_status=PASS
+checkpoint iteration=63 completed_patterns=126 cumulative_status=PASS
+checkpoint iteration=64 completed_patterns=127 cumulative_status=PASS
+checkpoint iteration=64 completed_patterns=128 cumulative_status=PASS
+checkpoint iteration=65 completed_patterns=129 cumulative_status=PASS
+checkpoint iteration=65 completed_patterns=130 cumulative_status=PASS
+checkpoint iteration=66 completed_patterns=131 cumulative_status=PASS
+checkpoint iteration=66 completed_patterns=132 cumulative_status=PASS
+checkpoint iteration=67 completed_patterns=133 cumulative_status=PASS
+checkpoint iteration=67 completed_patterns=134 cumulative_status=PASS
+checkpoint iteration=68 completed_patterns=135 cumulative_status=PASS
+checkpoint iteration=68 completed_patterns=136 cumulative_status=PASS
+checkpoint iteration=69 completed_patterns=137 cumulative_status=PASS
+checkpoint iteration=69 completed_patterns=138 cumulative_status=PASS
+checkpoint iteration=70 completed_patterns=139 cumulative_status=PASS
+checkpoint iteration=70 completed_patterns=140 cumulative_status=PASS
+checkpoint iteration=71 completed_patterns=141 cumulative_status=PASS
+checkpoint iteration=71 completed_patterns=142 cumulative_status=PASS
+checkpoint iteration=72 completed_patterns=143 cumulative_status=PASS
+checkpoint iteration=72 completed_patterns=144 cumulative_status=PASS
+checkpoint iteration=73 completed_patterns=145 cumulative_status=PASS
+checkpoint iteration=73 completed_patterns=146 cumulative_status=PASS
+checkpoint iteration=74 completed_patterns=147 cumulative_status=PASS
+checkpoint iteration=74 completed_patterns=148 cumulative_status=PASS
+checkpoint iteration=75 completed_patterns=149 cumulative_status=PASS
+checkpoint iteration=75 completed_patterns=150 cumulative_status=PASS
+checkpoint iteration=76 completed_patterns=151 cumulative_status=PASS
+checkpoint iteration=76 completed_patterns=152 cumulative_status=PASS
+checkpoint iteration=77 completed_patterns=153 cumulative_status=PASS
+checkpoint iteration=77 completed_patterns=154 cumulative_status=PASS
+checkpoint iteration=78 completed_patterns=155 cumulative_status=PASS
+checkpoint iteration=78 completed_patterns=156 cumulative_status=PASS
+checkpoint iteration=79 completed_patterns=157 cumulative_status=PASS
+checkpoint iteration=79 completed_patterns=158 cumulative_status=PASS
+checkpoint iteration=80 completed_patterns=159 cumulative_status=PASS
+checkpoint iteration=80 completed_patterns=160 cumulative_status=PASS
+checkpoint iteration=81 completed_patterns=161 cumulative_status=PASS
+checkpoint iteration=81 completed_patterns=162 cumulative_status=PASS
+checkpoint iteration=82 completed_patterns=163 cumulative_status=PASS
+checkpoint iteration=82 completed_patterns=164 cumulative_status=PASS
+checkpoint iteration=83 completed_patterns=165 cumulative_status=PASS
+checkpoint iteration=83 completed_patterns=166 cumulative_status=PASS
+checkpoint iteration=84 completed_patterns=167 cumulative_status=PASS
+checkpoint iteration=84 completed_patterns=168 cumulative_status=PASS
+checkpoint iteration=85 completed_patterns=169 cumulative_status=PASS
+checkpoint iteration=85 completed_patterns=170 cumulative_status=PASS
+checkpoint iteration=86 completed_patterns=171 cumulative_status=PASS
+checkpoint iteration=86 completed_patterns=172 cumulative_status=PASS
+checkpoint iteration=87 completed_patterns=173 cumulative_status=PASS
+checkpoint iteration=87 completed_patterns=174 cumulative_status=PASS
+checkpoint iteration=88 completed_patterns=175 cumulative_status=PASS
+checkpoint iteration=88 completed_patterns=176 cumulative_status=PASS
+checkpoint iteration=89 completed_patterns=177 cumulative_status=PASS
+checkpoint iteration=89 completed_patterns=178 cumulative_status=PASS
+checkpoint iteration=90 completed_patterns=179 cumulative_status=PASS
+checkpoint iteration=90 completed_patterns=180 cumulative_status=PASS
+checkpoint iteration=91 completed_patterns=181 cumulative_status=PASS
+checkpoint iteration=91 completed_patterns=182 cumulative_status=PASS
+checkpoint iteration=92 completed_patterns=183 cumulative_status=PASS
+checkpoint iteration=92 completed_patterns=184 cumulative_status=PASS
+checkpoint iteration=93 completed_patterns=185 cumulative_status=PASS
+checkpoint iteration=93 completed_patterns=186 cumulative_status=PASS
+checkpoint iteration=94 completed_patterns=187 cumulative_status=PASS
+checkpoint iteration=94 completed_patterns=188 cumulative_status=PASS
+checkpoint iteration=95 completed_patterns=189 cumulative_status=PASS
+checkpoint iteration=95 completed_patterns=190 cumulative_status=PASS
+checkpoint iteration=96 completed_patterns=191 cumulative_status=PASS
+checkpoint iteration=96 completed_patterns=192 cumulative_status=PASS
+checkpoint iteration=97 completed_patterns=193 cumulative_status=PASS
+checkpoint iteration=97 completed_patterns=194 cumulative_status=PASS
+checkpoint iteration=98 completed_patterns=195 cumulative_status=PASS
+checkpoint iteration=98 completed_patterns=196 cumulative_status=PASS
+checkpoint iteration=99 completed_patterns=197 cumulative_status=PASS
+checkpoint iteration=99 completed_patterns=198 cumulative_status=PASS
+checkpoint iteration=100 completed_patterns=199 cumulative_status=PASS
+checkpoint iteration=100 completed_patterns=200 cumulative_status=PASS
+checkpoint iteration=101 completed_patterns=201 cumulative_status=PASS
+checkpoint iteration=101 completed_patterns=202 cumulative_status=PASS
+checkpoint iteration=102 completed_patterns=203 cumulative_status=PASS
+checkpoint iteration=102 completed_patterns=204 cumulative_status=PASS
+checkpoint iteration=103 completed_patterns=205 cumulative_status=PASS
+checkpoint iteration=103 completed_patterns=206 cumulative_status=PASS
+checkpoint iteration=104 completed_patterns=207 cumulative_status=PASS
+checkpoint iteration=104 completed_patterns=208 cumulative_status=PASS
+checkpoint iteration=105 completed_patterns=209 cumulative_status=PASS
+checkpoint iteration=105 completed_patterns=210 cumulative_status=PASS
+checkpoint iteration=106 completed_patterns=211 cumulative_status=PASS
+checkpoint iteration=106 completed_patterns=212 cumulative_status=PASS
+checkpoint iteration=107 completed_patterns=213 cumulative_status=PASS
+checkpoint iteration=107 completed_patterns=214 cumulative_status=PASS
+checkpoint iteration=108 completed_patterns=215 cumulative_status=PASS
+checkpoint iteration=108 completed_patterns=216 cumulative_status=PASS
+checkpoint iteration=109 completed_patterns=217 cumulative_status=PASS
+checkpoint iteration=109 completed_patterns=218 cumulative_status=PASS
+checkpoint iteration=110 completed_patterns=219 cumulative_status=PASS
+checkpoint iteration=110 completed_patterns=220 cumulative_status=PASS
+checkpoint iteration=111 completed_patterns=221 cumulative_status=PASS
+checkpoint iteration=111 completed_patterns=222 cumulative_status=PASS
+checkpoint iteration=112 completed_patterns=223 cumulative_status=PASS
+checkpoint iteration=112 completed_patterns=224 cumulative_status=PASS
+checkpoint iteration=113 completed_patterns=225 cumulative_status=PASS
+checkpoint iteration=113 completed_patterns=226 cumulative_status=PASS
+checkpoint iteration=114 completed_patterns=227 cumulative_status=PASS
+checkpoint iteration=114 completed_patterns=228 cumulative_status=PASS
+checkpoint iteration=115 completed_patterns=229 cumulative_status=PASS
+checkpoint iteration=115 completed_patterns=230 cumulative_status=PASS
+checkpoint iteration=116 completed_patterns=231 cumulative_status=PASS
+checkpoint iteration=116 completed_patterns=232 cumulative_status=PASS
+checkpoint iteration=117 completed_patterns=233 cumulative_status=PASS
+checkpoint iteration=117 completed_patterns=234 cumulative_status=PASS
+checkpoint iteration=118 completed_patterns=235 cumulative_status=PASS
+checkpoint iteration=118 completed_patterns=236 cumulative_status=PASS
+checkpoint iteration=119 completed_patterns=237 cumulative_status=PASS
+checkpoint iteration=119 completed_patterns=238 cumulative_status=PASS
+checkpoint iteration=120 completed_patterns=239 cumulative_status=PASS
+checkpoint iteration=120 completed_patterns=240 cumulative_status=PASS
+checkpoint iteration=121 completed_patterns=241 cumulative_status=PASS
+checkpoint iteration=121 completed_patterns=242 cumulative_status=PASS
+checkpoint iteration=122 completed_patterns=243 cumulative_status=PASS
+checkpoint iteration=122 completed_patterns=244 cumulative_status=PASS
+checkpoint iteration=123 completed_patterns=245 cumulative_status=PASS
+checkpoint iteration=123 completed_patterns=246 cumulative_status=PASS
+checkpoint iteration=124 completed_patterns=247 cumulative_status=PASS
+checkpoint iteration=124 completed_patterns=248 cumulative_status=PASS
+checkpoint iteration=125 completed_patterns=249 cumulative_status=PASS
+checkpoint iteration=125 completed_patterns=250 cumulative_status=PASS
+checkpoint iteration=126 completed_patterns=251 cumulative_status=PASS
+checkpoint iteration=126 completed_patterns=252 cumulative_status=PASS
+checkpoint iteration=127 completed_patterns=253 cumulative_status=PASS
+checkpoint iteration=127 completed_patterns=254 cumulative_status=PASS
+checkpoint iteration=128 completed_patterns=255 cumulative_status=PASS
+checkpoint iteration=128 completed_patterns=256 cumulative_status=PASS
+checkpoint iteration=129 completed_patterns=257 cumulative_status=PASS
+checkpoint iteration=129 completed_patterns=258 cumulative_status=PASS
+checkpoint iteration=130 completed_patterns=259 cumulative_status=PASS
+checkpoint iteration=130 completed_patterns=260 cumulative_status=PASS
+checkpoint iteration=131 completed_patterns=261 cumulative_status=PASS
+checkpoint iteration=131 completed_patterns=262 cumulative_status=PASS
+checkpoint iteration=132 completed_patterns=263 cumulative_status=PASS
+checkpoint iteration=132 completed_patterns=264 cumulative_status=PASS
+checkpoint iteration=133 completed_patterns=265 cumulative_status=PASS
+checkpoint iteration=133 completed_patterns=266 cumulative_status=PASS
+checkpoint iteration=134 completed_patterns=267 cumulative_status=PASS
+checkpoint iteration=134 completed_patterns=268 cumulative_status=PASS
+checkpoint iteration=135 completed_patterns=269 cumulative_status=PASS
+checkpoint iteration=135 completed_patterns=270 cumulative_status=PASS
+checkpoint iteration=136 completed_patterns=271 cumulative_status=PASS
+checkpoint iteration=136 completed_patterns=272 cumulative_status=PASS
+checkpoint iteration=137 completed_patterns=273 cumulative_status=PASS
+checkpoint iteration=137 completed_patterns=274 cumulative_status=PASS
+checkpoint iteration=138 completed_patterns=275 cumulative_status=PASS
+checkpoint iteration=138 completed_patterns=276 cumulative_status=PASS
+checkpoint iteration=139 completed_patterns=277 cumulative_status=PASS
+checkpoint iteration=139 completed_patterns=278 cumulative_status=PASS
+checkpoint iteration=140 completed_patterns=279 cumulative_status=PASS
+checkpoint iteration=140 completed_patterns=280 cumulative_status=PASS
+checkpoint iteration=141 completed_patterns=281 cumulative_status=PASS
+checkpoint iteration=141 completed_patterns=282 cumulative_status=PASS
+checkpoint iteration=142 completed_patterns=283 cumulative_status=PASS
+checkpoint iteration=142 completed_patterns=284 cumulative_status=PASS
+checkpoint iteration=143 completed_patterns=285 cumulative_status=PASS
+checkpoint iteration=143 completed_patterns=286 cumulative_status=PASS
+checkpoint iteration=144 completed_patterns=287 cumulative_status=PASS
+checkpoint iteration=144 completed_patterns=288 cumulative_status=PASS
+checkpoint iteration=145 completed_patterns=289 cumulative_status=PASS
+checkpoint iteration=145 completed_patterns=290 cumulative_status=PASS
+checkpoint iteration=146 completed_patterns=291 cumulative_status=PASS
+checkpoint iteration=146 completed_patterns=292 cumulative_status=PASS
+checkpoint iteration=147 completed_patterns=293 cumulative_status=PASS
+checkpoint iteration=147 completed_patterns=294 cumulative_status=PASS
+checkpoint iteration=148 completed_patterns=295 cumulative_status=PASS
+checkpoint iteration=148 completed_patterns=296 cumulative_status=PASS
+checkpoint iteration=149 completed_patterns=297 cumulative_status=PASS
+checkpoint iteration=149 completed_patterns=298 cumulative_status=PASS
+checkpoint iteration=150 completed_patterns=299 cumulative_status=PASS
+checkpoint iteration=150 completed_patterns=300 cumulative_status=PASS
+checkpoint iteration=151 completed_patterns=301 cumulative_status=PASS
+checkpoint iteration=151 completed_patterns=302 cumulative_status=PASS
+checkpoint iteration=152 completed_patterns=303 cumulative_status=PASS
+checkpoint iteration=152 completed_patterns=304 cumulative_status=PASS
+checkpoint iteration=153 completed_patterns=305 cumulative_status=PASS
+checkpoint iteration=153 completed_patterns=306 cumulative_status=PASS
+checkpoint iteration=154 completed_patterns=307 cumulative_status=PASS
+checkpoint iteration=154 completed_patterns=308 cumulative_status=PASS
+checkpoint iteration=155 completed_patterns=309 cumulative_status=PASS
+checkpoint iteration=155 completed_patterns=310 cumulative_status=PASS
+checkpoint iteration=156 completed_patterns=311 cumulative_status=PASS
+checkpoint iteration=156 completed_patterns=312 cumulative_status=PASS
+checkpoint iteration=157 completed_patterns=313 cumulative_status=PASS
+checkpoint iteration=157 completed_patterns=314 cumulative_status=PASS
+checkpoint iteration=158 completed_patterns=315 cumulative_status=PASS
+checkpoint iteration=158 completed_patterns=316 cumulative_status=PASS
+checkpoint iteration=159 completed_patterns=317 cumulative_status=PASS
+checkpoint iteration=159 completed_patterns=318 cumulative_status=PASS
+checkpoint iteration=160 completed_patterns=319 cumulative_status=PASS
+checkpoint iteration=160 completed_patterns=320 cumulative_status=PASS
+checkpoint iteration=161 completed_patterns=321 cumulative_status=PASS
+checkpoint iteration=161 completed_patterns=322 cumulative_status=PASS
+checkpoint iteration=162 completed_patterns=323 cumulative_status=PASS
+checkpoint iteration=162 completed_patterns=324 cumulative_status=PASS
+checkpoint iteration=163 completed_patterns=325 cumulative_status=PASS
+checkpoint iteration=163 completed_patterns=326 cumulative_status=PASS
+checkpoint iteration=164 completed_patterns=327 cumulative_status=PASS
+checkpoint iteration=164 completed_patterns=328 cumulative_status=PASS
+checkpoint iteration=165 completed_patterns=329 cumulative_status=PASS
+checkpoint iteration=165 completed_patterns=330 cumulative_status=PASS
+checkpoint iteration=166 completed_patterns=331 cumulative_status=PASS
+checkpoint iteration=166 completed_patterns=332 cumulative_status=PASS
+checkpoint iteration=167 completed_patterns=333 cumulative_status=PASS
+checkpoint iteration=167 completed_patterns=334 cumulative_status=PASS
+checkpoint iteration=168 completed_patterns=335 cumulative_status=PASS
+checkpoint iteration=168 completed_patterns=336 cumulative_status=PASS
+checkpoint iteration=169 completed_patterns=337 cumulative_status=PASS
+checkpoint iteration=169 completed_patterns=338 cumulative_status=PASS
+checkpoint iteration=170 completed_patterns=339 cumulative_status=PASS
+checkpoint iteration=170 completed_patterns=340 cumulative_status=PASS
+checkpoint iteration=171 completed_patterns=341 cumulative_status=PASS
+checkpoint iteration=171 completed_patterns=342 cumulative_status=PASS
+checkpoint iteration=172 completed_patterns=343 cumulative_status=PASS
+checkpoint iteration=172 completed_patterns=344 cumulative_status=PASS
+checkpoint iteration=173 completed_patterns=345 cumulative_status=PASS
+checkpoint iteration=173 completed_patterns=346 cumulative_status=PASS
+checkpoint iteration=174 completed_patterns=347 cumulative_status=PASS
+checkpoint iteration=174 completed_patterns=348 cumulative_status=PASS
+checkpoint iteration=175 completed_patterns=349 cumulative_status=PASS
+checkpoint iteration=175 completed_patterns=350 cumulative_status=PASS
+checkpoint iteration=176 completed_patterns=351 cumulative_status=PASS
+checkpoint iteration=176 completed_patterns=352 cumulative_status=PASS
+checkpoint iteration=177 completed_patterns=353 cumulative_status=PASS
+checkpoint iteration=177 completed_patterns=354 cumulative_status=PASS
+checkpoint iteration=178 completed_patterns=355 cumulative_status=PASS
+checkpoint iteration=178 completed_patterns=356 cumulative_status=PASS
+checkpoint iteration=179 completed_patterns=357 cumulative_status=PASS
+checkpoint iteration=179 completed_patterns=358 cumulative_status=PASS
+checkpoint iteration=180 completed_patterns=359 cumulative_status=PASS
+checkpoint iteration=180 completed_patterns=360 cumulative_status=PASS
+checkpoint iteration=181 completed_patterns=361 cumulative_status=PASS
+checkpoint iteration=181 completed_patterns=362 cumulative_status=PASS
+checkpoint iteration=182 completed_patterns=363 cumulative_status=PASS
+checkpoint iteration=182 completed_patterns=364 cumulative_status=PASS
+checkpoint iteration=183 completed_patterns=365 cumulative_status=PASS
+checkpoint iteration=183 completed_patterns=366 cumulative_status=PASS
+checkpoint iteration=184 completed_patterns=367 cumulative_status=PASS
+checkpoint iteration=184 completed_patterns=368 cumulative_status=PASS
+checkpoint iteration=185 completed_patterns=369 cumulative_status=PASS
+checkpoint iteration=185 completed_patterns=370 cumulative_status=PASS
+checkpoint iteration=186 completed_patterns=371 cumulative_status=PASS
+checkpoint iteration=186 completed_patterns=372 cumulative_status=PASS
+checkpoint iteration=187 completed_patterns=373 cumulative_status=PASS
+checkpoint iteration=187 completed_patterns=374 cumulative_status=PASS
+checkpoint iteration=188 completed_patterns=375 cumulative_status=PASS
+checkpoint iteration=188 completed_patterns=376 cumulative_status=PASS
+checkpoint iteration=189 completed_patterns=377 cumulative_status=PASS
+checkpoint iteration=189 completed_patterns=378 cumulative_status=PASS
+checkpoint iteration=190 completed_patterns=379 cumulative_status=PASS
+checkpoint iteration=190 completed_patterns=380 cumulative_status=PASS
+checkpoint iteration=191 completed_patterns=381 cumulative_status=PASS
+checkpoint iteration=191 completed_patterns=382 cumulative_status=PASS
+checkpoint iteration=192 completed_patterns=383 cumulative_status=PASS
+checkpoint iteration=192 completed_patterns=384 cumulative_status=PASS
+checkpoint iteration=193 completed_patterns=385 cumulative_status=PASS
+checkpoint iteration=193 completed_patterns=386 cumulative_status=PASS
+checkpoint iteration=194 completed_patterns=387 cumulative_status=PASS
+checkpoint iteration=194 completed_patterns=388 cumulative_status=PASS
+checkpoint iteration=195 completed_patterns=389 cumulative_status=PASS
+checkpoint iteration=195 completed_patterns=390 cumulative_status=PASS
+checkpoint iteration=196 completed_patterns=391 cumulative_status=PASS
+checkpoint iteration=196 completed_patterns=392 cumulative_status=PASS
+checkpoint iteration=197 completed_patterns=393 cumulative_status=PASS
+checkpoint iteration=197 completed_patterns=394 cumulative_status=PASS
+checkpoint iteration=198 completed_patterns=395 cumulative_status=PASS
+checkpoint iteration=198 completed_patterns=396 cumulative_status=PASS
+checkpoint iteration=199 completed_patterns=397 cumulative_status=PASS
+checkpoint iteration=199 completed_patterns=398 cumulative_status=PASS
+checkpoint iteration=200 completed_patterns=399 cumulative_status=PASS
+checkpoint iteration=200 completed_patterns=400 cumulative_status=PASS
+gpu=NVIDIA GeForce RTX 3060 count=67108864 bytes=268435456 blocks=262144 threads_per_block=256
+
+config max_records=3 iterations=200 injection=disabled
+patterns=12345678,deadbeef
+pattern_mode=seeded
+load_config gpu_passes=1024 inject_pass=1 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1102.86 cpu_phase_host_ms=303.681
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1060.96 cpu_phase_host_ms=282.445
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1076.22 cpu_phase_host_ms=290.636
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1077.02 cpu_phase_host_ms=287.688
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1063.13 cpu_phase_host_ms=303.303
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1055.75 cpu_phase_host_ms=293.906
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1056.2 cpu_phase_host_ms=288.506
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1062.22 cpu_phase_host_ms=284.342
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1062.47 cpu_phase_host_ms=290.134
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1063.35 cpu_phase_host_ms=294.315
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1060.52 cpu_phase_host_ms=293.641
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.83 cpu_phase_host_ms=292.971
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.34 cpu_phase_host_ms=280.93
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1063.73 cpu_phase_host_ms=282.635
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.81 cpu_phase_host_ms=289.694
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.52 cpu_phase_host_ms=291.607
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.59 cpu_phase_host_ms=278.85
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.99 cpu_phase_host_ms=361.061
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1085.18 cpu_phase_host_ms=288.953
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.15 cpu_phase_host_ms=301.619
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1081.92 cpu_phase_host_ms=291.4
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1063.28 cpu_phase_host_ms=288.955
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1010.38 cpu_phase_host_ms=269.452
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.36 cpu_phase_host_ms=287.028
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.55 cpu_phase_host_ms=318.84
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1075.83 cpu_phase_host_ms=291.081
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.08 cpu_phase_host_ms=302.899
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1085.34 cpu_phase_host_ms=282.178
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.46 cpu_phase_host_ms=291.364
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.05 cpu_phase_host_ms=281.38
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.95 cpu_phase_host_ms=286.966
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.73 cpu_phase_host_ms=279.684
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.39 cpu_phase_host_ms=280.651
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.54 cpu_phase_host_ms=290.069
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.38 cpu_phase_host_ms=283.683
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.85 cpu_phase_host_ms=282.689
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.87 cpu_phase_host_ms=282.573
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.06 cpu_phase_host_ms=285.914
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.09 cpu_phase_host_ms=285.054
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.5 cpu_phase_host_ms=289.543
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.83 cpu_phase_host_ms=294.926
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.94 cpu_phase_host_ms=287.736
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.79 cpu_phase_host_ms=303.463
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.12 cpu_phase_host_ms=301.381
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.48 cpu_phase_host_ms=288.117
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.31 cpu_phase_host_ms=296.869
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.43 cpu_phase_host_ms=282.786
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.08 cpu_phase_host_ms=303.225
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1083.58 cpu_phase_host_ms=296.207
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.34 cpu_phase_host_ms=281.885
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1086.28 cpu_phase_host_ms=297.606
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.84 cpu_phase_host_ms=292.96
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1089.18 cpu_phase_host_ms=292.557
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.97 cpu_phase_host_ms=298.222
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1083.19 cpu_phase_host_ms=291.021
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.65 cpu_phase_host_ms=288.228
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1093.93 cpu_phase_host_ms=286.321
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.41 cpu_phase_host_ms=293.813
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1087.8 cpu_phase_host_ms=295.845
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.27 cpu_phase_host_ms=288.394
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.55 cpu_phase_host_ms=293.461
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067 cpu_phase_host_ms=285.817
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.72 cpu_phase_host_ms=289.561
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.32 cpu_phase_host_ms=280.702
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.56 cpu_phase_host_ms=280.575
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.48 cpu_phase_host_ms=280.5
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.91 cpu_phase_host_ms=298.65
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.89 cpu_phase_host_ms=291.054
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.24 cpu_phase_host_ms=293.274
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.75 cpu_phase_host_ms=297.259
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.47 cpu_phase_host_ms=288.628
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.86 cpu_phase_host_ms=286.099
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.53 cpu_phase_host_ms=287.853
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.02 cpu_phase_host_ms=287.934
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.92 cpu_phase_host_ms=287.619
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.51 cpu_phase_host_ms=295.337
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.27 cpu_phase_host_ms=284.434
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.72 cpu_phase_host_ms=297.303
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.93 cpu_phase_host_ms=280.831
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1074.49 cpu_phase_host_ms=304.415
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.04 cpu_phase_host_ms=290.159
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.71 cpu_phase_host_ms=302.708
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.21 cpu_phase_host_ms=302.386
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.45 cpu_phase_host_ms=318.203
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.34 cpu_phase_host_ms=284.105
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.01 cpu_phase_host_ms=305.793
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1320.84 cpu_phase_host_ms=310.736
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1354.85 cpu_phase_host_ms=356.731
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1480.06 cpu_phase_host_ms=288.844
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.7 cpu_phase_host_ms=308.397
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1075.24 cpu_phase_host_ms=286.083
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.13 cpu_phase_host_ms=289.959
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1078.12 cpu_phase_host_ms=288.897
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.84 cpu_phase_host_ms=293.339
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.75 cpu_phase_host_ms=288.684
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.4 cpu_phase_host_ms=285.656
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.24 cpu_phase_host_ms=284.758
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.76 cpu_phase_host_ms=279.427
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.84 cpu_phase_host_ms=284.094
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.59 cpu_phase_host_ms=282.012
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.24 cpu_phase_host_ms=285.956
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.1 cpu_phase_host_ms=282.874
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.86 cpu_phase_host_ms=309.791
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.85 cpu_phase_host_ms=285.208
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.5 cpu_phase_host_ms=298.62
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.46 cpu_phase_host_ms=278.784
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.07 cpu_phase_host_ms=288.626
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.54 cpu_phase_host_ms=290.545
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.25 cpu_phase_host_ms=290.536
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.57 cpu_phase_host_ms=288.437
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.49 cpu_phase_host_ms=285.902
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.18 cpu_phase_host_ms=294.412
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.1 cpu_phase_host_ms=286.341
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1083.21 cpu_phase_host_ms=283.074
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.01 cpu_phase_host_ms=283.523
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1081.58 cpu_phase_host_ms=297.944
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.36 cpu_phase_host_ms=303.129
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1078.23 cpu_phase_host_ms=307.883
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1085.21 cpu_phase_host_ms=297.575
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1079.73 cpu_phase_host_ms=291.459
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1070.77 cpu_phase_host_ms=287.614
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.23 cpu_phase_host_ms=312.843
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1078.45 cpu_phase_host_ms=287.8
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.89 cpu_phase_host_ms=299.643
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1081.3 cpu_phase_host_ms=289.36
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.77 cpu_phase_host_ms=287.138
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.03 cpu_phase_host_ms=284.443
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1070.16 cpu_phase_host_ms=282.523
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=65
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.44 cpu_phase_host_ms=289.803
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=65
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.23 cpu_phase_host_ms=285.574
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=66
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.58 cpu_phase_host_ms=310.332
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=66
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1062.87 cpu_phase_host_ms=290.163
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=67
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.78 cpu_phase_host_ms=299.892
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=67
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.88 cpu_phase_host_ms=288.8
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=68
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.94 cpu_phase_host_ms=304.035
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=68
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1078.2 cpu_phase_host_ms=288.806
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=69
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.97 cpu_phase_host_ms=312.976
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=69
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1082.85 cpu_phase_host_ms=283.296
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=70
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.24 cpu_phase_host_ms=284.561
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=70
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1075.58 cpu_phase_host_ms=289.734
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=71
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.1 cpu_phase_host_ms=292.438
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=71
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1076.35 cpu_phase_host_ms=292.065
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=72
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.64 cpu_phase_host_ms=288.632
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=72
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.98 cpu_phase_host_ms=289.408
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=73
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.57 cpu_phase_host_ms=283.678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=73
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.24 cpu_phase_host_ms=304.035
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=74
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.21 cpu_phase_host_ms=299.482
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=74
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.94 cpu_phase_host_ms=285.027
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=75
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.52 cpu_phase_host_ms=292.556
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=75
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.75 cpu_phase_host_ms=292.346
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=76
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.35 cpu_phase_host_ms=292.896
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=76
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.53 cpu_phase_host_ms=287.152
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=77
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.15 cpu_phase_host_ms=280.265
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=77
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1070.66 cpu_phase_host_ms=289.358
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=78
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.89 cpu_phase_host_ms=288.923
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=78
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.34 cpu_phase_host_ms=286.087
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=79
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1079.85 cpu_phase_host_ms=293.353
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=79
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.78 cpu_phase_host_ms=298.839
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=80
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1081.6 cpu_phase_host_ms=296.267
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=80
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.98 cpu_phase_host_ms=291.85
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=81
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1086.99 cpu_phase_host_ms=291.056
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=81
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1074.71 cpu_phase_host_ms=292.865
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=82
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1098.05 cpu_phase_host_ms=433.282
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=82
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1096.56 cpu_phase_host_ms=291.503
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=83
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1088.38 cpu_phase_host_ms=334.815
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=83
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1084.08 cpu_phase_host_ms=282.898
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=84
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.22 cpu_phase_host_ms=287.51
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=84
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067 cpu_phase_host_ms=285.926
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=85
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.66 cpu_phase_host_ms=285.141
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=85
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.1 cpu_phase_host_ms=288.65
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=86
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.09 cpu_phase_host_ms=286.409
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=86
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.19 cpu_phase_host_ms=292.282
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=87
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.45 cpu_phase_host_ms=282.69
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=87
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.23 cpu_phase_host_ms=301.692
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=88
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.15 cpu_phase_host_ms=288.996
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=88
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1060.03 cpu_phase_host_ms=307.183
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=89
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1062.04 cpu_phase_host_ms=283.2
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=89
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.91 cpu_phase_host_ms=295.496
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=90
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1080.97 cpu_phase_host_ms=292.933
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=90
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1082.57 cpu_phase_host_ms=303.572
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=91
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1102.52 cpu_phase_host_ms=296.599
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=91
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1088.26 cpu_phase_host_ms=311.11
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=92
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1088.07 cpu_phase_host_ms=295.962
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=92
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1089.16 cpu_phase_host_ms=285.341
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=93
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.96 cpu_phase_host_ms=279.627
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=93
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.8 cpu_phase_host_ms=280.663
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=94
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1070.24 cpu_phase_host_ms=301.483
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=94
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.24 cpu_phase_host_ms=309.884
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=95
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.4 cpu_phase_host_ms=281.34
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=95
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.04 cpu_phase_host_ms=281.215
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=96
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.24 cpu_phase_host_ms=285.085
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=96
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.35 cpu_phase_host_ms=279.465
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=97
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067 cpu_phase_host_ms=283.971
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=97
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.94 cpu_phase_host_ms=290.481
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=98
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.79 cpu_phase_host_ms=294.675
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=98
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067 cpu_phase_host_ms=292.762
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=99
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.54 cpu_phase_host_ms=298.528
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=99
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1058.26 cpu_phase_host_ms=284.484
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=100
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.51 cpu_phase_host_ms=289.974
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=100
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1058.38 cpu_phase_host_ms=289.127
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=101
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1057.62 cpu_phase_host_ms=285.947
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=101
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1065.78 cpu_phase_host_ms=280.182
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=102
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.26 cpu_phase_host_ms=315.58
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=102
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1092.69 cpu_phase_host_ms=297.354
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=103
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1093.2 cpu_phase_host_ms=294.547
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=103
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1098.78 cpu_phase_host_ms=294.154
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=104
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.35 cpu_phase_host_ms=283.803
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=104
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.71 cpu_phase_host_ms=284.467
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=105
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.72 cpu_phase_host_ms=283.596
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=105
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.58 cpu_phase_host_ms=292.275
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=106
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1072.3 cpu_phase_host_ms=288.511
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=106
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.13 cpu_phase_host_ms=323.975
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=107
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.28 cpu_phase_host_ms=289.772
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=107
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.49 cpu_phase_host_ms=303.792
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=108
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1087.97 cpu_phase_host_ms=305.64
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=108
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.99 cpu_phase_host_ms=295.754
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=109
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1079.63 cpu_phase_host_ms=292.226
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=109
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1071.28 cpu_phase_host_ms=299.703
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=110
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1076.45 cpu_phase_host_ms=295.08
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=110
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1070.16 cpu_phase_host_ms=286.122
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=111
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1064.55 cpu_phase_host_ms=283.402
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=111
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1045.77 cpu_phase_host_ms=284.047
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=112
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1052.86 cpu_phase_host_ms=302.947
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=112
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1051 cpu_phase_host_ms=293.538
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=113
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1041.17 cpu_phase_host_ms=264.078
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=113
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1014.58 cpu_phase_host_ms=286.853
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=114
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1061.29 cpu_phase_host_ms=295.089
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=114
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.65 cpu_phase_host_ms=288.958
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=115
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1055.36 cpu_phase_host_ms=282.217
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=115
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1074.27 cpu_phase_host_ms=282.099
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=116
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1058.05 cpu_phase_host_ms=283.389
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=116
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1055.74 cpu_phase_host_ms=285.068
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=117
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.99 cpu_phase_host_ms=282.197
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=117
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.34 cpu_phase_host_ms=283.73
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=118
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.68 cpu_phase_host_ms=282.612
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=118
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.59 cpu_phase_host_ms=288.151
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=119
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.24 cpu_phase_host_ms=286.626
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=119
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.57 cpu_phase_host_ms=297.906
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=120
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.82 cpu_phase_host_ms=294.44
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=120
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1090.73 cpu_phase_host_ms=294.227
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=121
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1086.79 cpu_phase_host_ms=290.689
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=121
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1088.36 cpu_phase_host_ms=300.923
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=122
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1084.64 cpu_phase_host_ms=294.1
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=122
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1084.17 cpu_phase_host_ms=310.263
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=123
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1095.56 cpu_phase_host_ms=306.881
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=123
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1073.7 cpu_phase_host_ms=296.9
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=124
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1069.26 cpu_phase_host_ms=288.562
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=124
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.6 cpu_phase_host_ms=292.769
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=125
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1084.86 cpu_phase_host_ms=282.952
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=125
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.83 cpu_phase_host_ms=284.799
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=126
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1080.56 cpu_phase_host_ms=294.669
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=126
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1057.51 cpu_phase_host_ms=292.692
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=127
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1058.38 cpu_phase_host_ms=280.241
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=127
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.93 cpu_phase_host_ms=284.627
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=128
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1059.4 cpu_phase_host_ms=298.6
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=128
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1058.89 cpu_phase_host_ms=286.892
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=129
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1068.57 cpu_phase_host_ms=309.444
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=129
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.94 cpu_phase_host_ms=293.098
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=130
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1067.59 cpu_phase_host_ms=304.56
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=130
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1080.46 cpu_phase_host_ms=289.305
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=131
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1066.78 cpu_phase_host_ms=301.7
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=131
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1078.26 cpu_phase_host_ms=295.909
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=132
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1411.89 cpu_phase_host_ms=484.851
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=132
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1317.1 cpu_phase_host_ms=335.9
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=133
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1496.52 cpu_phase_host_ms=313.99
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=133
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1168.64 cpu_phase_host_ms=298.041
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=134
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1100.56 cpu_phase_host_ms=296.068
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=134
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1125.58 cpu_phase_host_ms=295.403
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=135
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1102.09 cpu_phase_host_ms=306.155
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=135
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1132.03 cpu_phase_host_ms=294.421
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=136
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1106.26 cpu_phase_host_ms=325.677
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=136
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1107.56 cpu_phase_host_ms=297.481
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=137
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1102 cpu_phase_host_ms=296.236
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=137
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1104.78 cpu_phase_host_ms=301.17
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=138
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1090.7 cpu_phase_host_ms=289.835
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=138
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1095.25 cpu_phase_host_ms=302.943
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=139
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1095.23 cpu_phase_host_ms=294.509
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=139
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1093.65 cpu_phase_host_ms=299.778
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=140
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1091.45 cpu_phase_host_ms=306.849
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=140
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1101.33 cpu_phase_host_ms=292.306
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=141
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1108.96 cpu_phase_host_ms=293.603
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=141
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1103.84 cpu_phase_host_ms=295.948
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=142
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1105.74 cpu_phase_host_ms=292.758
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=142
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1104.52 cpu_phase_host_ms=296.994
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=143
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1106.57 cpu_phase_host_ms=288.524
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=143
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1108.06 cpu_phase_host_ms=305.302
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=144
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1114.54 cpu_phase_host_ms=301.101
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=144
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1114.9 cpu_phase_host_ms=305.875
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=145
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1115.28 cpu_phase_host_ms=297.664
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=145
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1117.47 cpu_phase_host_ms=329.087
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=146
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1105.91 cpu_phase_host_ms=298.168
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=146
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1104.81 cpu_phase_host_ms=319.933
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=147
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1122.51 cpu_phase_host_ms=397.113
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=147
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1113.57 cpu_phase_host_ms=301.547
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=148
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1107.58 cpu_phase_host_ms=290.901
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=148
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1109.06 cpu_phase_host_ms=295.768
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=149
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1106.01 cpu_phase_host_ms=290.789
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=149
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1103.57 cpu_phase_host_ms=314.868
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=150
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1097.59 cpu_phase_host_ms=284.68
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=150
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1092.79 cpu_phase_host_ms=318.812
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=151
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1107.41 cpu_phase_host_ms=289.256
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=151
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1094.06 cpu_phase_host_ms=306.649
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=152
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1113.37 cpu_phase_host_ms=299.526
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=152
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1101.69 cpu_phase_host_ms=572.042
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=153
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1120.91 cpu_phase_host_ms=367.782
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=153
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1116.46 cpu_phase_host_ms=372.127
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=154
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1190.27 cpu_phase_host_ms=598.099
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=154
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1140.41 cpu_phase_host_ms=339.098
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=155
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1118.27 cpu_phase_host_ms=443.317
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=155
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1145.65 cpu_phase_host_ms=510.603
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=156
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1157.11 cpu_phase_host_ms=303.421
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=156
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1132.65 cpu_phase_host_ms=398.036
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=157
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1129.56 cpu_phase_host_ms=313.938
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=157
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1109.86 cpu_phase_host_ms=311.289
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=158
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1123.27 cpu_phase_host_ms=300.62
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=158
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1105.57 cpu_phase_host_ms=348.837
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=159
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1106.95 cpu_phase_host_ms=332.741
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=159
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1105.22 cpu_phase_host_ms=303.476
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=160
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1105.18 cpu_phase_host_ms=295.853
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=160
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1104.95 cpu_phase_host_ms=348.861
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=161
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1121.29 cpu_phase_host_ms=448.574
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=161
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1145.14 cpu_phase_host_ms=311.111
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=162
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1109.69 cpu_phase_host_ms=310.063
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=162
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1115.81 cpu_phase_host_ms=308.448
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=163
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1365.17 cpu_phase_host_ms=417.484
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=163
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1632.48 cpu_phase_host_ms=432.538
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=164
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1476.33 cpu_phase_host_ms=540.337
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=164
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1286.82 cpu_phase_host_ms=619.842
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=165
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1520.92 cpu_phase_host_ms=449.115
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=165
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1654.88 cpu_phase_host_ms=414.388
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=166
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1526.13 cpu_phase_host_ms=419.296
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=166
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1634.6 cpu_phase_host_ms=374.659
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=167
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1713.46 cpu_phase_host_ms=379.872
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=167
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1694.18 cpu_phase_host_ms=361.218
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=168
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1534.75 cpu_phase_host_ms=388.604
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=168
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1607.69 cpu_phase_host_ms=504.082
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=169
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1694.17 cpu_phase_host_ms=571.558
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=169
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1473.29 cpu_phase_host_ms=343.311
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=170
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1468.8 cpu_phase_host_ms=351.047
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=170
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1404.11 cpu_phase_host_ms=319.582
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=171
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1415.09 cpu_phase_host_ms=338.241
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=171
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1406.52 cpu_phase_host_ms=328.042
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=172
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1484.65 cpu_phase_host_ms=782.523
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=172
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1438.49 cpu_phase_host_ms=646.339
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=173
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1419.25 cpu_phase_host_ms=654.922
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=173
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1378.69 cpu_phase_host_ms=400.606
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=174
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1381.61 cpu_phase_host_ms=413.425
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=174
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1366.27 cpu_phase_host_ms=364.348
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=175
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1365.78 cpu_phase_host_ms=371.362
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=175
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1365.73 cpu_phase_host_ms=322.017
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=176
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1372.33 cpu_phase_host_ms=370.567
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=176
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1367.54 cpu_phase_host_ms=360.484
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=177
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1355.68 cpu_phase_host_ms=658.079
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=177
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1360.82 cpu_phase_host_ms=619.242
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=178
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1417.2 cpu_phase_host_ms=415.315
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=178
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1368.2 cpu_phase_host_ms=746.703
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=179
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1335.03 cpu_phase_host_ms=933.876
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=179
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1377.15 cpu_phase_host_ms=808.695
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=180
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1355.47 cpu_phase_host_ms=637.26
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=180
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1455.76 cpu_phase_host_ms=966.031
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=181
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1483.26 cpu_phase_host_ms=1349.76
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=181
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1420.19 cpu_phase_host_ms=556.461
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=182
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1416.85 cpu_phase_host_ms=677.605
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=182
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1473.79 cpu_phase_host_ms=703.13
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=183
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1398.73 cpu_phase_host_ms=697.166
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=183
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1419.75 cpu_phase_host_ms=582.938
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=184
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1371.87 cpu_phase_host_ms=985.782
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=184
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1457.3 cpu_phase_host_ms=742.477
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=185
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1558.02 cpu_phase_host_ms=655.91
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=185
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1542.11 cpu_phase_host_ms=762.635
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=186
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1470.84 cpu_phase_host_ms=1301.29
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=186
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1487.76 cpu_phase_host_ms=895.533
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=187
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1503.88 cpu_phase_host_ms=587.393
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=187
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1493.55 cpu_phase_host_ms=626.579
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=188
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1536.39 cpu_phase_host_ms=915.897
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=188
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1539.85 cpu_phase_host_ms=434.83
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=189
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1528.09 cpu_phase_host_ms=451.951
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=189
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1559.95 cpu_phase_host_ms=337.9
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=190
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1603.91 cpu_phase_host_ms=399.443
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=190
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1624.66 cpu_phase_host_ms=351.511
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=191
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1605.61 cpu_phase_host_ms=783.89
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=191
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1606.99 cpu_phase_host_ms=428.867
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=192
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1603.47 cpu_phase_host_ms=465.826
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=192
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1609.99 cpu_phase_host_ms=366.081
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=193
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1572.72 cpu_phase_host_ms=425.566
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=193
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1602.58 cpu_phase_host_ms=377.967
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=194
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1596.6 cpu_phase_host_ms=445.413
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=194
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1403.7 cpu_phase_host_ms=481.585
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=195
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1364.27 cpu_phase_host_ms=979.303
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=195
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1369.98 cpu_phase_host_ms=410.194
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=196
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1363.83 cpu_phase_host_ms=398.062
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=196
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1379.96 cpu_phase_host_ms=388.432
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=197
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1389.61 cpu_phase_host_ms=728.181
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=197
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1424.68 cpu_phase_host_ms=475.932
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=198
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1275.57 cpu_phase_host_ms=2290.86
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=198
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1628.63 cpu_phase_host_ms=721.265
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=199
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1269.69 cpu_phase_host_ms=919.544
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=199
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1264.31 cpu_phase_host_ms=1140.37
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=200
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1548.52 cpu_phase_host_ms=2033.53
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=200
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1531.89 cpu_phase_host_ms=2049.29
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=400

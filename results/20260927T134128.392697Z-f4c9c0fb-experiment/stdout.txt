@@ -1,0 +1,45 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=FAIL
+checkpoint iteration=1 completed_patterns=2 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=3 cumulative_status=FAIL
+checkpoint iteration=2 completed_patterns=4 cumulative_status=FAIL
+gpu=NVIDIA GeForce RTX 3060 count=67108864 bytes=268435456 blocks=262144 threads_per_block=256
+
+config max_records=3 iterations=2 injection=first_iteration_first_pattern
+patterns=12345678,deadbeef
+pattern_mode=seeded
+load_config gpu_passes=1024 inject_pass=512 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=512 first_failed_pass=512 gpu_phase_host_ms=1261.34 cpu_phase_host_ms=2258.29
+gpu_record index=0 offset_bytes=0 expected=f5e71c96 actual=f5e71c97 xor_mask=00000001
+gpu_record index=33554432 offset_bytes=134217728 expected=d7ff5037 actual=d7ff5034 xor_mask=00000003
+gpu_record index=67108863 offset_bytes=268435452 expected=6054dc9a actual=6054dc9b xor_mask=00000001
+gpu_summary error_count=3 recorded_count=3 truncated=false
+index=0 offset_bytes=0 expected=f5e71c96 actual=f5e71c97 xor_mask=00000001
+index=33554432 offset_bytes=134217728 expected=d7ff5037 actual=d7ff5034 xor_mask=00000003
+index=67108863 offset_bytes=268435452 expected=6054dc9a actual=6054dc9b xor_mask=00000001
+reference_check=PASS
+first=f5e71c97 last=6054dc9b cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1649.31 cpu_phase_host_ms=3661
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1736.45 cpu_phase_host_ms=1910.82
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=6054dc9a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=1024 first_failed_pass=0 gpu_phase_host_ms=1661.12 cpu_phase_host_ms=1901.67
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=b3599489 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=4

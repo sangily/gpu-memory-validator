@@ -20,6 +20,8 @@
 
 ## 검사 흐름
 
+아래는 기본 모드(`gpu_passes=1`)의 흐름이다. GPU 반복 모드는 뒤의 설명을 따른다.
+
 ```mermaid
 flowchart LR
     A[설정 검증] --> B[GPU 메모리 할당]

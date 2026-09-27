@@ -5,6 +5,8 @@
 
 | 기록 | 확인 내용 |
 |---|---|
+| [256 MiB 반복 읽기](20260927T133107.035927Z-8000d7a5-experiment/summary.json) | 609.94초, GPU 409,600회·CPU 400회 PASS; 지표 579/581회 성공, 그래프·집계 스크립트 포함 |
+| [256 MiB 중간 회차 주입](20260927T134128.392697Z-f4c9c0fb-experiment/summary.json) | 512회차 오류 3건·최초 실패 보존, 후속 정상 묶음 이후에도 최종 FAIL 유지 |
 | [GPU 반복 검사](20260927T132823.238763Z-load-regression/run.json) | 51개; CPU/런타임 44·CLI 109·Python 18·GUI 서버 6개 로그 포함 |
 | [GPU 반복 설정 GUI](20260927T132749.931160Z-workbench-browser/run.json) | GPU 검사·주입 회차 저장과 기존 결과 조회 등 9개 |
 | [128/256 MiB 위치·seed 실험](20260927T125846.124407Z-spatial-matrix/matrix.json) | 2가지 모드×2크기×정상/주입 8개, 각 2패턴×4회 CPU 전체 대조; CTest 41개 로그 포함 |

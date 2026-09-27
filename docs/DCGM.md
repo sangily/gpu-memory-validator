@@ -63,7 +63,7 @@ NVIDIA 문서는 GeForce의 기본 진단 지원을 Level 1로 안내한다. 상
 | 검출 결과 신뢰성 | 진단 상태·오류 코드·경고 | XOR 주입, 전체 오류 수·K개 기록·잘림·독립 대조 |
 | 동작 중 지표 | 지원되는 온도·전력·사용률 등 | DCGM 지표 실습; 일반 실행기는 nvidia-smi 지표 저장 |
 | 이동·반전·유지 검사 | block move, moving inversions, bit fade 등 | 미구현; 현재 fill→verify 반복과 구분 |
-| 부하·연산·전송 | 메모리/GEMM/PCIe/NVLink/전력 시험 | 메모리 반복 및 소규모 PyTorch; 연산·전송 부하 검증은 미완료 |
+| 부하·연산·전송 | 메모리/GEMM/PCIe/NVLink/전력 시험 | 256 MiB 반복 읽기 약 10분 및 소규모 PyTorch; GEMM·전송·전력 스트레스 미구현 |
 | ECC·XID·물리 원인 | 지원 HW/드라이버의 오류 지표 | 수집·판정 미구현, 물리 주소·HBM 결함 분석 미검증 |
 
 [DCGM Diagnostics](https://docs.nvidia.com/datacenter/dcgm/latest/learn/modules/dcgm-diagnostics.html),
@@ -84,6 +84,11 @@ GPU fill/verify는 같은 device 함수를 사용하지만 CPU는 별도 함수�
 CPU 전체 대조를 유지했다. 정상은 PASS, 주입은 오류 3건을 검출하고 최종 FAIL을 유지했다.
 [조건별 결과](../results/20260927T125846.124407Z-spatial-matrix/matrix.json)의 한 실행은 약 1.6~3.2초다.
 이 기록은 큰 배열 반복의 정확성 증거이며 장시간 부하 시험 결과가 아니다.
+
+별도로 GPU 반복 읽기와 CPU 체크포인트를 분리해 256 MiB에서 609.94초 실행했다.
+GPU 검사 409,600회·CPU 대조 400회가 PASS였고, 별도 512회차 오류 주입도 검출했다.
+GPU 지표 수집은 581회 중 579회 성공, 2회 조회 시간 초과로 PARTIAL이다.
+정확한 조건·그래프·한계는 [반복 읽기 실험](LOAD.md)에 있다. DCGM 고급 진단 통과를 대신하지 않는다.
 
 할당한 영역만 검사하며 전체 VRAM을 검사하지 않는다. RTX 3060은 GDDR6 장비다.
 CPU 전체 복사·대조가 포함되므로 반복 실행 시간을 GPU 포화 부하 시간이나 메모리 대역폭으로

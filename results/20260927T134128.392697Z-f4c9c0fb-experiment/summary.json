@@ -1,0 +1,110 @@
+{
+  "evidence_check": "PASS",
+  "validator_status": "FAIL",
+  "git_head": "e37041015f93c1a4b9d66f1da82e479f844df8de",
+  "process_elapsed_seconds": 29.033601972972974,
+  "cpu_checkpoints": 4,
+  "gpu_passes_completed": 3584,
+  "failed_batches": 1,
+  "gpu_phase_host_seconds": 6.3082199999999995,
+  "cpu_phase_host_seconds": 9.73178,
+  "telemetry_samples": 17,
+  "telemetry_status_counts": {
+    "AVAILABLE": 16,
+    "ERROR": 1
+  },
+  "devices": {
+    "GPU-2500608a-edd1-3c2d-ffad-73955203d323": {
+      "name": "NVIDIA GeForce RTX 3060",
+      "metrics": {
+        "temperature_c": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 58.0,
+          "median": 59.0,
+          "mean": 59.9375,
+          "maximum": 64.0
+        },
+        "power_w": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 56.98,
+          "median": 68.11500000000001,
+          "mean": 75.115,
+          "maximum": 120.58
+        },
+        "sm_clock_mhz": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 1927.0,
+          "median": 1927.0,
+          "mean": 1930.5,
+          "maximum": 1935.0
+        },
+        "memory_clock_mhz": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 7300.0,
+          "median": 7300.0,
+          "mean": 7325.0,
+          "maximum": 7500.0
+        },
+        "memory_total_mib": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 12288.0,
+          "median": 12288.0,
+          "mean": 12288.0,
+          "maximum": 12288.0
+        },
+        "memory_used_mib": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 3318.0,
+          "median": 3594.5,
+          "mean": 3570.6875,
+          "maximum": 3673.0
+        },
+        "gpu_util_percent": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 32.0,
+          "median": 52.5,
+          "mean": 63.1875,
+          "maximum": 100.0
+        },
+        "memory_util_percent": {
+          "status_counts": {
+            "AVAILABLE": 16
+          },
+          "samples": 16,
+          "minimum": 1.0,
+          "median": 5.0,
+          "mean": 24.625,
+          "maximum": 75.0
+        }
+      }
+    }
+  },
+  "scope": "All collected samples, including startup/end; shared GPU metrics, not process attribution. Host phase times are not CUDA-event kernel timings.",
+  "source_log_sha256": {
+    "run.json": "d6e788cf25622f72180cfad02435a460d648cd7f899736724e581f08c83c6778",
+    "stdout.txt": "4713a03ef4530076c08f32d8b17c74ba8674ba1822359996fa9b126ca472c0a3",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "telemetry.jsonl": "7bd054a2a168fae6313d49507b424ca59f95f8839af93cc1f47af075b00396cd"
+  }
+}
