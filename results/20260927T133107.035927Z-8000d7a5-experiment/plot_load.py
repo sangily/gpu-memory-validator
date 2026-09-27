@@ -29,3 +29,7 @@ axes[-1].set_xlabel('Seconds since telemetry capture began')
 fig.suptitle('RTX 3060 / WSL2: 256 MiB repeated-read validation\nDevice-wide observations; includes startup and CPU checkpoints', fontsize=12)
 fig.savefig(folder / 'telemetry.png', dpi=150)
 fig.savefig(folder / 'telemetry.svg')
+
+# Matplotlib SVG paths contain insignificant trailing spaces.
+svg = folder / 'telemetry.svg'
+svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines()) + '\n')
