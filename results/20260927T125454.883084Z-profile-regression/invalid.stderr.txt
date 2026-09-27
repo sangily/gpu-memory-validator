@@ -1,0 +1,8 @@
+usage: run_experiment.py [-h] [--binary BINARY] [--output-root OUTPUT_ROOT]
+                         [--count COUNT] [--max-records MAX_RECORDS]
+                         [--iterations ITERATIONS] [--inject | --no-inject]
+                         [--timeout-seconds TIMEOUT_SECONDS]
+                         [--sample-interval SAMPLE_INTERVAL]
+                         [--telemetry | --no-telemetry] [--profile PROFILE]
+                         [--pattern-file PATTERN_FILE]
+run_experiment.py: error: each pattern must be a 1..8 digit hexadecimal string, optionally prefixed with 0x

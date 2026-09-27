@@ -1,0 +1,14 @@
+{
+  "count": 257,
+  "max_records": 3,
+  "iterations": 2,
+  "injection_enabled": true,
+  "timeout_seconds": 120,
+  "sample_interval": 1,
+  "telemetry_enabled": false,
+  "patterns": [
+    "12345678",
+    "deadbeef"
+  ],
+  "pattern_mode": "seeded"
+}

@@ -66,6 +66,9 @@ Python 실행기는 받은 로그와 중단 원인을 보존한다. [실험 상�
 
 ## 지원 범위
 
-단일 GPU의 32비트 상수 패턴 검사와 CPU 전체 대조를 지원한다. CPU 대조 생략,
-사용자 지정 주입 index/mask, index/seed 패턴, 실시간 패턴 결과 저장은 제공하지 않는다.
-장비·물리 결함·Sanitizer 관련 한계는 [README](../README.md#성능과-검증-범위)에 정리했다.
+단일 GPU의 상수·index·seeded 패턴과 CPU 전체 대조를 지원한다. GPU와 CPU는 기대값 계산을
+별도로 구현하며 고정된 정답 벡터, 잘못 채워진 데이터, 순서가 바뀐 데이터를 테스트한다.
+GPU fill/verify가 같은 잘못된 함수를 사용해 오류 0건을 보고해도 CPU 대조에서 ERROR가 되어야 한다.
+
+CPU 대조 생략, 사용자 지정 주입 index/mask, 물리 주소 해석, 실시간 패턴 결과 저장은 제공하지 않는다.
+DCGM 비교와 장비 한계는 [DCGM 실습](DCGM.md), Sanitizer 한계는 [테스트](TESTING.md)를 참고한다.

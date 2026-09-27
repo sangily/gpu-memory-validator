@@ -1,0 +1,111 @@
+{
+  "started_utc": "20260927T125551.327375Z",
+  "capture_status": "CAPTURED",
+  "commands": [
+    {
+      "name": "nvidia-smi",
+      "command": [
+        "/usr/lib/wsl/lib/nvidia-smi"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 0.11605751398019493
+    },
+    {
+      "name": "version",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/bin/dcgmi",
+        "--version"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 0.004346881061792374
+    },
+    {
+      "name": "discovery",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/bin/dcgmi",
+        "discovery",
+        "--host",
+        "unix:///tmp/gmv-dcgm-jddh8z8x/engine.sock",
+        "-l"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 0.06565319490619004
+    },
+    {
+      "name": "telemetry",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/bin/dcgmi",
+        "dmon",
+        "--host",
+        "unix:///tmp/gmv-dcgm-jddh8z8x/engine.sock",
+        "-i",
+        "0",
+        "-e",
+        "150,155,203,204",
+        "-c",
+        "3",
+        "-d",
+        "1000"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 2.0380835820687935
+    },
+    {
+      "name": "diag-level1",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/bin/dcgmi",
+        "diag",
+        "--host",
+        "unix:///tmp/gmv-dcgm-jddh8z8x/engine.sock",
+        "-r",
+        "1",
+        "-i",
+        "0",
+        "-j",
+        "-t",
+        "30"
+      ],
+      "exit_code": 226,
+      "timed_out": false,
+      "elapsed_seconds": 2.1386417830362916
+    }
+  ],
+  "installation": "extracted NVIDIA packages, unprivileged foreground engine, private Unix socket",
+  "environment_overrides": {
+    "LD_LIBRARY_PATH": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/lib/x86_64-linux-gnu:/usr/lib/wsl/lib",
+    "NVVS_BIN_PATH": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/libexec/datacenter-gpu-manager-4",
+    "NVVS_PLUGIN_DIR": "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/libexec/datacenter-gpu-manager-4/plugins"
+  },
+  "platform": "6.18.33.2-microsoft-standard-WSL2",
+  "device_nodes": {
+    "dxg_exists": true,
+    "nvidia_nodes": []
+  },
+  "diagnostic_verdict": "REVIEW_RAW_OUTPUT",
+  "note": "Not a hardware health verdict. Unsupported/skipped/unexecuted tests are not PASS.",
+  "executable_sha256": {
+    "dcgmi": "a19e86136c7e11131ccf1e260c0431258826bf06787af9507e5e7a9cfd526ed3",
+    "nv-hostengine": "6189e5a6a617531cd38b2971f053ead0124e2dcad183e3c8184a4dc2e53838a5"
+  },
+  "engine_command": [
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/dcgm-4.6.1/root/usr/bin/nv-hostengine",
+    "-n",
+    "-d",
+    "/tmp/gmv-dcgm-jddh8z8x/engine.sock",
+    "--pid",
+    "/tmp/gmv-dcgm-jddh8z8x/engine.pid",
+    "-f",
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125551.327375Z-dcgm/hostengine.log",
+    "--log-level",
+    "DEBUG",
+    "--home-dir",
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125551.327375Z-dcgm"
+  ],
+  "socket_created": true,
+  "diagnostic_exit_code": 226,
+  "engine_exit_code": 0
+}

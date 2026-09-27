@@ -5,6 +5,10 @@
 
 | 기록 | 확인 내용 |
 |---|---|
+| [DCGM 실행](20260927T125551.327375Z-dcgm/dcgm_lab.json) | 장치 검색·지표 수집 성공, Level 1 배포 환경 검사 실패(error 20) |
+| [위치·seed 패턴 CLI](20260927T125306.432779Z-modular-regression/run.json) | 실제 GPU 경계·주입·기록 한도 포함 109개 |
+| [세 모드 프리셋 통합](20260927T125454.883084Z-profile-regression/run.json) | 패턴 JSON→실행기→GPU→독립 대조 9개 |
+| [패턴 방식 GUI](20260927T125418.674258Z-workbench-browser/run.json) | seed 패턴 생성·재조회 포함 브라우저 9개 |
 | [검증 코어·입력 전체 검사](20260927T091428.416294Z-custom-input-validation/run.json) | CPU 28·런타임/버퍼 10·Python 17·CLI 34·프리셋 통합 5개 통과 |
 | [사용자 패턴 CLI](20260927T091434.915971Z-modular-regression/run.json) | 실제 GPU 정상·주입·경계·사용자 패턴 34개 |
 | [프리셋→GPU 통합](20260927T091441.670707Z-profile-regression/run.json) | 경로·덮어쓰기·단일/중복 패턴·입력 거부 5개 |

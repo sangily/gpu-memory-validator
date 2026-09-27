@@ -1,0 +1,5 @@
+#Entity         TMPTR        POWER             GPUTL             MCUTL             
+ID               C            W                                                    
+GPU 0           49           38.176            16                1                 
+GPU 0           49           37.777            18                1                 
+GPU 0           49           37.728            16                1                 

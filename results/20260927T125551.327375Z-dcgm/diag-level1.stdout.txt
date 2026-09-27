@@ -1,0 +1,59 @@
+{
+	"DCGM Diagnostic" : 
+	{
+		"test_categories" : 
+		[
+			{
+				"category" : "Deployment",
+				"tests" : 
+				[
+					{
+						"name" : "software",
+						"results" : 
+						[
+							{
+								"entity_group" : "GPU",
+								"entity_group_id" : 1,
+								"entity_id" : 0,
+								"status" : "Fail"
+							}
+						],
+						"test_summary" : 
+						{
+							"status" : "Fail",
+							"warnings" : 
+							[
+								{
+									"error_category" : 8,
+									"error_id" : 20,
+									"error_severity" : 5,
+									"warning" : "Permissions and OS Blocks: The number of devices NVML returns is different than the number of devices in /dev. Check for the presence of cgroups, operating system blocks, and or unsupported / older cards"
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	},
+	"entity_groups" : 
+	[
+		{
+			"entities" : 
+			[
+				{
+					"device_id" : "2487",
+					"entity_id" : 0,
+					"serial_num" : "<<<NOT_SUPPORTED>>>"
+				}
+			],
+			"entity_group" : "GPU",
+			"entity_group_id" : 1
+		}
+	],
+	"metadata" : 
+	{
+		"Driver Version Detected" : "591.86",
+		"version" : "4.6.1"
+	}
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "Package": "datacenter-gpu-manager-4-core",
+    "Version": "1:4.6.1-1",
+    "Architecture": "amd64",
+    "Priority": "optional",
+    "Section": "devel",
+    "Maintainer": "dcgm-support <dcgm-support@nvidia.com>",
+    "Installed-Size": "49177",
+    "Depends": "libc6 (>= 2.27), lshw",
+    "Recommends": "datacenter-gpu-manager-4-proprietary (= 1:4.6.1-1)",
+    "Conflicts": "datacenter-gpu-manager",
+    "Filename": "./datacenter-gpu-manager-4-core_4.6.1-1_amd64.deb",
+    "Size": "9277078",
+    "MD5sum": "e0d1048448d46a0c9702733ab121b3c4",
+    "SHA1": "a7fbea92b5f65d2adb2b8dbbb6338accf92a842c",
+    "SHA256": "2467f15ef83df3fcc8334a7d0ffb8cfb0a3314eeadd21b8d463adfddbf4d47a0",
+    "SHA512": "3432e4088066bd7b3204111c578f5c9ddab4b873206c61eb9f54f2414e6ae61b46e8f03b0bb56190d6318d6ca061312f17ca67afc4092651e57e1e4248ea9901",
+    "Description": "CUDA-version agnostic components of NVIDIA\u00ae Datacenter GPU Manager (DCGM)",
+    "Pre-Depends": "passwd, login"
+  },
+  {
+    "Package": "datacenter-gpu-manager-4-cuda13",
+    "Version": "1:4.6.1-1",
+    "Architecture": "amd64",
+    "Priority": "optional",
+    "Section": "devel",
+    "Maintainer": "dcgm-support <dcgm-support@nvidia.com>",
+    "Installed-Size": "1564054",
+    "Provides": "datacenter-gpu-manager-4 (= 1:4.6.1-1)",
+    "Depends": "datacenter-gpu-manager-4-core (= 1:4.6.1-1)",
+    "Recommends": "datacenter-gpu-manager-4-proprietary-cuda13 (= 1:4.6.1-1), libnuma1",
+    "Filename": "./datacenter-gpu-manager-4-cuda13_4.6.1-1_amd64.deb",
+    "Size": "400192306",
+    "MD5sum": "0214a2d9b4863861be70805c0b67618a",
+    "SHA1": "bdbb52a2d4e221090b6f3668422ef83dfb0adfc6",
+    "SHA256": "9547f3d2b82617d8b7ec934f1a67504b98dab731142e7b6af8c684a039acbbde",
+    "SHA512": "34d3e95d085988983bbf86130a12d1286070d649d947cf0a859b5722253e2a54ac7ff4a9bc052442a0aa1c41c6ad7be09f72c7b6444171c5ed9c55ec3fbc859a",
+    "Description": "NVIDIA\u00ae Datacenter GPU Manager (DCGM) binaries for CUDA13 systems"
+  }
+]

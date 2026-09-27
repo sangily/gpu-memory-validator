@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "name": "preset",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/custom-smoke.json",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125454.989044Z-00e74730-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "overrides",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/custom-smoke.json",
+        "--no-inject",
+        "--iterations",
+        "3",
+        "--max-records",
+        "0",
+        "--no-telemetry"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125455.595160Z-8a7d3ccf-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/custom-smoke.json",
+        "--pattern-file",
+        "/tmp/tmptqud5_d2/duplicate.json",
+        "--inject",
+        "--count",
+        "2",
+        "--no-telemetry"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125456.265838Z-818b1798-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "single",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--pattern-file",
+        "/tmp/tmptqud5_d2/single.json",
+        "--count",
+        "1",
+        "--max-records",
+        "0",
+        "--iterations",
+        "2",
+        "--inject",
+        "--no-telemetry"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125457.135871Z-3dd42212-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--pattern-file",
+        "/tmp/tmptqud5_d2/invalid.json"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "index_normal",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/index-128mib.json",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--no-telemetry",
+        "--no-inject"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125458.254992Z-9a734697-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "index_injected",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/index-128mib.json",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--no-telemetry",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125458.884036Z-49ec92a2-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "seeded_normal",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/seeded-128mib.json",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--no-telemetry",
+        "--no-inject"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125459.388514Z-47408a64-experiment",
+      "status": "PASS"
+    },
+    {
+      "name": "seeded_injected",
+      "command": [
+        "/home/meoru/miniconda3/bin/python3",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/scripts/run_experiment.py",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T125454.883084Z-profile-regression/experiments",
+        "--profile",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/profiles/seeded-128mib.json",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--no-telemetry",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "experiment": "results/20260927T125454.883084Z-profile-regression/experiments/20260927T125459.689357Z-dbc64d95-experiment",
+      "status": "PASS"
+    }
+  ]
+}

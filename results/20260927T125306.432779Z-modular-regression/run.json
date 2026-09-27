@@ -1,0 +1,1927 @@
+{
+  "started_utc": "20260927T125306.432779Z",
+  "runs": [
+    {
+      "name": "normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "invalid_option",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--invalid-option"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "no_visible_device",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator"
+      ],
+      "expected_exit": 2,
+      "environment_overrides": {
+        "CUDA_VISIBLE_DEVICES": ""
+      },
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_2_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_2_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_3_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "3",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_3_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "3",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_255_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_255_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_256_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_256_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_257_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_257_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1024_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1024",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1024_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1024",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1025_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "count_1025_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "capacity_0",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject",
+        "--max-records",
+        "0",
+        "--iterations",
+        "3"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "capacity_1",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject",
+        "--max-records",
+        "1",
+        "--iterations",
+        "3"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "capacity_2",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject",
+        "--max-records",
+        "2",
+        "--iterations",
+        "3"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "capacity_4",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--inject",
+        "--max-records",
+        "4",
+        "--iterations",
+        "3"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "zero_count",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "0"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "numeric_overflow",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "18446744073709551616"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "custom_constants_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "12345678,87654321,00ff00ff,ff00ff00"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "custom_constants_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "12345678,87654321,00ff00ff,ff00ff00",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "duplicate_constants_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "deadbeef,deadbeef,00000000"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "duplicate_constants_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "deadbeef,deadbeef,00000000",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "single_constant_normal",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "ffffffff"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "single_constant_injected",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "2",
+        "--patterns",
+        "ffffffff",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "empty_patterns",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--patterns",
+        ""
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "overflow_pattern",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--patterns",
+        "100000000"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_2_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_255_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_256_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_257_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "index_1025_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "index",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_2_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "2",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_255_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "255",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_256_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "256",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_257_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "257",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_0_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_2_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_3_False",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_0_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "0",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_2_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "2",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "seeded_1025_3_True",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "1025",
+        "--iterations",
+        "2",
+        "--max-records",
+        "3",
+        "--pattern-mode",
+        "seeded",
+        "--patterns",
+        "12345678,deadbeef",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "checks_passed": true
+    },
+    {
+      "name": "invalid_mode",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--pattern-mode",
+        "random"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "duplicate_mode",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--pattern-mode",
+        "index",
+        "--pattern-mode",
+        "seeded"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    },
+    {
+      "name": "missing_mode",
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--pattern-mode"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "checks_passed": true
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "7ff8274b683628fed818b9edce6c168988951f77cbf4a5fcb2a99cf54c6d1831",
+    "tests/cli/test_validator.py": "296709d71556360a95dfde1585352bf3dd11469ccc2539380c69c1080917c600",
+    "scripts/test_first_kernel.py": "e88673d55084be85a32e475cec42d2ee1888ba445d0ef05e6146576f24903fca",
+    "src/cli.cpp": "de830a1c5d76b50fcd9929bad69a180dbaa932eaefae3eb6548d6b36968fad6f",
+    "src/cuda_support.hpp": "1e65e6f78472083e7d2c2428bfd60b5f3dd3ecc98c44024e0b07868d96c8835a",
+    "src/main.cpp": "fad8cf0d3bf3db9d1353559f0dd6288efd790f1d8bbc6a16b0c30f2fa0196bdc",
+    "src/reference.cpp": "0c65140772b6605e627d779100dba97722fe23ab5e612a96708532076b856009",
+    "src/report.cpp": "54f15614e83cd19495f725575a02680c2b352f4baea8a53f51b39053308210d7",
+    "src/validator.cu": "62402cf74c9ebf036fd06c9a220b2a9191e23f79d7e32dc173fac92d9652426a",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "9075896e982f9157d76fbc2bef5f07ca5f961ac3a977a2bef269cf24e80049a3",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "8ea00c5c265d1c56f7880ac9525f48e7bf2e2a03a9b4b0ed7ae377f3c46ccbe3",
+    "include/gmv/validator.hpp": "52b3937d608dff1276b8b1bcb612194d0f4e7a2b452958bbe355caa34aa7e136",
+    "tests/gpu/test_runtime.cpp": "6374b0ccc1ace40263887878735379c3b9e0facf447572a2ee4c58747577bf12",
+    "tests/unit/test_application.cpp": "3fc224e0d26b2d662ab429c1da489080e729d0ba6d63e5fef7018cdd075fe824",
+    "tests/unit/test_reference.cpp": "57be9521f3b9b6f1a9fb4fd17e51343bc70e5269cb592cb365d628cbef040047"
+  },
+  "binary_built_by_runner": false,
+  "binary_sha256": "b041fd5fe4a603c39ee6b408197ac8ff9e88e4d02fe0af42ee291f361fcb3b35",
+  "status": "PASS"
+}

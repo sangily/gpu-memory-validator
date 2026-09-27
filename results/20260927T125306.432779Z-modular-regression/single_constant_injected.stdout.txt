@@ -1,0 +1,22 @@
+gpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256
+
+config max_records=2 iterations=2 injection=first_iteration_first_pattern
+patterns=ffffffff
+pattern_mode=constant
+iteration=1
+pattern=ffffffff
+gpu_record index=256 offset_bytes=1024 expected=ffffffff actual=fffffffe xor_mask=00000001
+gpu_record index=128 offset_bytes=512 expected=ffffffff actual=fffffffc xor_mask=00000003
+gpu_summary error_count=3 recorded_count=2 truncated=true
+index=0 offset_bytes=0 expected=ffffffff actual=fffffffe xor_mask=00000001
+index=128 offset_bytes=512 expected=ffffffff actual=fffffffc xor_mask=00000003
+reference_check=PASS
+first=fffffffe last=fffffffe cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+iteration=2
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=2

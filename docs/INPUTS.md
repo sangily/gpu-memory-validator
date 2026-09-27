@@ -11,7 +11,8 @@ C++ 실행 파일은 직접 인자를 받고, Python 실행기는 JSON 설정을
 | `--max-records K` | 3 | 0~4,294,967,295; 패턴별 상세 한도, 0은 개수만 기록 |
 | `--iterations N` | 1 | 1~10000; 전체 패턴 목록의 반복 횟수 |
 | `--inject` | 비활성 | 첫 반복의 첫 패턴에 오류 주입 |
-| C++ `--patterns HEX,...` | 00000000,ffffffff,aaaaaaaa,55555555 | 1~64개 상수 |
+| C++ `--patterns HEX,...` | 00000000,ffffffff,aaaaaaaa,55555555 | 1~64개 값; 모드별 상수·XOR 값·seed |
+| C++ `--pattern-mode MODE` | constant | constant / index / seeded |
 | Python `--pattern-file PATH` | 없음 | 패턴 JSON |
 | Python `--profile PATH` | 없음 | 실험 프리셋 JSON |
 
@@ -36,11 +37,29 @@ python3 scripts/run_experiment.py --pattern-file patterns/custom-constants.json 
 }
 ```
 
-각 상수로 **전체 영역을 채워 검사한 뒤** 다음 상수로 넘어간다. 배열의 각 원소에 서로 다른 값을
-순서대로 배치하는 형식이 아니다. 순서와 중복 값을 유지하며 중복 값도 별도 검사 회차다.
+`mode`는 선택 항목이며 생략하면 기존과 같은 `constant`다. 각 `values` 항목마다 전체 영역을 검사한다.
+목록의 순서와 중복을 유지한다. 배열에 목록 값을 차례로 배치하는 방식은 아니다.
+
+| mode | 위치 i의 기대값 | values의 의미 |
+|---|---|---|
+| constant | value | 전체 영역에 쓰는 상수 |
+| index | uint32(i) XOR value | 위치 패턴의 XOR 값; 0과 ffffffff로 정방향/반전 검사 |
+| seeded | mix32(uint32(i) XOR value) | 재현 가능한 seed |
+
+`mix32`는 32비트 unsigned 연산으로 `x ^= x >> 16; x *= 0x7feb352d; x ^= x >> 15;
+x *= 0x846ca68b; x ^= x >> 16`을 수행한다. 곱셈은 2^32로 나눈 나머지다.
+암호학적 난수나 물리 주소가 아니다. 같은 seed·index는 실행 순서와 무관하게 같은 값을 만든다.
+반복 회차마다 seed를 자동 변경하지 않으며, 다른 seed는 values에 추가한다.
+
+```bash
+./build/cuda/gpu_memory_validator --pattern-mode index --patterns 0,ffffffff --count 257
+python3 scripts/run_experiment.py --profile profiles/seeded-128mib.json --inject
+```
+
+GUI의 패턴 방식 선택으로 세 모드를 저장할 수 있고, 실행 결과에도 mode를 기록한다.
 
 값은 1~8자리 16진수 문자열이고 `0x`/`0X` 접두사를 허용한다. 실행 시 소문자 8자리로 정규화한다.
-JSON 정수·부호·공백·32비트 범위 밖 값은 거부한다. 임의 바이너리 배열과 index/seed 생성 규칙은 지원하지 않는다.
+JSON 정수·부호·공백·32비트 범위 밖 값은 거부한다. 임의 바이너리 배열이나 사용자 작성 실행 코드는 입력으로 받지 않는다.
 
 ## 프리셋 JSON
 
