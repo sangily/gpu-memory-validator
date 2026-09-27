@@ -1,8 +1,8 @@
 # 사용자 패턴과 실험 프리셋
 
 2026-09-27. JSON 패턴 정의를 실제 CUDA fill/verify 및 CPU 전체 대조에 전달한다.
-CLI와 향후 GUI가 같은 검증 함수를 사용하도록 `scripts/experiment_config.py`에 입력 처리를 분리했다.
-현재 GUI는 미구현이며 파일 편집과 CLI 실행을 지원한다.
+CLI와 GUI가 같은 검증 함수를 사용하도록 `scripts/experiment_config.py`에 입력 처리를 분리했다.
+[로컬 GUI](GUI.md)에서 패턴/프리셋을 편집하고 저장할 수 있다. 실행은 CLI로 수행한다.
 
 ## 패턴 정의
 

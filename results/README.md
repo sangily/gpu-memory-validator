@@ -5,6 +5,7 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [로컬 GUI 검사](20260927T100952.318546Z-workbench-browser/run.json) | Chromium 9개·서버 6개 PASS; 소스 해시·실제 결과 화면·격리된 편집 화면 보존 |
 | [사용자 패턴·프리셋 전체 검사](20260927T091428.416294Z-custom-input-validation/run.json) | CPU 28·런타임/버퍼 10·Python 17·CLI 34·프리셋 통합 5개 PASS; 전체 코드/입력 사본 및 해시 |
 | [사용자 패턴 CLI 검사](20260927T091434.915971Z-modular-regression/run.json) | 단일/중복/비영 상수 목록의 정상·주입 및 기존 경계 검사 등 34개 PASS |
 | [프리셋→실제 GPU 통합](20260927T091441.670707Z-profile-regression/run.json) | 다른 cwd, 설정 덮어쓰기, 중복/단일 패턴, 잘못된 파일 거부 등 5개 PASS |

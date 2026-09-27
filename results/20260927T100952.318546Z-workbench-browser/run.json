@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    "initial_load_blocks_premature_editing",
+    "real_result_status_chart_raw_log",
+    "create_pattern_ordered_duplicates",
+    "invalid_pattern_rejected_without_mutation",
+    "edit_pattern_and_copy_command",
+    "create_profile_with_selected_pattern",
+    "concurrent_edit_conflict_visible",
+    "mobile_layout_without_horizontal_overflow",
+    "no_unexpected_browser_errors"
+  ],
+  "source_sha256": {
+    "scripts/workbench.py": "3e78627107fc41a598a0fc21780857e2f56da46a6e99275c7cb9ebb35825aaa3",
+    "scripts/experiment_config.py": "c006ff045815fddb0ed68f5c5da063e114476762620875d9ce7d5a796bfec032",
+    "web/app.js": "c082cd30d0c9d04491b8cd4b9bd3c1c7746d4b51815b79888e1b40908e15bd05",
+    "web/index.html": "b15043c27a2d8aea9116dee0f84c0348a9b229d5151631cab8ed093f524a1313",
+    "web/style.css": "523554bfb83b9efeebf92d3422c23fdfeb2c1b25a6d56d82b25ebe9cb3c834be",
+    "tests/gui/browser_smoke.py": "aa73d5d48c70704d2cb12b038417807e76bdbfde1b0ae60d723d6f870e396f5f",
+    "tests/gui/test_workbench.py": "b723360d9d17a172a727f07711a73508eedf01f4991921be689fb352247fe128"
+  },
+  "fixture": "isolated editable workspace; copied genuine 128 MiB baseline run",
+  "workspace_preview": {
+    "status": "PASS",
+    "mode": "read-only existing baseline result and custom-smoke profile",
+    "screenshots": [
+      "workspace-results.png",
+      "workspace-profile.png"
+    ]
+  },
+  "server_tests": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests/gui",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "server-tests.stdout.txt",
+    "stderr": "server-tests.stderr.txt"
+  },
+  "browser_dependency": {
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  }
+}

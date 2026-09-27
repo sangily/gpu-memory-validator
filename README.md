@@ -11,6 +11,21 @@ CPU 전체 검사 결과로 GPU 오류 개수와 기록을 대조한다.
 GPU 버퍼는 RAII로 소유하고, CUDA 오류 시 완료된 패턴과 실패 원인을 반환한다.
 기존 `examples/first_kernel.cu`는 학습 기준 버전으로 보존한다.
 
+## 로컬 실험 화면
+
+```bash
+python3 scripts/workbench.py
+```
+
+브라우저에서 http://127.0.0.1:8765 에 접속한다. Python 표준 라이브러리만으로 실행한다.
+패턴·프리셋을 생성/편집/저장하고 실행 명령을 복사할 수 있다. 결과 화면에서는 저장된
+PASS/FAIL/ERROR, 실행 조건, 원시 로그, GPU 지표를 조회한다. GPU 실험은 복사한 CLI 명령으로 실행한다.
+
+![실험 결과 화면](results/20260927T100952.318546Z-workbench-browser/results.png)
+
+화면은 실제 128 MiB 실험 기록을 복사한 테스트 공간에서 촬영했다.
+[사용법·책임 분리·테스트 근거](docs/GUI.md)에 구현 범위와 재현 방법을 정리했다.
+
 ## 새 실행 파일 빌드와 테스트
 
 CPU 단위 테스트는 CUDA Toolkit이나 GPU 없이 실행할 수 있다.
@@ -124,7 +139,7 @@ python3 scripts/run_experiment.py --profile profiles/custom-smoke.json --no-inje
 
 첫 명령은 의도한 주입 FAIL/종료 1, 두 번째는 정상 PASS/종료 0이다. CLI 값이 프리셋보다
 우선하며 원본 파일을 수정하지 않는다. 결과에는 원본 사본과 최종 설정/패턴 목록을 함께 저장한다.
-[JSON 형식·경로·우선순위·재현 방법](docs/INPUTS.md)에 정리했다. GUI는 아직 미구현이다.
+[JSON 형식·경로·우선순위·재현 방법](docs/INPUTS.md)에 정리했다. GUI에서도 같은 파일을 편집하고 저장할 수 있다. [화면 사용법](docs/GUI.md)을 참고한다.
 
 기존 실행기 10개에 설정 검사 7개를 더한 Python 17개와 실제 프리셋→GPU 통합 검사 5개가 있다.
 
@@ -206,7 +221,7 @@ nvcc -std=c++17 -arch=sm_86 -lineinfo examples/first_kernel.cu -o build/first_ke
 
 테스트를 통해 재현한 문제와 수정 근거를 남긴다. 현재 자동 검사는 세 가지 CLI 경우이며,
 새 모듈의 단위 검사와 후속 GPU 통합·성능 비교 계획은 [테스트 전략](docs/TESTING.md)에 정리했다.
-현재 프로젝트의 성능 개선 수치는 아직 측정하지 않았다.
+학습 예제 자체의 성능은 비교하지 않았다. 모듈화한 도구의 성능 측정은 [성능 실험](docs/PERFORMANCE.md)에 있다.
 
 ```bash
 source cuda-env.sh
@@ -289,8 +304,8 @@ Windows 설정은 변경하지 않았다. 프로그램 자체 PASS와 Sanitizer 
 
 ## 다음 학습
 
-1. 패턴·프리셋 편집과 결과 조회를 위한 최소 GUI.
-2. 선택 과제 PyTorch 실습 및 제출 자료 정리.
+1. 선택 과제 PyTorch 실습.
+2. 제출 버전의 대표 실행 확인과 포트폴리오 PDF·지원서 정리.
 
 ## 공식 자료
 
