@@ -1,0 +1,2 @@
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T081632.558840Z-63426f9e-experiment
+status=ERROR reason=TIMEOUT child_exit_code=-15

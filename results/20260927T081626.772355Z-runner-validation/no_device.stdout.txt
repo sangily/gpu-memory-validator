@@ -1,0 +1,2 @@
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T081632.934876Z-4514f3ad-experiment
+status=ERROR reason=VALIDATOR_ERROR child_exit_code=2

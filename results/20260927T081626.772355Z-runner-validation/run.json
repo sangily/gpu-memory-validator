@@ -1,0 +1,89 @@
+{
+  "scope": "runner contracts and real GPU smoke runs; no performance claims",
+  "runs": [
+    {
+      "name": "runner_tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/runner",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true
+    },
+    {
+      "name": "normal",
+      "command": [
+        "python3",
+        "scripts/run_experiment.py",
+        "--count",
+        "1048576",
+        "--iterations",
+        "64"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "experiment": "results/20260927T081630.255797Z-86f2b24a-experiment"
+    },
+    {
+      "name": "injected",
+      "command": [
+        "python3",
+        "scripts/run_experiment.py",
+        "--count",
+        "257",
+        "--max-records",
+        "2",
+        "--iterations",
+        "3",
+        "--inject"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "experiment": "results/20260927T081632.002658Z-c4e643f7-experiment"
+    },
+    {
+      "name": "timeout",
+      "command": [
+        "python3",
+        "scripts/run_experiment.py",
+        "--count",
+        "1048576",
+        "--iterations",
+        "10000",
+        "--timeout-seconds",
+        "0.2"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "passed": true,
+      "experiment": "results/20260927T081632.558840Z-63426f9e-experiment"
+    },
+    {
+      "name": "no_device",
+      "command": [
+        "python3",
+        "scripts/run_experiment.py"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "passed": true,
+      "environment_overrides": {
+        "CUDA_VISIBLE_DEVICES": ""
+      },
+      "experiment": "results/20260927T081632.934876Z-4514f3ad-experiment"
+    }
+  ],
+  "source_sha256": {
+    "scripts/run_experiment.py": "18ee6350930453d67f36fa0894d4a664514e606c71fd925eeca2cffbd957b41d",
+    "tests/runner/test_run_experiment.py": "c6391ffbd84b4e34f2de30c66202c29a20dfb74ebab6c7014268645e2f66def6"
+  },
+  "status": "PASS"
+}

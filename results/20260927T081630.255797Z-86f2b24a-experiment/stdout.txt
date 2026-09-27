@@ -1,0 +1,1540 @@
+gpu=NVIDIA GeForce RTX 3060 count=1048576 bytes=4194304 blocks=4096 threads_per_block=256
+
+config max_records=3 iterations=64 injection=disabled
+iteration=1
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=5
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=6
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=7
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=8
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=9
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=10
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=11
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=12
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=13
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=14
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=15
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=16
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=17
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=18
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=19
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=20
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=21
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=22
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=23
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=24
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=25
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=26
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=27
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=28
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=29
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=30
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=31
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=32
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=33
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=34
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=35
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=36
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=37
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=38
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=39
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=40
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=41
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=42
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=43
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=44
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=45
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=46
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=47
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=48
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=49
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=50
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=51
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=52
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=53
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=54
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=55
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=56
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=57
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=58
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=59
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=60
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=61
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=62
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=63
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=00000000
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=ffffffff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=aaaaaaaa
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=64
+pattern=55555555
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=256

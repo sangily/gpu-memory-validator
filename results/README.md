@@ -5,6 +5,11 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [실험 실행기 검증](20260927T081626.772355Z-runner-validation/run.json) | 합성 프로세스/응답 테스트 10개 및 실제 validator 네 실행 경로 확인 |
+| [실험 실행기: normal](20260927T081630.255797Z-86f2b24a-experiment/run.json) | PASS / COMPLETED; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
+| [실험 실행기: injected](20260927T081632.002658Z-c4e643f7-experiment/run.json) | FAIL / COMPLETED; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
+| [실험 실행기: timeout](20260927T081632.558840Z-63426f9e-experiment/run.json) | ERROR / TIMEOUT; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
+| [실험 실행기: no_device](20260927T081632.934876Z-4514f3ad-experiment/run.json) | ERROR / VALIDATOR_ERROR; 설정·코드/실행 파일 해시·원시 로그·모니터링 보존 |
 | [설정·반복 단위 및 런타임 검사](20260927T024926.964073Z-configuration-tests/run.json) | CPU 25개, 런타임·버퍼 10개 PASS. CLI 26개 실행 결과도 기록 |
 | [설정·반복 CLI 회귀 검사](20260927T024929.746503Z-modular-regression/run.json) | 원소 1/2/3/255/256/257/1024/1025, K=0/1/2/4, 2~3회 반복, 기존 오류 경로 등 26개 PASS |
 | [첫 빌드](20260920T070711Z-first-kernel/run.json) | CUDA 라이브러리 검색 경로 문제로 빌드 실패 |
