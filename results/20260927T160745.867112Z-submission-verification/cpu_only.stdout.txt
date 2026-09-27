@@ -1,0 +1,74 @@
+Internal ctest changing into directory: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/submission-cpu
+Test project /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/submission-cpu
+      Start  1: reference.clean_patterns
+ 1/34 Test  #1: reference.clean_patterns ...........   Passed    0.00 sec
+      Start  2: reference.unordered_errors
+ 2/34 Test  #2: reference.unordered_errors .........   Passed    0.00 sec
+      Start  3: reference.truncated_subset
+ 3/34 Test  #3: reference.truncated_subset .........   Passed    0.00 sec
+      Start  4: reference.count_only
+ 4/34 Test  #4: reference.count_only ...............   Passed    0.00 sec
+      Start  5: reference.single_element
+ 5/34 Test  #5: reference.single_element ...........   Passed    0.00 sec
+      Start  6: reference.wrong_count
+ 6/34 Test  #6: reference.wrong_count ..............   Passed    0.00 sec
+      Start  7: reference.wrong_actual
+ 7/34 Test  #7: reference.wrong_actual .............   Passed    0.00 sec
+      Start  8: reference.wrong_expected
+ 8/34 Test  #8: reference.wrong_expected ...........   Passed    0.00 sec
+      Start  9: reference.duplicate_index
+ 9/34 Test  #9: reference.duplicate_index ..........   Passed    0.00 sec
+      Start 10: reference.out_of_range
+10/34 Test #10: reference.out_of_range .............   Passed    0.00 sec
+      Start 11: reference.not_an_error
+11/34 Test #11: reference.not_an_error .............   Passed    0.00 sec
+      Start 12: reference.missing_record
+12/34 Test #12: reference.missing_record ...........   Passed    0.00 sec
+      Start 13: reference.excess_records
+13/34 Test #13: reference.excess_records ...........   Passed    0.00 sec
+      Start 14: reference.count_only_with_record
+14/34 Test #14: reference.count_only_with_record ...   Passed    0.00 sec
+      Start 15: reference.reset_between_calls
+15/34 Test #15: reference.reset_between_calls ......   Passed    0.00 sec
+      Start 16: reference.spatial_golden_values
+16/34 Test #16: reference.spatial_golden_values ....   Passed    0.00 sec
+      Start 17: reference.spatial_wrong_fill
+17/34 Test #17: reference.spatial_wrong_fill .......   Passed    0.00 sec
+      Start 18: reference.spatial_swapped_words
+18/34 Test #18: reference.spatial_swapped_words ....   Passed    0.00 sec
+      Start 19: reference.inverted_snapshot
+19/34 Test #19: reference.inverted_snapshot ........   Passed    0.00 sec
+      Start 20: application.defaults
+20/34 Test #20: application.defaults ...............   Passed    0.00 sec
+      Start 21: application.inject
+21/34 Test #21: application.inject .................   Passed    0.00 sec
+      Start 22: application.unknown_option
+22/34 Test #22: application.unknown_option .........   Passed    0.00 sec
+      Start 23: application.extra_arguments
+23/34 Test #23: application.extra_arguments ........   Passed    0.00 sec
+      Start 24: application.status_priority
+24/34 Test #24: application.status_priority ........   Passed    0.00 sec
+      Start 25: application.configuration
+25/34 Test #25: application.configuration ..........   Passed    0.00 sec
+      Start 26: application.invalid_numbers
+26/34 Test #26: application.invalid_numbers ........   Passed    0.00 sec
+      Start 27: application.limits
+27/34 Test #27: application.limits .................   Passed    0.00 sec
+      Start 28: application.duplicate_options
+28/34 Test #28: application.duplicate_options ......   Passed    0.00 sec
+      Start 29: application.missing_values
+29/34 Test #29: application.missing_values .........   Passed    0.00 sec
+      Start 30: application.patterns_valid
+30/34 Test #30: application.patterns_valid .........   Passed    0.00 sec
+      Start 31: application.patterns_invalid
+31/34 Test #31: application.patterns_invalid .......   Passed    0.00 sec
+      Start 32: application.patterns_limit
+32/34 Test #32: application.patterns_limit .........   Passed    0.00 sec
+      Start 33: application.load_config
+33/34 Test #33: application.load_config ............   Passed    0.00 sec
+      Start 34: application.invert_config
+34/34 Test #34: application.invert_config ..........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 34
+
+Total Test time (real) =   0.08 sec

@@ -1,0 +1,2 @@
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T160946.133566Z-spatial-matrix/experiments/20260927T160954.106625Z-271ec405-experiment
+status=PASS reason=COMPLETED child_exit_code=0

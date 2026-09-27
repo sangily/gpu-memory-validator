@@ -1,0 +1,17 @@
+{
+  "count": 257,
+  "max_records": 2,
+  "iterations": 2,
+  "gpu_passes": 6,
+  "inject_pass": 4,
+  "access_mode": "invert",
+  "injection_enabled": false,
+  "timeout_seconds": 60,
+  "sample_interval": 1,
+  "telemetry_enabled": false,
+  "patterns": [
+    "12345678",
+    "deadbeef"
+  ],
+  "pattern_mode": "seeded"
+}

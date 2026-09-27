@@ -1,0 +1,4 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=2 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=3 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=4 cumulative_status=PASS

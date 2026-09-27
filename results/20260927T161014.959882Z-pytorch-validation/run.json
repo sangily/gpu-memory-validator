@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "device-mismatch",
+      "test_status": "PASS",
+      "program_status": "ERROR",
+      "exit_code": 2,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+        "experiments/pytorch/device_lab.py",
+        "--case",
+        "device-mismatch",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation/device-mismatch"
+      ],
+      "report": "device-mismatch/20260927T161019.707008Z-b429632b-pytorch-device-mismatch/run.json"
+    },
+    {
+      "name": "ignored-transfer",
+      "test_status": "PASS",
+      "program_status": "ERROR",
+      "exit_code": 2,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+        "experiments/pytorch/device_lab.py",
+        "--case",
+        "ignored-transfer",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation/ignored-transfer"
+      ],
+      "report": "ignored-transfer/20260927T161022.759060Z-be0532ba-pytorch-ignored-transfer/run.json"
+    },
+    {
+      "name": "fixed",
+      "test_status": "PASS",
+      "program_status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+        "experiments/pytorch/device_lab.py",
+        "--case",
+        "fixed",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation/fixed"
+      ],
+      "report": "fixed/20260927T161024.053951Z-adedfa93-pytorch-fixed/run.json"
+    },
+    {
+      "name": "no-device",
+      "test_status": "PASS",
+      "program_status": "ERROR",
+      "exit_code": 2,
+      "command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+        "experiments/pytorch/device_lab.py",
+        "--case",
+        "fixed",
+        "--output-root",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation/no-device"
+      ],
+      "report": "no-device/20260927T161026.600242Z-8a1129e1-pytorch-fixed/run.json"
+    }
+  ],
+  "source_sha256": {
+    "experiments/pytorch/device_lab.py": "e2a42ee8fdaa1e5c041817324af83357701bde3b8244041efcf68d0e5e26d247",
+    "experiments/pytorch/layout_lab.py": "3007a0ddac35718f9669fd5d353de3edc9ab0c94689dedcae5552ce833feecf2",
+    "experiments/pytorch/layout_ops.py": "e546793cfc78e350c82822b5a2cad0bbc9ef99c17250390d9366234e09662c62",
+    "experiments/pytorch/requirements.txt": "81092ab688e6c191a271074c0422fd17421f9910cf9379f830480e54cea453ce",
+    "tests/pytorch/check_device_lab.py": "5daefef555e732008fd08e174a19ed5d11e193a81aa3794d7209e7a4754367e8",
+    "tests/pytorch/test_layout.py": "5b7cb948f2251032933abc6552dd5e8408e030e4f90e26df60b04f796bca9f9a",
+    "tests/pytorch/test_reference.py": "32672a4826753895105ea43c6e6b6e27492c85e6009c06db46a2fb0fe8534dba"
+  },
+  "unit_exit_code": 0
+}

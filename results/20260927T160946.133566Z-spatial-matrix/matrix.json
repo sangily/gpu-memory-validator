@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "case": "index-128mib-normal",
+      "experiment": "experiments/20260927T160946.198764Z-af53e63b-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 1.3765617569442838,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-128mib-injected",
+      "experiment": "experiments/20260927T160947.679008Z-2d5292a0-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 1.4202135049272329,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-256mib-normal",
+      "experiment": "experiments/20260927T160949.204082Z-28618c74-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 2.623400004929863,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "index-256mib-injected",
+      "experiment": "experiments/20260927T160951.931017Z-8a5d2e54-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 3.3069681429769844,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "00000000",
+          "ffffffff"
+        ],
+        "pattern_mode": "index",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-128mib-normal",
+      "experiment": "experiments/20260927T160954.106625Z-271ec405-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 1.8071015239693224,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-128mib-injected",
+      "experiment": "experiments/20260927T160956.031617Z-d1929ee0-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 1.5668721318943426,
+      "config": {
+        "count": 33554432,
+        "allocation_bytes": 134217728,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-256mib-normal",
+      "experiment": "experiments/20260927T160957.727894Z-a2d2a454-experiment",
+      "checks": "PASS",
+      "validator_status": "PASS",
+      "seconds": 2.9512822199612856,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": false,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    },
+    {
+      "case": "seeded-256mib-injected",
+      "experiment": "experiments/20260927T161000.794068Z-29040a98-experiment",
+      "checks": "PASS",
+      "validator_status": "FAIL",
+      "seconds": 2.7585306740365922,
+      "config": {
+        "count": 67108864,
+        "allocation_bytes": 268435456,
+        "max_records": 3,
+        "iterations": 4,
+        "injection_enabled": true,
+        "reference_mode": "full",
+        "gpu_passes": 1,
+        "inject_pass": 1,
+        "access_mode": "read",
+        "timeout_seconds": 120,
+        "patterns": [
+          "12345678",
+          "deadbeef"
+        ],
+        "pattern_mode": "seeded",
+        "sample_interval": 1,
+        "telemetry_enabled": true
+      }
+    }
+  ],
+  "scope": "full CPU reference; repeated correctness, not GPU saturation"
+}

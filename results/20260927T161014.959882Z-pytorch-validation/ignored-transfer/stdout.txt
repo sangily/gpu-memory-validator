@@ -1,0 +1,3 @@
+case=ignored-transfer status=ERROR phase=forward
+devices={"model": "cuda:0", "original_input": "cpu", "operation_input": "cpu"}
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation/ignored-transfer/20260927T161022.759060Z-be0532ba-pytorch-ignored-transfer

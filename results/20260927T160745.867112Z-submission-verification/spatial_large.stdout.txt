@@ -1,0 +1,9 @@
+index-128mib-normal: PASS (validator=PASS)
+index-128mib-injected: PASS (validator=FAIL)
+index-256mib-normal: PASS (validator=PASS)
+index-256mib-injected: PASS (validator=FAIL)
+seeded-128mib-normal: PASS (validator=PASS)
+seeded-128mib-injected: PASS (validator=FAIL)
+seeded-256mib-normal: PASS (validator=PASS)
+seeded-256mib-injected: PASS (validator=FAIL)
+evidence=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T160946.133566Z-spatial-matrix

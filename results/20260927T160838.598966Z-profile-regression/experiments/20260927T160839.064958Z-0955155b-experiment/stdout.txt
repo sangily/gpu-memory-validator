@@ -1,0 +1,78 @@
+gpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256
+
+config max_records=0 iterations=3 injection=disabled
+patterns=12345678,87654321,00ff00ff,ff00ff00
+pattern_mode=constant
+iteration=1
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=12345678 last=12345678 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=87654321
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=87654321 last=87654321 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=00ff00ff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00ff00ff last=00ff00ff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=ff00ff00
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ff00ff00 last=ff00ff00 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=12345678 last=12345678 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=87654321
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=87654321 last=87654321 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=00ff00ff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00ff00ff last=00ff00ff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=ff00ff00
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ff00ff00 last=ff00ff00 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=12345678 last=12345678 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=87654321
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=87654321 last=87654321 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=00ff00ff
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=00ff00ff last=00ff00ff cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=ff00ff00
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=ff00ff00 last=ff00ff00 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=12

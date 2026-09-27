@@ -43,8 +43,10 @@ ctest --test-dir build/cuda -L gpu --output-on-failure
 python3 tests/cli/test_validator.py
 python3 tests/cli/test_profiles.py
 python3 tests/cli/test_load.py
+python3 tests/cli/test_invert.py
 # 큰 배열 반복 정확성 검사; 성능 임계값이나 GPU 포화 부하 시험은 아님
 python3 tests/cli/test_spatial_matrix.py
+python3 tests/cli/test_invert_matrix.py
 ```
 
 프리셋 통합 검사는 저장소 기본 프리셋의 크기·값·반복 조건을 전제로 한다. 주입 여부는 테스트가

@@ -1,0 +1,30 @@
+gpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256
+
+config max_records=3 iterations=2 injection=disabled
+patterns=12345678,deadbeef
+pattern_mode=seeded
+iteration=1
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=c06aea9d cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=f37fab0a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=f5e71c96 last=c06aea9d cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=e628c683 last=f37fab0a cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=4

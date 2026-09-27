@@ -1,0 +1,1 @@
+Usage: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator [--inject] [--count N] [--max-records K] [--iterations N] [--patterns HEX,...] [--pattern-mode constant|index|seeded] [--gpu-passes N] [--inject-pass N] [--access-mode read|invert]

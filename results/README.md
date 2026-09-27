@@ -5,6 +5,7 @@
 
 | 기록 | 확인 내용 |
 |---|---|
+| [제출 버전 전체 확인](20260927T160745.867112Z-submission-verification/run.json) | 9bda52f의 CPU/CUDA 재빌드, 모든 테스트 계층 재실행; 세부 증거 경로·명령·해시 포함 |
 | [128/256 MiB 읽기·반전](20260927T144637.446263Z-invert-matrix/matrix.json) | 정상/16회차 주입 네 건, 두 seed×4회×32 검사, 각 CPU 대조 8회 |
 | [GPU 읽기·반전 검사](20260927T144247.102175Z-invert-regression/run.json) | 146개; CPU/런타임 46·Python 19·기존 CLI 109·반복 51 등 회귀 로그 포함 |
 | [반전 프리셋 GUI](20260927T144249.096566Z-workbench-browser/run.json) | 검사 동작 선택·저장 포함 실제 브라우저 9개 |

@@ -1,0 +1,2 @@
+checks=146 status=PASS
+evidence=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T160859.190909Z-invert-regression

@@ -1,0 +1,5 @@
+device-mismatch: test=PASS program=ERROR exit_code=2
+ignored-transfer: test=PASS program=ERROR exit_code=2
+fixed: test=PASS program=PASS exit_code=0
+no-device: test=PASS program=ERROR exit_code=2
+evidence=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161014.959882Z-pytorch-validation

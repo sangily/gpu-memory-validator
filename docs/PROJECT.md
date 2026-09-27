@@ -9,7 +9,8 @@
 | `src/validator.cu` | GPU 버퍼 소유, 커널 실행, 반복별 결과 수집 |
 | `src/reference.cpp` | CPU 전체 검사와 GPU 오류 기록 대조; CUDA API에 독립 |
 | `src/report.cpp` | 이미 판정한 상태와 결과 출력 |
-| `include/gmv/` | 공유 자료형·인터페이스·자원 관리 |
+| `include/gmv/` | 공유 자료형·인터페이스 |
+| `src/cuda_support.hpp` | CUDA 호출 처리·GPU 버퍼 RAII·해제 오류 보존 |
 | `scripts/experiment_config.py` | CLI/GUI 공통 JSON 검증과 설정 해석 |
 | `scripts/run_experiment.py` | 프로세스 실행·중단·환경/입력/로그/지표 보존 |
 | `scripts/workbench.py`, `web/` | 로컬 설정 편집과 저장된 결과 조회 |

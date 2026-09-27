@@ -1,0 +1,13 @@
+[ 11%] Building CXX object CMakeFiles/gmv_reference.dir/src/reference.cpp.o
+[ 22%] Linking CXX static library libgmv_reference.a
+[ 22%] Built target gmv_reference
+[ 33%] Building CXX object CMakeFiles/gmv_application.dir/src/cli.cpp.o
+[ 44%] Building CXX object CMakeFiles/gmv_application.dir/src/report.cpp.o
+[ 55%] Building CXX object CMakeFiles/reference_tests.dir/tests/unit/test_reference.cpp.o
+[ 66%] Linking CXX executable reference_tests
+[ 77%] Linking CXX static library libgmv_application.a
+[ 77%] Built target reference_tests
+[ 77%] Built target gmv_application
+[ 88%] Building CXX object CMakeFiles/application_tests.dir/tests/unit/test_application.cpp.o
+[100%] Linking CXX executable application_tests
+[100%] Built target application_tests

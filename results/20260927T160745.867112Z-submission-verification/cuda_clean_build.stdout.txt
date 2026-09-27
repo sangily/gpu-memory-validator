@@ -1,0 +1,22 @@
+[  6%] Building CXX object CMakeFiles/gmv_reference.dir/src/reference.cpp.o
+[ 13%] Linking CXX static library libgmv_reference.a
+[ 13%] Built target gmv_reference
+[ 26%] Building CUDA object CMakeFiles/gmv_validator.dir/src/validator.cu.o
+[ 26%] Building CXX object CMakeFiles/gmv_application.dir/src/report.cpp.o
+[ 40%] Building CXX object CMakeFiles/reference_tests.dir/tests/unit/test_reference.cpp.o
+[ 40%] Building CXX object CMakeFiles/gmv_application.dir/src/cli.cpp.o
+[ 46%] Linking CXX executable reference_tests
+[ 53%] Linking CXX static library libgmv_application.a
+[ 53%] Built target reference_tests
+[ 53%] Built target gmv_application
+[ 60%] Building CXX object CMakeFiles/application_tests.dir/tests/unit/test_application.cpp.o
+[ 66%] Linking CXX executable application_tests
+[ 66%] Built target application_tests
+[ 73%] Linking CXX static library libgmv_validator.a
+[ 73%] Built target gmv_validator
+[ 86%] Building CXX object CMakeFiles/runtime_tests.dir/tests/gpu/test_runtime.cpp.o
+[ 86%] Building CXX object CMakeFiles/gpu_memory_validator.dir/src/main.cpp.o
+[ 93%] Linking CXX executable gpu_memory_validator
+[ 93%] Built target gpu_memory_validator
+[100%] Linking CXX executable runtime_tests
+[100%] Built target runtime_tests

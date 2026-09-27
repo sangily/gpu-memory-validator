@@ -1,0 +1,1 @@
+CUDA device unavailable; this lab does not fall back to CPU

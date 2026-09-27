@@ -11,6 +11,7 @@ C++ 실행 파일은 직접 인자를 받고, Python 실행기는 JSON 설정을
 | `--max-records K` | 3 | 0~4,294,967,295; 패턴별 상세 한도, 0은 개수만 기록 |
 | `--iterations N` | 1 | 1~10000; 전체 패턴 목록의 반복 횟수 |
 | `--gpu-passes N` | 1 | 1~4096; 한 번 채운 데이터를 GPU에서 N회 검사 후 CPU 전체 대조 |
+| `--access-mode MODE` | read | read / invert; invert는 검사 사이 비트 반전, gpu-passes≥2 필요 |
 | `--inject-pass N` | 1 | 1~gpu-passes; 첫 반복·첫 패턴에서 오류를 넣을 GPU 검사 회차 |
 | `--inject` | 비활성 | 지정 회차에 오류 주입 |
 | C++ `--patterns HEX,...` | 00000000,ffffffff,aaaaaaaa,55555555 | 1~64개 값; 모드별 상수·XOR 값·seed |

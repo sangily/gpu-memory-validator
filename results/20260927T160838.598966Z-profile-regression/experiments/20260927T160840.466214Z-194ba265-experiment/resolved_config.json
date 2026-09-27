@@ -1,0 +1,17 @@
+{
+  "count": 257,
+  "max_records": 3,
+  "iterations": 2,
+  "gpu_passes": 1,
+  "inject_pass": 1,
+  "access_mode": "read",
+  "injection_enabled": false,
+  "timeout_seconds": 120,
+  "sample_interval": 1,
+  "telemetry_enabled": false,
+  "patterns": [
+    "00000000",
+    "ffffffff"
+  ],
+  "pattern_mode": "index"
+}

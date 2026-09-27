@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "name": "256 MiB read and invert",
+  "description": "Verify the original and complemented seeded values. Fixed work; no bandwidth or DCGM equivalence claim.",
+  "pattern_file": "../patterns/seeded.json",
+  "count": 67108864,
+  "max_records": 3,
+  "iterations": 4,
+  "gpu_passes": 32,
+  "inject_pass": 16,
+  "access_mode": "invert",
+  "injection_enabled": false,
+  "timeout_seconds": 120,
+  "sample_interval": 1,
+  "telemetry_enabled": true
+}

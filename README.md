@@ -65,6 +65,7 @@ python3 scripts/workbench.py
 
 | 문서 | 내용 |
 |---|---|
+| [제출 버전 확인](docs/RELEASE.md) | 검증한 코드 버전, 전체 재검사 결과와 제출 범위 |
 | [입력 설정](docs/INPUTS.md) | CLI 옵션, 패턴/프리셋 JSON, 우선순위와 경로 |
 | [실험 실행](docs/EXPERIMENTS.md) | 저장 파일, 중단·시간 초과, 지표와 시간 해석 |
 | [GUI 사용법](docs/GUI.md) | 설정 편집·저장·결과 조회 |

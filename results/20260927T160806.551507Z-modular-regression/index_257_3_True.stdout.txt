@@ -1,0 +1,36 @@
+gpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256
+
+config max_records=3 iterations=2 injection=first_iteration_first_pattern
+patterns=12345678,deadbeef
+pattern_mode=index
+iteration=1
+pattern=12345678
+gpu_record index=256 offset_bytes=1024 expected=12345778 actual=12345779 xor_mask=00000001
+gpu_record index=128 offset_bytes=512 expected=123456f8 actual=123456fb xor_mask=00000003
+gpu_record index=0 offset_bytes=0 expected=12345678 actual=12345679 xor_mask=00000001
+gpu_summary error_count=3 recorded_count=3 truncated=false
+index=0 offset_bytes=0 expected=12345678 actual=12345679 xor_mask=00000001
+index=128 offset_bytes=512 expected=123456f8 actual=123456fb xor_mask=00000003
+index=256 offset_bytes=1024 expected=12345778 actual=12345779 xor_mask=00000001
+reference_check=PASS
+first=12345679 last=12345779 cpu_mismatches=3 gpu_mismatches=3 status=FAIL
+
+iteration=1
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=deadbeef last=deadbfef cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=12345678 last=12345778 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=deadbeef last=deadbfef cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=FAIL completed_patterns=4

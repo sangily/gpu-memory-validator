@@ -1,0 +1,2801 @@
+{
+  "status": "PASS",
+  "started_utc": "20260927T161030.158020Z",
+  "command": [
+    "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/torch-env/bin/python",
+    "tests/pytorch/test_layout.py"
+  ],
+  "environment": {
+    "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "torch_cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "capability": [
+      8,
+      6
+    ]
+  },
+  "source_sha256": {
+    "experiments/pytorch/device_lab.py": "e2a42ee8fdaa1e5c041817324af83357701bde3b8244041efcf68d0e5e26d247",
+    "experiments/pytorch/layout_lab.py": "3007a0ddac35718f9669fd5d353de3edc9ab0c94689dedcae5552ce833feecf2",
+    "experiments/pytorch/layout_ops.py": "e546793cfc78e350c82822b5a2cad0bbc9ef99c17250390d9366234e09662c62",
+    "experiments/pytorch/relu_layout.cu": "bb4bf5826a4b12b26739213179ccf1524875c1e45aaa37dd1f0eadcb0c8a6277",
+    "experiments/pytorch/requirements-layout.txt": "dae6c68fca9284a6d79643574f1dd9e326f4d7d41266ccf6739de9a278677fe3",
+    "experiments/pytorch/requirements.txt": "81092ab688e6c191a271074c0422fd17421f9910cf9379f830480e54cea453ce",
+    "tests/pytorch/check_device_lab.py": "5daefef555e732008fd08e174a19ed5d11e193a81aa3794d7209e7a4754367e8",
+    "tests/pytorch/test_layout.py": "5b7cb948f2251032933abc6552dd5e8408e030e4f90e26df60b04f796bca9f9a",
+    "tests/pytorch/test_reference.py": "32672a4826753895105ea43c6e6b6e27492c85e6009c06db46a2fb0fe8534dba"
+  },
+  "git_head": {
+    "exit_code": 0,
+    "stdout": "9bda52f1fe5d13be5c90fc78b6132299490eba78\n",
+    "stderr": ""
+  },
+  "git_status": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "checks": [
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "contiguous",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          1,
+          17
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          1,
+          17
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          1,
+          257
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          1,
+          257
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          3
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "transpose",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          3
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          10,
+          3
+        ],
+        "storage_offset": 6,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          10,
+          3
+        ],
+        "storage_offset": 6,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          1546,
+          3
+        ],
+        "storage_offset": 774,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          1546,
+          3
+        ],
+        "storage_offset": 774,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          118,
+          3
+        ],
+        "storage_offset": 60,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          118,
+          3
+        ],
+        "storage_offset": 60,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          202,
+          3
+        ],
+        "storage_offset": 102,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          202,
+          3
+        ],
+        "storage_offset": 102,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          118,
+          3
+        ],
+        "storage_offset": 60,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          118,
+          3
+        ],
+        "storage_offset": 60,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          4,
+          3
+        ],
+        "storage_offset": 3,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "slice",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          4,
+          3
+        ],
+        "storage_offset": 3,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          3,
+          1
+        ],
+        "storage_offset": 4,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          3,
+          1
+        ],
+        "storage_offset": 4,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          259,
+          1
+        ],
+        "storage_offset": 260,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          259,
+          1
+        ],
+        "storage_offset": 260,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          21,
+          1
+        ],
+        "storage_offset": 22,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          21,
+          1
+        ],
+        "storage_offset": 22,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          35,
+          1
+        ],
+        "storage_offset": 36,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          35,
+          1
+        ],
+        "storage_offset": 36,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          21,
+          1
+        ],
+        "storage_offset": 22,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          21,
+          1
+        ],
+        "storage_offset": 22,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          2,
+          1
+        ],
+        "storage_offset": 3,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "offset",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          2,
+          1
+        ],
+        "storage_offset": 3,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          1
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 1,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          1,
+          257
+        ],
+        "stride": [
+          257,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 257,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          17,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 323,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          257,
+          33
+        ],
+        "stride": [
+          33,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 8481,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          0,
+          19
+        ],
+        "stride": [
+          19,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "layout": "expand",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          0,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "output": {
+        "shape": [
+          3,
+          0
+        ],
+        "stride": [
+          1,
+          1
+        ],
+        "storage_offset": 0,
+        "contiguous": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "comparison": {
+        "status": "PASS",
+        "mismatches": 0,
+        "elements": 0,
+        "records": [],
+        "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "intentional_flat_bug",
+      "expected": "PASS",
+      "observed": {
+        "layout": "contiguous",
+        "strategy": "flat-bug",
+        "input": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            19,
+            1
+          ],
+          "storage_offset": 0,
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "output": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            19,
+            1
+          ],
+          "storage_offset": 0,
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "comparison": {
+          "status": "PASS",
+          "mismatches": 0,
+          "elements": 323,
+          "records": [],
+          "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "intentional_flat_bug",
+      "expected": "FAIL",
+      "observed": {
+        "layout": "transpose",
+        "strategy": "flat-bug",
+        "input": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            1,
+            17
+          ],
+          "storage_offset": 0,
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "output": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            19,
+            1
+          ],
+          "storage_offset": 0,
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "comparison": {
+          "status": "FAIL",
+          "mismatches": 279,
+          "elements": 323,
+          "records": [
+            {
+              "row": 0,
+              "column": 7,
+              "expected": 12.0,
+              "actual": 0.0
+            },
+            {
+              "row": 0,
+              "column": 8,
+              "expected": 29.0,
+              "actual": 0.0
+            },
+            {
+              "row": 0,
+              "column": 9,
+              "expected": 46.0,
+              "actual": 0.0
+            },
+            {
+              "row": 0,
+              "column": 10,
+              "expected": 63.0,
+              "actual": 0.0
+            },
+            {
+              "row": 0,
+              "column": 11,
+              "expected": 80.0,
+              "actual": 0.0
+            }
+          ],
+          "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+        },
+        "status": "FAIL"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "intentional_flat_bug",
+      "expected": "FAIL",
+      "observed": {
+        "layout": "slice",
+        "strategy": "flat-bug",
+        "input": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            118,
+            3
+          ],
+          "storage_offset": 60,
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "output": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            19,
+            1
+          ],
+          "storage_offset": 0,
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "comparison": {
+          "status": "FAIL",
+          "mismatches": 215,
+          "elements": 323,
+          "records": [
+            {
+              "row": 5,
+              "column": 13,
+              "expected": 1.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 14,
+              "expected": 4.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 15,
+              "expected": 7.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 16,
+              "expected": 10.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 17,
+              "expected": 13.0,
+              "actual": 0.0
+            }
+          ],
+          "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+        },
+        "status": "FAIL"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "intentional_flat_bug",
+      "expected": "FAIL",
+      "observed": {
+        "layout": "offset",
+        "strategy": "flat-bug",
+        "input": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            21,
+            1
+          ],
+          "storage_offset": 22,
+          "contiguous": false,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "output": {
+          "shape": [
+            17,
+            19
+          ],
+          "stride": [
+            19,
+            1
+          ],
+          "storage_offset": 0,
+          "contiguous": true,
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "comparison": {
+          "status": "FAIL",
+          "mismatches": 221,
+          "elements": 323,
+          "records": [
+            {
+              "row": 5,
+              "column": 7,
+              "expected": 1.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 8,
+              "expected": 2.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 9,
+              "expected": 3.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 10,
+              "expected": 4.0,
+              "actual": 0.0
+            },
+            {
+              "row": 5,
+              "column": 11,
+              "expected": 5.0,
+              "actual": 0.0
+            }
+          ],
+          "criterion": "exact finite float32 ReLU values; no reduction/rounding tolerance"
+        },
+        "status": "FAIL"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "linear_transpose_relu",
+      "strategy": "strided",
+      "input": {
+        "shape": [
+          16,
+          64
+        ],
+        "stride": [
+          1,
+          16
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "status": "PASS",
+      "atol": 1e-05,
+      "rtol": 0.0001,
+      "max_abs_error": 3.5762786865234375e-07
+    },
+    {
+      "case": "linear_transpose_relu",
+      "strategy": "contiguous-copy",
+      "input": {
+        "shape": [
+          16,
+          64
+        ],
+        "stride": [
+          1,
+          16
+        ],
+        "storage_offset": 0,
+        "contiguous": false,
+        "dtype": "torch.float32",
+        "device": "cuda:0"
+      },
+      "status": "PASS",
+      "atol": 1e-05,
+      "rtol": 0.0001,
+      "max_abs_error": 3.5762786865234375e-07
+    },
+    {
+      "case": "non_default_producer_consumer",
+      "strategy": "strided",
+      "status": "PASS"
+    },
+    {
+      "case": "non_default_producer_consumer",
+      "strategy": "contiguous-copy",
+      "status": "PASS"
+    },
+    {
+      "case": "dtype",
+      "status": "PASS",
+      "expected_error": "expected float32 input"
+    },
+    {
+      "case": "rank",
+      "status": "PASS",
+      "expected_error": "expected a 2D tensor"
+    },
+    {
+      "case": "autograd",
+      "status": "PASS",
+      "expected_error": "inference-only operator; autograd is not implemented"
+    },
+    {
+      "case": "mode",
+      "status": "PASS",
+      "expected_error": "unknown layout strategy"
+    },
+    {
+      "case": "unsafe_demo",
+      "status": "PASS",
+      "expected_error": "flat-bug demo would read outside storage"
+    },
+    {
+      "case": "cpu_dispatch",
+      "status": "PASS",
+      "expected_error": "Could not run 'gmv_layout::relu' with arguments from the 'CPU' backend. This could be because the operator doesn't exist for this backend, or was omitted during the selective/custom build process (if using custom build). If you are a Facebook employee using PyTorch on mobile, please visit https://fburl.com/ptmfixes for possible resolutions. 'gmv_layout::relu' is only available for these backends: [CUDA, Meta, BackendSelect, Python, FuncTorchDynamicLayerBackMode, Functionalize, Named, Conjugate, Negative, ZeroTensor, ADInplaceOrView, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradMPS, AutogradXPU, AutogradHPU, AutogradLazy, AutogradMTIA, AutogradMAIA, AutogradPrivateUse1, AutogradMeta, Tracer, AutocastCPU, AutocastMTIA, AutocastMAIA, AutocastXPU, AutocastMPS, AutocastCUDA, FuncTorchBatched, BatchedNestedTensor, FuncTorchVmapMode, Batched, VmapMode, FuncTorchGradWrapper, PythonTLSSnapshot, FuncTorchDynamicLayerFrontMode, PreDispatch, PythonDispatcher].\n\nCUDA: registered at /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/experiments/pytorch/relu_layout.cu:56 [kernel]\nMeta: registered at /pytorch/aten/src/ATen/core/MetaFallbackKernel.cpp:23 [backend fallback]\nBackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]\nPython: registered at /pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:198 [backend fallback]\nFuncTorchDynamicLayerBackMode: registered at /pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:477 [backend fallback]\nFunctionalize: registered at /pytorch/aten/src/ATen/FunctionalizeFallbackKernel.cpp:384 [backend fallback]\nNamed: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:5 [backend fallback]\nConjugate: registered at /pytorch/aten/src/ATen/ConjugateFallback.cpp:17 [backend fallback]\nNegative: registered at /pytorch/aten/src/ATen/native/NegateFallback.cpp:18 [backend fallback]\nZeroTensor: registered at /pytorch/aten/src/ATen/ZeroTensorFallback.cpp:115 [backend fallback]\nADInplaceOrView: fallthrough registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:103 [backend fallback]\nAutogradOther: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:62 [backend fallback]\nAutogradCPU: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:66 [backend fallback]\nAutogradCUDA: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:74 [backend fallback]\nAutogradXLA: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:86 [backend fallback]\nAutogradMPS: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:94 [backend fallback]\nAutogradXPU: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:70 [backend fallback]\nAutogradHPU: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:107 [backend fallback]\nAutogradLazy: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:90 [backend fallback]\nAutogradMTIA: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:78 [backend fallback]\nAutogradMAIA: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:82 [backend fallback]\nAutogradPrivateUse1: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:111 [backend fallback]\nAutogradMeta: registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:98 [backend fallback]\nTracer: registered at /pytorch/torch/csrc/autograd/TraceTypeManual.cpp:296 [backend fallback]\nAutocastCPU: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:324 [backend fallback]\nAutocastMTIA: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:468 [backend fallback]\nAutocastMAIA: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:506 [backend fallback]\nAutocastXPU: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:544 [backend fallback]\nAutocastMPS: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:209 [backend fallback]\nAutocastCUDA: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:165 [backend fallback]\nFuncTorchBatched: registered at /pytorch/aten/src/ATen/functorch/LegacyBatchingRegistrations.cpp:727 [backend fallback]\nBatchedNestedTensor: registered at /pytorch/aten/src/ATen/functorch/LegacyBatchingRegistrations.cpp:754 [backend fallback]\nFuncTorchVmapMode: fallthrough registered at /pytorch/aten/src/ATen/functorch/VmapModeRegistrations.cpp:22 [backend fallback]\nBatched: registered at /pytorch/aten/src/ATen/LegacyBatchingRegistrations.cpp:1072 [backend fallback]\nVmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:32 [backend fallback]\nFuncTorchGradWrapper: registered at /pytorch/aten/src/ATen/functorch/TensorWrapper.cpp:210 [backend fallback]\nPythonTLSSnapshot: registered at /pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:206 [backend fallback]\nFuncTorchDynamicLayerFrontMode: registered at /pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:473 [backend fallback]\nPreDispatch: registered at /pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:210 [backend fallback]\nPythonDispatcher: registered at /pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:202 [backend fallback]\n"
+    }
+  ],
+  "extension_sha256": "5b47a7c0ce56320166cf0025d1d845a8cc276cad7251262c03a91aabee930f34",
+  "build_requirements": "# Additional build tools for the pinned PyTorch environment.\nsetuptools==80.9.0\nninja==1.11.1.4\n"
+}

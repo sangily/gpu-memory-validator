@@ -1,0 +1,80 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=2 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=3 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=4 cumulative_status=PASS
+checkpoint iteration=3 completed_patterns=5 cumulative_status=PASS
+checkpoint iteration=3 completed_patterns=6 cumulative_status=PASS
+checkpoint iteration=4 completed_patterns=7 cumulative_status=PASS
+checkpoint iteration=4 completed_patterns=8 cumulative_status=PASS
+gpu=NVIDIA GeForce RTX 3060 count=67108864 bytes=268435456 blocks=262144 threads_per_block=256
+
+config max_records=3 iterations=4 injection=disabled
+patterns=12345678,deadbeef
+pattern_mode=seeded
+access_mode=invert
+load_config gpu_passes=32 inject_pass=16 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=87.2885 cpu_phase_host_ms=275.754
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=9fab2365 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=84.9055 cpu_phase_host_ms=274.251
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=4ca66b76 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=84.393 cpu_phase_host_ms=272.638
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=9fab2365 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=85.0204 cpu_phase_host_ms=290.607
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=4ca66b76 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=85.4628 cpu_phase_host_ms=292.356
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=9fab2365 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=3
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=91.5361 cpu_phase_host_ms=272.06
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=4ca66b76 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=84.7435 cpu_phase_host_ms=273.211
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=9fab2365 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=4
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=84.6489 cpu_phase_host_ms=268.814
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=4ca66b76 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=8

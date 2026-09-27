@@ -1,0 +1,4 @@
+-- Unable to find cublas_v2.h in either "/home/meoru/.local/opt/cuda-12.8.1-minimal/include" or "/home/meoru/.local/math_libs/include"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda

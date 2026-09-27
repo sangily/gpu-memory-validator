@@ -1,0 +1,2 @@
+checks=9 status=PASS
+evidence=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161032.619135Z-workbench-browser

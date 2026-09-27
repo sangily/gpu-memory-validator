@@ -1,0 +1,5 @@
+mib=128 inject=False evidence_check=PASS
+mib=128 inject=True evidence_check=PASS
+mib=256 inject=False evidence_check=PASS
+mib=256 inject=True evidence_check=PASS
+evidence=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T161003.720373Z-invert-matrix
