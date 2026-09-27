@@ -163,6 +163,21 @@ GPU 커널·전체 데이터 복사·CPU 전체 대조·오류 판정·출력은
 GPU 커널 속도나 메모리 대역폭 개선 수치가 아니다.
 [변경 코드·조건·원시 표본·그래프](docs/PERFORMANCE.md)에 해석 범위와 재현 명령을 정리했다.
 
+## PyTorch 장치 오류 실습 — 2026-09-27
+
+작은 `Linear → ReLU` GPU 추론에서 CPU/GPU 장치 불일치와 `.to()` 반환값 누락을 재현했다.
+입력 전달을 수정한 뒤 출력 1,024개를 CPU float64 기준과 허용 오차 내에서 대조한다.
+
+```bash
+build/torch-env/bin/python experiments/pytorch/device_lab.py --case device-mismatch
+build/torch-env/bin/python experiments/pytorch/device_lab.py --case fixed
+build/torch-env/bin/python tests/pytorch/check_device_lab.py
+```
+
+첫 명령은 의도한 ERROR·종료 2다. 자동 검사는 CPU 대조 함수 4개와 실제 실행 경로 4개를 확인한다.
+[원인·수정 코드·수치 기준·환경 구성](docs/PYTORCH.md)에 설명했다. 기존 메모리 검증과 별도 실습이며
+AI 학습·성능 개선이나 하드웨어 결함 검증을 수행했다는 의미는 아니다.
+
 ## GPU 자원과 중간 실패
 
 `DeviceBuffer<T>`는 생성 시 할당하고 소멸 시 해제를 시도한다. 복사·이동을 금지해
@@ -304,8 +319,8 @@ Windows 설정은 변경하지 않았다. 프로그램 자체 PASS와 Sanitizer 
 
 ## 다음 학습
 
-1. 선택 과제 PyTorch 실습.
-2. 제출 버전의 대표 실행 확인과 포트폴리오 PDF·지원서 정리.
+1. 제출 버전의 대표 실행과 전체 테스트 근거 확인.
+2. 포트폴리오 PDF 제작과 지원서 마무리.
 
 ## 공식 자료
 

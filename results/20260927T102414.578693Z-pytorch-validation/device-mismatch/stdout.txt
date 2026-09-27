@@ -1,0 +1,3 @@
+case=device-mismatch status=ERROR phase=forward
+devices={"model": "cuda:0", "original_input": "cpu", "operation_input": "cpu"}
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T102414.578693Z-pytorch-validation/device-mismatch/20260927T102416.449778Z-7001eae6-pytorch-device-mismatch

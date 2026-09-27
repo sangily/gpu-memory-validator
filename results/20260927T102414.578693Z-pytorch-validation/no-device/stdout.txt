@@ -1,0 +1,2 @@
+case=fixed status=ERROR phase=setup
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T102414.578693Z-pytorch-validation/no-device/20260927T102423.428102Z-0f27db56-pytorch-fixed

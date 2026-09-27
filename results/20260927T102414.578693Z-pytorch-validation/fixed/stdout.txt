@@ -1,0 +1,4 @@
+case=fixed status=PASS phase=completed
+devices={"model": "cuda:0", "original_input": "cpu", "operation_input": "cuda:0", "output": "cuda:0"}
+comparison={"elements": 1024, "shape": [64, 16], "rtol": 0.0001, "atol": 1e-05, "max_abs_error": 1.6072100483821572e-07, "status": "PASS", "reference": "CPU float64 inference from the same float32 inputs and parameters"}
+run_dir=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T102414.578693Z-pytorch-validation/fixed/20260927T102420.970258Z-f79530a6-pytorch-fixed

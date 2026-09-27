@@ -61,8 +61,8 @@ CPU 전체 대조를 생략한 실행에는 `reference_check=SKIPPED`를 기록�
 
 ## 추가 실험과 제한
 
-필수 범위가 안정된 뒤 시간 안에서 index/seed 패턴, 별도 메모리 대역폭 실험,
-작은 PyTorch 워크로드 오류 분석을 추가할 수 있다. 모두 현재 미완료 항목이다.
+작은 PyTorch 워크로드의 장치 오류 재현·수정·CPU 기준 대조를 완료했다. [실습 기록](PYTORCH.md)을 참고한다.
+index/seed 패턴과 별도 메모리 대역폭 실험은 후속 범위이며 현재 미완료다.
 검증 커널의 비교·atomic 기록 시간을 순수 메모리 대역폭으로 표현하지 않는다.
 
 이번 제출에서는 multi-GPU, driver/firmware 구현, 물리 셀 불량 판정, 장비 대여,
@@ -111,6 +111,7 @@ tests/
   cli/                      # 새 실행 파일의 출력·종료 코드 회귀 검사
   gui/                      # 저장·충돌·조회 서버 검사 및 실제 브라우저 검사
 benchmarks/                 # 동일 조건의 변경 전후 성능 실험
+experiments/pytorch/         # 작은 추론의 장치 오류 재현·수정·수치 대조
 examples/
   first_kernel.cu           # 현재 학습 예제를 기준 버전으로 보존
 docs/

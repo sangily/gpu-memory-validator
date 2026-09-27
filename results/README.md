@@ -5,6 +5,7 @@ UTC 시각이다. 아래 기록들은 2026-09-20에 개발 변경분을 정리�
 
 | 기록 | 확인 내용 |
 | --- | --- |
+| [PyTorch 장치 오류 실습](20260927T102414.578693Z-pytorch-validation/run.json) | CPU 대조 4개·실행 경로 4개 PASS; 장치 불일치·반환값 누락·수정·GPU 비가시 상태, 수치 오차와 원시 예외 보존 |
 | [로컬 GUI 검사](20260927T100952.318546Z-workbench-browser/run.json) | Chromium 9개·서버 6개 PASS; 소스 해시·실제 결과 화면·격리된 편집 화면 보존 |
 | [사용자 패턴·프리셋 전체 검사](20260927T091428.416294Z-custom-input-validation/run.json) | CPU 28·런타임/버퍼 10·Python 17·CLI 34·프리셋 통합 5개 PASS; 전체 코드/입력 사본 및 해시 |
 | [사용자 패턴 CLI 검사](20260927T091434.915971Z-modular-regression/run.json) | 단일/중복/비영 상수 목록의 정상·주입 및 기존 경계 검사 등 34개 PASS |
