@@ -1,0 +1,11 @@
+preset: PASS
+overrides: PASS
+duplicate: PASS
+single: PASS
+invalid: PASS
+index_normal: PASS
+index_injected: PASS
+seeded_normal: PASS
+seeded_injected: PASS
+tests=9 passed=9 status=PASS
+logs=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260927T144621.620316Z-profile-regression
