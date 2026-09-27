@@ -1,8 +1,8 @@
 # GPU Memory Validator
 
-CUDA 기반 GPU 메모리 검증·오류 분석 도구다. 할당한 메모리에 32비트 상수 패턴을 쓰고,
-GPU에서 불일치를 검출한 뒤 전체 데이터를 CPU로 복사해 오류 개수와 상세 기록을 독립 대조한다.
-Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고, 로컬 GUI는 설정 편집과 결과 조회를 제공한다.
+CUDA 기반 GPU 메모리 검증·오류 분석 도구다. 할당한 메모리에 32비트 상수 패턴을 쓰고,  
+GPU에서 불일치를 검출한 뒤 전체 데이터를 CPU로 복사해 오류 개수와 상세 기록을 독립 대조한다.  
+Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고, 로컬 GUI는 설정 편집과 결과 조회를 제공한다.  
 
 ## 주요 기능
 
@@ -15,9 +15,9 @@ Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고
 
 ## 빌드와 첫 실행
 
-아래 명령은 저장소 루트에서 실행한다. Linux/WSL, C++17 컴파일러, CMake 3.18 이상,
-Python 3.10 이상, NVIDIA GPU·드라이버·CUDA Toolkit이 필요하다.
-확인 환경은 WSL2 Ubuntu 22.04, RTX 3060, NVCC 12.8.93, GCC 11.4다.
+아래 명령은 저장소 루트에서 실행한다. Linux/WSL, C++17 컴파일러, CMake 3.18 이상,  
+Python 3.10 이상, NVIDIA GPU·드라이버·CUDA Toolkit이 필요하다.  
+확인 환경은 WSL2 Ubuntu 22.04, RTX 3060, NVCC 12.8.93, GCC 11.4다.  
 
 ```bash
 # 이 작업 공간의 사용자 경로에 CUDA 도구가 설치되어 있을 때
@@ -33,9 +33,9 @@ cmake --build build/cuda -j 4
 ./build/cuda/gpu_memory_validator --count 1025 --max-records 2 --inject
 ```
 
-`cuda-env.sh`는 `~/.local/opt/cuda-12.8.1-minimal`을 사용한다. 해당 설치가 없다면
-`scripts/setup_cuda.py`로 준비하거나, 이미 설치한 Toolkit 경로를 CMake에 지정한다.
-다른 GPU에서는 `CMAKE_CUDA_ARCHITECTURES`를 해당 장비에 맞춘다.
+`cuda-env.sh`는 `~/.local/opt/cuda-12.8.1-minimal`을 사용한다. 해당 설치가 없다면  
+`scripts/setup_cuda.py`로 준비하거나, 이미 설치한 Toolkit 경로를 CMake에 지정한다.  
+다른 GPU에서는 `CMAKE_CUDA_ARCHITECTURES`를 해당 장비에 맞춘다.  
 
 | 결과 | 종료 코드 | 의미 |
 |---|---:|---|
@@ -51,13 +51,12 @@ python3 scripts/run_experiment.py --profile profiles/custom-smoke.json --inject
 python3 scripts/workbench.py
 ```
 
-실험은 출력된 `run_dir`에 저장한다. GUI는 http://127.0.0.1:8765 에서 연다.
-패턴/프리셋 저장 → 실행 명령 복사 → 터미널 실행 → GUI 새로고침 순서로 사용한다.
-GUI 서버에는 Python 표준 라이브러리만 필요하며 종료는 Ctrl+C다.
+실험은 출력된 `run_dir`에 저장한다. GUI는 http://127.0.0.1:8765 에서 연다.  
+패턴/프리셋 저장 → 실행 명령 복사 → 터미널 실행 → GUI 새로고침 순서로 사용한다.  
 
 ![실험 결과 화면](results/20260927T100952.318546Z-workbench-browser/results.png)
 
-실제 128 MiB 실험 기록을 복사한 테스트 공간의 화면이다.
+실제 128 MiB 실험 기록을 복사한 테스트 공간의 화면이다.  
 
 ## 문서
 
@@ -71,14 +70,3 @@ GUI 서버에는 Python 표준 라이브러리만 필요하며 종료는 Ctrl+C�
 | [성능 비교](docs/PERFORMANCE.md) | 동일 조건의 측정 결과와 재현 방법 |
 | [PyTorch 실습](docs/PYTORCH.md) | 장치 오류 재현·수정과 수치 대조 |
 | [검증 기록](results/README.md) | 대표 결과와 원시 증거 |
-
-## 성능과 검증 범위
-
-CPU 전체 대조를 유지하며 호스트 스냅샷 버퍼를 재사용한 결과,
-128/256 MiB 검사에서 프로세스 전체 시간 중앙값이 각각 **40.9% / 43.1% 감소**했다.
-각 버전 10회 비교 결과이며 GPU 커널 속도나 메모리 대역폭 개선율이 아니다.
-측정 조건과 모든 표본은 [성능 비교](docs/PERFORMANCE.md)에 있다.
-
-검사 대상은 실행 중 할당한 영역이다. RTX 3060 GDDR6에서 확인했으며 HBM 실측이나 물리 셀 불량 판정을
-수행하지 않는다. XOR 주입은 소프트웨어 검출 경로 검사다. 장시간 안정성은 미검증이며,
-Compute Sanitizer는 WDDM debugger interface 초기화 오류로 검증을 완료하지 못했다.
