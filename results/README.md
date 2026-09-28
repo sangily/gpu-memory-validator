@@ -5,6 +5,9 @@
 
 | 기록 | 확인 내용 |
 |---|---|
+| [Sanitizer 대조 검사](20260928T012312.702938Z-sanitizer-validation/run.json) | 결함·수정 대조 4개 + 검증 코어 12조건, 기존 CTest 46개 로그 |
+| [CUDA 실행 타임라인](20260928T012317.524493Z-cuda-timeline/run.json) | 읽기/반전의 커널 순서·전체 복사 대조, 원본 보고서·SQLite·그림·누락 거부 검사 |
+| [호스트 디버깅 설정](20260928T011255.302384Z-debugger-interface/run.json) | WDDM 인터페이스 오류 재현, 설정 전후 동일 프로그램 memcheck 비교 |
 | [제출 버전 전체 확인](20260927T160745.867112Z-submission-verification/run.json) | 9bda52f의 CPU/CUDA 재빌드, 모든 테스트 계층 재실행; 세부 증거 경로·명령·해시 포함 |
 | [128/256 MiB 읽기·반전](20260927T144637.446263Z-invert-matrix/matrix.json) | 정상/16회차 주입 네 건, 두 seed×4회×32 검사, 각 CPU 대조 8회 |
 | [GPU 읽기·반전 검사](20260927T144247.102175Z-invert-regression/run.json) | 146개; CPU/런타임 46·Python 19·기존 CLI 109·반복 51 등 회귀 로그 포함 |

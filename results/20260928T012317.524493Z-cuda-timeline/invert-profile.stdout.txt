@@ -1,0 +1,49 @@
+checkpoint iteration=1 completed_patterns=1 cumulative_status=PASS
+checkpoint iteration=1 completed_patterns=2 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=3 cumulative_status=PASS
+checkpoint iteration=2 completed_patterns=4 cumulative_status=PASS
+gpu=NVIDIA GeForce RTX 3060 count=4194304 bytes=16777216 blocks=16384 threads_per_block=256
+
+config max_records=2 iterations=2 injection=disabled
+patterns=12345678,deadbeef
+pattern_mode=seeded
+access_mode=invert
+load_config gpu_passes=32 inject_pass=1 reference_mode=checkpoint_full
+iteration=1
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=10.8007 cpu_phase_host_ms=20.8151
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=8fb5b1a4 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=1
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=6.68959 cpu_phase_host_ms=18.8154
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=5b102703 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=12345678
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=7.04832 cpu_phase_host_ms=18.2645
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=0a18e369 last=8fb5b1a4 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+iteration=2
+pattern=deadbeef
+batch gpu_passes_completed=32 first_failed_pass=0 gpu_phase_host_ms=6.65482 cpu_phase_host_ms=20.0495
+snapshot_inverted=true
+gpu_summary error_count=0 recorded_count=0 truncated=false
+reference_check=PASS
+first=19d7397c last=5b102703 cpu_mismatches=0 gpu_mismatches=0 status=PASS
+
+run_status=PASS completed_patterns=4
+Collecting data...
+Generating '/tmp/nsys-meoru/nsys-report-94eb.qdstrm'
+[1/1] [0%                          ] invert.nsys-rep[1/1] [0%                          ] invert.nsys-rep[1/1] [1%                          ] invert.nsys-rep[1/1] [2%                          ] invert.nsys-rep[1/1] [5%                          ] invert.nsys-rep[1/1] [12%                         ] invert.nsys-rep[1/1] [13%                         ] invert.nsys-rep[1/1] [==19%                       ] invert.nsys-rep[1/1] [==20%                       ] invert.nsys-rep[1/1] [=============59%            ] invert.nsys-rep[1/1] [===============65%          ] invert.nsys-rep[1/1] [=======================96%  ] invert.nsys-rep[1/1] [========================98% ] invert.nsys-rep[1/1] [========================100%] invert.nsys-rep[1/1] [========================100%] invert.nsys-rep
+Generated:
+	/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/invert.nsys-rep

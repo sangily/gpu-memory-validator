@@ -1,2 +1,4 @@
 # Preserve generated build recipes verbatim as experiment evidence.
 results/**/build.ninja.txt -whitespace
+results/**/*.stdout.txt -whitespace
+results/**/*.sanitizer.txt -whitespace

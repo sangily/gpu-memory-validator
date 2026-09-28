@@ -88,5 +88,8 @@ CPU 검사에서는 작은 오차 허용, 값 변조·NaN/무한대·shape 불�
 - 실행기 검사는 합성 자식 프로세스와 지표 응답도 사용한다. 별도 실제 GPU 실행 증거와 구분한다.
 - 성능은 [별도 실험](PERFORMANCE.md)으로 평가한다. 공유 GPU의 시간 변동을 기능 테스트의 고정 임계값으로 삼지 않는다.
 
-Compute Sanitizer는 WDDM 초기화 문제로 미검증이다. CPU 대조와 경계 테스트가 메모리 접근 검사 도구를
-대체하지는 않는다. 부하 실험은 [실측 조건과 한계](LOAD.md) 범위에서 해석한다. 자동 CI/GPU 실행 환경은 제공하지 않는다.
+Compute Sanitizer memcheck는 Windows 호스트의 디버깅 인터페이스 설정 후 WSL에서 실행했다.
+의도적 결함 4개 대조와 검증 코어 12조건, Nsight Systems 타임라인 2건 및 누락 거부 검사 5개는
+[진단 실험](DIAGNOSTICS.md)에 있다. CPU 대조와 메모리 접근 검사의 역할을 구분하며,
+PyTorch 확장과 racecheck/initcheck/synccheck는 이 실험 범위에 포함하지 않는다.
+부하 실험은 [실측 조건과 한계](LOAD.md) 범위에서 해석한다. 자동 CI/GPU 실행 환경은 제공하지 않는다.

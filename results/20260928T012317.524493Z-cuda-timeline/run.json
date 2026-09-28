@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "git_head": "a25a1b9abf88714b74eacf5d1fc411e82ac4d33d",
+  "git_status": "",
+  "tool_version": "NVIDIA Nsight Systems version 2026.3.2.476-263238834031v0\n",
+  "binary_sha256": "d9eee5c8cb468ebeaff5ba04b88c50bb9dde00b246cb6a259275eb44c9685423",
+  "conditions": {
+    "bytes": 16777216,
+    "patterns": [
+      "12345678",
+      "deadbeef"
+    ],
+    "pattern_mode": "seeded",
+    "iterations": 2,
+    "gpu_passes": 32
+  },
+  "runs": [
+    {
+      "access_mode": "read",
+      "profile_command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/nsight-systems-2026.3.2/root/opt/nvidia/nsight-systems/2026.3.2/bin/nsys",
+        "profile",
+        "--trace=cuda",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-event-trace=false",
+        "--cuda-memory-usage=true",
+        "--output=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/read",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "4194304",
+        "--patterns",
+        "12345678,deadbeef",
+        "--pattern-mode",
+        "seeded",
+        "--iterations",
+        "2",
+        "--gpu-passes",
+        "32",
+        "--access-mode",
+        "read",
+        "--max-records",
+        "2"
+      ],
+      "status": "PASS",
+      "export_command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/nsight-systems-2026.3.2/root/opt/nvidia/nsight-systems/2026.3.2/bin/nsys",
+        "export",
+        "--type=sqlite",
+        "--output=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/read.sqlite",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/read.nsys-rep"
+      ],
+      "kernel_counts": {
+        "fill_pattern": 4,
+        "verify_pattern": 128,
+        "latch_failure": 128
+      },
+      "errors": []
+    },
+    {
+      "access_mode": "invert",
+      "profile_command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/nsight-systems-2026.3.2/root/opt/nvidia/nsight-systems/2026.3.2/bin/nsys",
+        "profile",
+        "--trace=cuda",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-event-trace=false",
+        "--cuda-memory-usage=true",
+        "--output=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/invert",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+        "--count",
+        "4194304",
+        "--patterns",
+        "12345678,deadbeef",
+        "--pattern-mode",
+        "seeded",
+        "--iterations",
+        "2",
+        "--gpu-passes",
+        "32",
+        "--access-mode",
+        "invert",
+        "--max-records",
+        "2"
+      ],
+      "status": "PASS",
+      "export_command": [
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/nsight-systems-2026.3.2/root/opt/nvidia/nsight-systems/2026.3.2/bin/nsys",
+        "export",
+        "--type=sqlite",
+        "--output=/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/invert.sqlite",
+        "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/results/20260928T012317.524493Z-cuda-timeline/invert.nsys-rep"
+      ],
+      "kernel_counts": {
+        "fill_pattern": 4,
+        "verify_pattern": 128,
+        "latch_failure": 128,
+        "invert_words": 124
+      },
+      "errors": []
+    }
+  ],
+  "source_sha256": {
+    "CMakeLists.txt": "4aae8f74a5891f28bb43fc405cc563d82c5c1606ace8e51db958b1f090b13861",
+    "src/cli.cpp": "32d685b4ce603999daeb9e0b19195b6c07130f17a0be27979c8759bc88dbae65",
+    "src/cuda_support.hpp": "ebcea9cd0bccf2f2773b90455780cc52fa4e5502c021ad55dcfad5cc131548a6",
+    "src/main.cpp": "f2a3387db0b60914ba936ab2392908eb4ba33f04f8eb6aecedded8fc942479c3",
+    "src/reference.cpp": "496985fefad252fd81fb9fb9873ccd3cdc258053028a813926cf21f707b15172",
+    "src/report.cpp": "36d57524e2ea02bb2ffaac7a16d8654b290c6b93eae08d312326dddfd7273707",
+    "src/validator.cu": "1d7161d4fba096cc424bac245e64426ae3e1a0d950d2d01456a0d2b9710a7066",
+    "include/gmv/cli.hpp": "5966b47194f7b230cbcda8c2d6dbbdccc5b655625e086203675212c0b8500d67",
+    "include/gmv/reference.hpp": "9c515e6be9c501a0282556f20d7e77e3caef1cc032b391440e2da4c648136452",
+    "include/gmv/report.hpp": "15eaf7f1b0768857bc94cd359cdaeb79fdb35c370820e4c1b8895412d8a2cf48",
+    "include/gmv/types.hpp": "6661526f16301e4bdaabd212468c1817fcee532cb770ef16c449cfb418751709",
+    "include/gmv/validator.hpp": "db4fe3e8d12f87566e8f77ea06e913c398844022fdc97cf9382fab0fd99f0a91",
+    "experiments/sanitizer/check.py": "f83dafa39bdfdb065ee282b69e7ef048839434e74451ca1f173a87f473233a3b",
+    "experiments/sanitizer/check_trace_analysis.py": "5f984ed80601fb0803c7cf9b9dec87566178bea828c862e17a3df98ad9e9d03b",
+    "experiments/sanitizer/plot_timeline.py": "8bac29765361b11e4115d2b15f40cb777bec1b21b1f272e32b7154523e116dab",
+    "experiments/sanitizer/profile.py": "68c527788e5012eab313248f524d4a65bcf4db3b6dd73e9ea35d73d5b1cb837f",
+    "experiments/sanitizer/setup_nsight.py": "f34f33d13a8795b463b30c80fecad8fb996aed4c6115ed4b1e636817a8acb044"
+  }
+}

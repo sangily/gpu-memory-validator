@@ -1,0 +1,71 @@
+{
+  "source_commit": "7553f6aaec8c1c7ed92b1ec9c07b1b3e69ba20cf",
+  "before": {
+    "command": [
+      "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "$p=\"HKLM:\\SOFTWARE\\NVIDIA Corporation\\GPUDebugger\"; $k=Get-ItemProperty -LiteralPath $p -ErrorAction SilentlyContinue; [pscustomobject]@{KeyExists=(Test-Path $p); ValueExists=($null -ne $k -and $null -ne $k.PSObject.Properties[\"EnableInterface\"]); Value=$k.EnableInterface} | ConvertTo-Json -Compress"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"KeyExists\":false,\"ValueExists\":false,\"Value\":null}\n",
+    "stderr": ""
+  },
+  "initial_sanitizer": {
+    "command": [
+      "/home/meoru/.local/opt/cuda-12.8.1-minimal/compute-sanitizer/compute-sanitizer",
+      "--tool",
+      "memcheck",
+      "--error-exitcode",
+      "86",
+      "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+      "--count",
+      "257"
+    ],
+    "exit_code": 86,
+    "stdout": "========= COMPUTE-SANITIZER\n========= Error: Failed to initialize WDDM debugger interface. Please run EnableDebuggerInterface.bat as an administrator\n========= \n========= Error: Device not supported. Please refer to the \"Supported Devices\" section of the sanitizer documentation\n========= \ngpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256\n\nconfig max_records=3 iterations=1 injection=disabled\npatterns=00000000,ffffffff,aaaaaaaa,55555555\npattern_mode=constant\niteration=1\npattern=00000000\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=ffffffff\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=aaaaaaaa\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=55555555\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\nrun_status=PASS completed_patterns=4\n========= ERROR SUMMARY: 2 errors\n",
+    "stderr": ""
+  },
+  "change": {
+    "command": [
+      "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "$ErrorActionPreference=\"Stop\"; $p=\"HKLM:\\SOFTWARE\\NVIDIA Corporation\\GPUDebugger\"; New-Item -Path $p -Force | Out-Null; New-ItemProperty -LiteralPath $p -Name EnableInterface -PropertyType DWord -Value 1 -Force | Out-Null; Get-ItemPropertyValue -LiteralPath $p -Name EnableInterface"
+    ],
+    "exit_code": 0,
+    "stdout": "1\n",
+    "stderr": ""
+  },
+  "after": {
+    "command": [
+      "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "$p=\"HKLM:\\SOFTWARE\\NVIDIA Corporation\\GPUDebugger\"; $k=Get-ItemProperty -LiteralPath $p -ErrorAction SilentlyContinue; [pscustomobject]@{KeyExists=(Test-Path $p); ValueExists=($null -ne $k -and $null -ne $k.PSObject.Properties[\"EnableInterface\"]); Value=$k.EnableInterface} | ConvertTo-Json -Compress"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"KeyExists\":true,\"ValueExists\":true,\"Value\":1}\n",
+    "stderr": ""
+  },
+  "recheck": {
+    "command": [
+      "/home/meoru/.local/opt/cuda-12.8.1-minimal/compute-sanitizer/compute-sanitizer",
+      "--tool",
+      "memcheck",
+      "--error-exitcode",
+      "86",
+      "/home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/cuda/gpu_memory_validator",
+      "--count",
+      "257"
+    ],
+    "exit_code": 0,
+    "stdout": "========= COMPUTE-SANITIZER\ngpu=NVIDIA GeForce RTX 3060 count=257 bytes=1028 blocks=2 threads_per_block=256\n\nconfig max_records=3 iterations=1 injection=disabled\npatterns=00000000,ffffffff,aaaaaaaa,55555555\npattern_mode=constant\niteration=1\npattern=00000000\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=00000000 last=00000000 cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=ffffffff\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=ffffffff last=ffffffff cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=aaaaaaaa\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=aaaaaaaa last=aaaaaaaa cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\niteration=1\npattern=55555555\ngpu_summary error_count=0 recorded_count=0 truncated=false\nreference_check=PASS\nfirst=55555555 last=55555555 cpu_mismatches=0 gpu_mismatches=0 status=PASS\n\nrun_status=PASS completed_patterns=4\n========= ERROR SUMMARY: 0 errors\n",
+    "stderr": ""
+  },
+  "rollback_powershell": "Remove-ItemProperty -LiteralPath \"HKLM:\\SOFTWARE\\NVIDIA Corporation\\GPUDebugger\" -Name EnableInterface",
+  "scope": "EnableInterface DWORD only. No driver installation, TDR modification, or reboot."
+}

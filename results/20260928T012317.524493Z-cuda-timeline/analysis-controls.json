@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "complete",
+      "mutation_on_copy": null,
+      "status": "PASS",
+      "analysis_rejected": false,
+      "reason": []
+    },
+    {
+      "name": "no_gpu_trace",
+      "mutation_on_copy": "DROP TABLE CUPTI_ACTIVITY_KIND_KERNEL",
+      "status": "PASS",
+      "analysis_rejected": true,
+      "reason": [
+        "Incomplete CUDA trace: missing CUPTI_ACTIVITY_KIND_KERNEL"
+      ]
+    },
+    {
+      "name": "lost_kernel",
+      "mutation_on_copy": "DELETE FROM CUPTI_ACTIVITY_KIND_KERNEL WHERE rowid=(SELECT MIN(rowid) FROM CUPTI_ACTIVITY_KIND_KERNEL)",
+      "status": "PASS",
+      "analysis_rejected": true,
+      "reason": [
+        "kernel order/count differs from expected workload"
+      ]
+    },
+    {
+      "name": "lost_snapshot",
+      "mutation_on_copy": "DELETE FROM CUPTI_ACTIVITY_KIND_MEMCPY WHERE bytes=16777216",
+      "status": "PASS",
+      "analysis_rejected": true,
+      "reason": [
+        "expected four complete 16 MiB device-to-host snapshots"
+      ]
+    },
+    {
+      "name": "no_runtime_trace",
+      "mutation_on_copy": "DELETE FROM CUPTI_ACTIVITY_KIND_RUNTIME",
+      "status": "PASS",
+      "analysis_rejected": true,
+      "reason": [
+        "CUDA Runtime API events missing"
+      ]
+    }
+  ]
+}

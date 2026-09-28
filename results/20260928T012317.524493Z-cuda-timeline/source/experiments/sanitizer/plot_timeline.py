@@ -15,8 +15,7 @@ def main():
     colors = {'fill_pattern': '#0f766e', 'verify_pattern': '#2563eb',
               'latch_failure': '#a855f7', 'invert_words': '#d97706',
               'D2H snapshot': '#dc2626', 'CUDA API': '#64748b'}
-    fig, axes = plt.subplots(2, 1, figsize=(11, 6.2))
-    fig.subplots_adjust(left=.16, right=.98, top=.87, bottom=.18, hspace=.72)
+    fig, axes = plt.subplots(2, 1, figsize=(11, 5.5), layout='constrained')
     for access, ax in zip(('read', 'invert'), axes):
         events = json.loads((args.evidence / (access + '-events.json')).read_text())
         start = events['kernels'][0]['start']
@@ -38,8 +37,8 @@ def main():
         ax.grid(axis='x', alpha=.2)
         ax.spines[['top', 'right']].set_visible(False)
     fig.legend(handles=[Patch(color=v, label=k) for k,v in colors.items()],
-               loc='lower center', bbox_to_anchor=(.55, .005), ncol=3, frameon=False)
-    fig.suptitle('Instrumented CUDA timeline: API waits overlap GPU work', y=.98, fontsize=13)
+               loc='outside upper center', ncol=3, frameon=False)
+    fig.suptitle('Instrumented CUDA timeline: API waits overlap GPU work', y=1.07, fontsize=13)
     fig.savefig(args.evidence / 'timeline.png', dpi=160, bbox_inches='tight')
     print(args.evidence / 'timeline.png')
 

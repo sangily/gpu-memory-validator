@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "kernel_count": 260,
+  "kernel_counts": {
+    "fill_pattern": 4,
+    "verify_pattern": 128,
+    "latch_failure": 128
+  },
+  "kernels": {
+    "fill_pattern": {
+      "count": 4,
+      "total_ms": 0.218193,
+      "mean_us": 54.54825
+    },
+    "latch_failure": {
+      "count": 128,
+      "total_ms": 0.268114,
+      "mean_us": 2.094640625
+    },
+    "verify_pattern": {
+      "count": 128,
+      "total_ms": 9.167099,
+      "mean_us": 71.6179609375
+    }
+  },
+  "runtime_apis": {
+    "cuModuleGetLoadingMode": {
+      "count": 1,
+      "total_ms": 0.036398,
+      "mean_us": 36.398
+    },
+    "cudaDeviceSynchronize_v3020": {
+      "count": 4,
+      "total_ms": 7.107804,
+      "mean_us": 1776.951
+    },
+    "cudaFree_v3020": {
+      "count": 4,
+      "total_ms": 1.913857,
+      "mean_us": 478.46425
+    },
+    "cudaGetDeviceProperties_v12000": {
+      "count": 1,
+      "total_ms": 0.011935,
+      "mean_us": 11.935
+    },
+    "cudaLaunchKernel_v7000": {
+      "count": 260,
+      "total_ms": 5.892082,
+      "mean_us": 22.661853846153846
+    },
+    "cudaMalloc_v3020": {
+      "count": 4,
+      "total_ms": 228.242867,
+      "mean_us": 57060.71675
+    },
+    "cudaMemcpy_v3020": {
+      "count": 12,
+      "total_ms": 47.865451,
+      "mean_us": 3988.7875833333337
+    },
+    "cudaMemset_v3020": {
+      "count": 8,
+      "total_ms": 1.708231,
+      "mean_us": 213.528875
+    }
+  },
+  "full_snapshot_count": 4,
+  "full_snapshot_bytes": 67108864,
+  "full_snapshot_gpu_ms": 44.720772,
+  "diagnostics": [
+    {
+      "timestamp": 0,
+      "timestampType": 1,
+      "source": 3,
+      "severity": 1,
+      "text": "Profiling has started.",
+      "globalPid": -144115188075855872
+    },
+    {
+      "timestamp": 97217,
+      "timestampType": 1,
+      "source": 2,
+      "severity": 1,
+      "text": "Process was launched by the profiler, see /tmp/nvidia/nsight_systems/quadd_session_102098249/streams/pid_2098262_stdout.log and stderr.log for program output",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 19616060,
+      "timestampType": 2,
+      "source": 3,
+      "severity": 1,
+      "text": "Number of CUDA events collected: \t574.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 348089802,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "Common injection library initialized successfully.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 348275606,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "Buffers holding CUDA trace data will be flushed on CudaProfilerStop() call. See --flush-on-cudaprofilerstop to control this behavior.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 365877489,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "Loaded CUPTI library: /home/meoru/skhynix-apply-2026-9-software/gpu-memory-validator/build/nsight-systems-2026.3.2/root/opt/nvidia/nsight-systems/2026.3.2/target-linux-x64/libcupti.so.13.4",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1057817675,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "Enabling trace for device graph launch",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1063898208,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "CUDA injection initialized successfully.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1097183205,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 2,
+      "text": "CUDA device 0: Unified Memory cannot be traced on devices that don't support peer-to-peer transfers.Please verify that SLI/NVLink is functioning properly.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1448654400,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "Number of CUPTI events produced: \t615, CUPTI buffers: 50.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1448662214,
+      "timestampType": 1,
+      "source": 1,
+      "severity": 1,
+      "text": "CUDA hardware tracing is not supported on this system. A legacy (software instrumented) trace was collected instead.",
+      "globalPid": 316677971509248
+    },
+    {
+      "timestamp": 1711672813,
+      "timestampType": 1,
+      "source": 3,
+      "severity": 1,
+      "text": "Profiling has stopped.",
+      "globalPid": -144115188075855872
+    }
+  ],
+  "note": "Instrumented execution. API and GPU durations overlap; do not add them or infer hardware health."
+}

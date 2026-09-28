@@ -1,0 +1,1 @@
+case=stride-fixed cpu_mismatches=0 value_check=PASS

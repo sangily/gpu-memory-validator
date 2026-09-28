@@ -1,0 +1,11 @@
+index=1 expected=5 actual=2
+index=2 expected=9 actual=3
+index=3 expected=2 actual=4
+index=4 expected=6 actual=5
+index=5 expected=10 actual=6
+index=6 expected=3 actual=7
+index=7 expected=7 actual=8
+index=8 expected=11 actual=9
+index=9 expected=4 actual=10
+index=10 expected=8 actual=11
+case=stride-bug cpu_mismatches=10 value_check=FAIL

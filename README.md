@@ -15,6 +15,7 @@ Python 실행기는 실험 조건·환경·코드·원시 결과를 보존하고
 - 패턴/프리셋 편집과 개별 실험 결과 조회 GUI.
 - 계층별 자동 테스트, 호스트 버퍼 재사용 성능 비교, 별도 PyTorch 장치 오류 실습.
 - PyTorch 사용자 CUDA 연산의 stride 결함 재현·수정, stream·추론 통합 검사와 비용 비교.
+- Compute Sanitizer와 CPU 대조의 결함 검출 비교, Nsight Systems의 실제 실행 흐름 대조.
 
 ## 빌드와 첫 실행
 
@@ -71,6 +72,7 @@ python3 scripts/workbench.py
 | [GUI 사용법](docs/GUI.md) | 설정 편집·저장·결과 조회 |
 | [구조와 검증 동작](docs/PROJECT.md) | 모듈 책임, CPU 대조, 오류·자원 관리 |
 | [테스트](docs/TESTING.md) | 실행 명령, 검사 범위, 검증 한계 |
+| [Sanitizer·CUDA 실행 분석](docs/DIAGNOSTICS.md) | 접근 오류·논리 오류 대조, 호스트 디버깅 설정, 커널·복사 타임라인 |
 | [성능 비교](docs/PERFORMANCE.md) | 동일 조건의 측정 결과와 재현 방법 |
 | [지속 읽기 부하](docs/LOAD.md) | GPU 반복 검사, 중간 오류 보존, 부하 측정과 해석 |
 | [읽기·반전 검사](docs/INVERT.md) | 값 반전, 회차별 기대값, 실패 데이터 보존과 실행 |

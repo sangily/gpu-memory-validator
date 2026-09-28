@@ -1,0 +1,5 @@
+{
+  "source": "experiments/sanitizer/plot_timeline.py",
+  "sha256": "371c73849e995e23a6e3ffd65f11e8a9be421a8f32a82a626a69f2aab3438694",
+  "note": "Presentation-only spacing fix after trace capture; trace data unchanged."
+}
