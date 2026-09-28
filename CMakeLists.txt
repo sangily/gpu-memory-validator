@@ -3,6 +3,7 @@ project(gpu_memory_validator LANGUAGES CXX)
 
 include(CTest)
 option(GMV_ENABLE_CUDA "Build the validator executable (requires CUDA)" OFF)
+option(GMV_BUILD_DIAGNOSTIC_LABS "Build intentional-fault diagnostic examples" OFF)
 
 add_library(gmv_reference src/reference.cpp)
 target_include_directories(gmv_reference PUBLIC include)
@@ -45,6 +46,13 @@ if(GMV_ENABLE_CUDA)
         $<$<COMPILE_LANGUAGE:CUDA>:-lineinfo>)
     add_executable(gpu_memory_validator src/main.cpp)
     target_link_libraries(gpu_memory_validator PRIVATE gmv_application gmv_validator)
+
+    if(GMV_BUILD_DIAGNOSTIC_LABS)
+        add_executable(sanitizer_lab experiments/sanitizer/memory_access.cu)
+        target_link_libraries(sanitizer_lab PRIVATE CUDA::cudart_static)
+        set_target_properties(sanitizer_lab PROPERTIES CUDA_STANDARD 17 CUDA_STANDARD_REQUIRED YES)
+        target_compile_options(sanitizer_lab PRIVATE $<$<COMPILE_LANGUAGE:CUDA>:-lineinfo>)
+    endif()
 
     if(BUILD_TESTING)
         add_executable(runtime_tests tests/gpu/test_runtime.cpp)
